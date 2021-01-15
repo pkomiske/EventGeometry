@@ -46,6 +46,7 @@ env:
     - TWINE_USERNAME=__token__
     - CIBW_BEFORE_ALL_MACOS=./scripts/prepare-cibw-macos.sh
     - CIBW_BEFORE_BUILD="pip install numpy"
+    - CIBW_BEFORE_BUILD_MACOS="export CXXFLAGS=-std=c++14"
     - CIBW_BUILD="cp*_x86_64"
     - CIBW_BUILD_VERBOSITY=1
     - CIBW_MANYLINUX_X86_64_IMAGE=registry.gitlab.com/pkomiske/fastjet:latest
