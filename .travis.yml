@@ -9,7 +9,7 @@ stages:
   - build
 
 install:
-  - pip3 install cibuildwheel twine
+  - pip3 install cibuildwheel twine numpy
 
 script:
   - cibuildwheel --output-dir wheelhouse
