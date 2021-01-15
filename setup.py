@@ -1,72 +1,160 @@
+# Nsubjettiness Package
+#  Questions/Comments?  jthaler@jthaler.net
+#    Python questions/comments?  pkomiske@mit.edu
+#
+#  Copyright (c) 2011-14
+#  Jesse Thaler, Ken Van Tilburg, Christopher K. Vermilion, and TJ Wilkason
+#
+#----------------------------------------------------------------------
+# This file is part of FastJet contrib.
+#
+# It is free software; you can redistribute it and/or modify it under
+# the terms of the GNU General Public License as published by the
+# Free Software Foundation; either version 2 of the License, or (at
+# your option) any later version.
+#
+# It is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+# or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public
+# License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this code. If not, see <http://www.gnu.org/licenses/>.
+#----------------------------------------------------------------------
+
+from __future__ import print_function
+
 import os
 import platform
+import re
 import subprocess
 import sys
 
-from setuptools import setup
-from setuptools.extension import Extension
+################################################################################
 
-import numpy as np
+# Package name, with capitalization
+name = 'EventGeometry'
 
-name = os.path.basename(os.path.abspath('.'))
-print(name)
+# Python package name, lower case by convention
+lname = name.lower()
 
-with open('VERSION', 'r') as f:
-    __version__ = f.read().strip()
+# some extra options that swig needs for this package
+extra_swig_opts = '-keyword -w509,511 -IWasserstein/wasserstein -DSWIG_NUMPY'
 
-def query_config(config, query):
-    ret = subprocess.run('{} {}'.format(config, query).split(), stdout=subprocess.PIPE)
-    return str(ret.stdout, 'ascii').strip()
+################################################################################
 
-fj_cxxflags = query_config('fastjet-config', '--cxxflags')
-cxxflags = ['-fopenmp', '-std=c++14', '-DSWIG_TYPE_TABLE=fastjet', fj_cxxflags]
-ldflags = ['-fopenmp']
-libs = [name]
-if platform.system() == 'Darwin':
-    cxxflags.insert(0, '-Xpreprocessor')
-    del ldflags[0]
-    libs.append('omp')
+# function to query a config binary and get the result
+fastjet_config = os.environ.get('FASTJET_CONFIG', 'fastjet-config')
+def query_config(query):
+    return subprocess.check_output([fastjet_config, query]).decode('utf-8').strip()
 
-fj_lib_flags = query_config('fastjet-config', '--libs').split()
-fj_libdirs = [x[2:] for x in fj_lib_flags if x.startswith('-L')]
-libs += [x[2:] for x in fj_lib_flags if x.startswith('-l')]
+# get fastjet info
+fj_prefix = query_config('--prefix')
+fj_cxxflags = query_config('--cxxflags')
+fj_ldflags = query_config('--libs')
 
-if sys.argv[1] == 'swig':
+# get contrib README
+with open('README.md', 'r') as f:
+    readme = f.read()
 
-    fj_prefix = query_config('fastjet-config', '--prefix')
+# get contrib version
+with open(os.path.join(lname, '__init__.py'), 'r') as f:
+    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
+
+HELP_MESSAGE = """{name} FastJet Contrib Python Package
+
+Usage: python3 setup.py [COMMAND] [OPTIONS]
+
+Valid options for COMMAND include:
+  help - Show this message
+  swig - Run SWIG to generate new {lname}.py and Py{name}.cc files; OPTIONS are passed to SWIG
+  build_ext - Build the Python extension
+  install - Install the Python extension to a standard location
+  clean - Remove Python build directories
+
+OPTIONS are passed along to setuptools commands such as build_ext, install, and clean.
+
+Relevant environment variables include:
+  FASTJET_CONFIG - Path to fastjet-config binary [defaults to looking for fastjet-config in PATH]
+  CXXFLAGS - Compiler flags passed along when building the Python extension module
+"""
+
+def show_help():
+    print(HELP_MESSAGE.format(name=name, lname=lname))
+
+def run_swig():
+
+    contrib = {'docstring': '{}'.format(readme.replace('"', r'\"')),
+               'version': "{}".format(__version__)}
+
+    interface_file = '{}.i'.format(lname)
+    template_file = '{}.i.template'.format(lname)
+    print('Constructing SWIG interface file {} from {}'.format(interface_file, template_file))
+
+    # read interface template and write interface file
+    with open(template_file, 'r') as f_template, open(interface_file, 'w') as f_interface:
+        temp = f_template.read().replace(r'\{', r'\<<').replace(r'\}', r'\>>')
+        temp = temp.replace('{', '{{').replace('}', '}}').replace(r'\<<', '{').replace(r'\>>', '}')
+        f_interface.write(temp.format(**contrib))
+
+    # form swig options
     fj_swig_interface = os.path.join(fj_prefix, 'share', 'fastjet', 'pyinterface', 'fastjet.i')
+    opts = '-fastproxy {} -DFASTJET_SWIG_INTERFACE={}'.format(fj_cxxflags, fj_swig_interface)
 
-    opts = '-fastproxy {} -DSWIG_NUMPY -DFASTJET_SWIG_INTERFACE={}'.format(fj_cxxflags, fj_swig_interface)
+    # handle extra options for swig
+    sys.argv += extra_swig_opts.split()
     if len(sys.argv) > 2:
         opts += ' ' + ' '.join(sys.argv[2:])
 
-    command = 'swig -python -c++ {opts} -IWasserstein/wasserstein -o Py{name}.cc {name}.i'.format(opts=opts, name=name)
+    command = 'swig -python -c++ {} -o Py{}.cc {}.i'.format(opts, name, lname)
     print(command)
     subprocess.run(command.split())
 
-else:
+def run_setup():
 
-    with open('README', 'r') as f:
-        readme = f.read()
+    # get cxxflags from environment, add fastjet cxxflags, and SWIG type table info
+    cxxflags = os.environ.get('CXXFLAGS', '').split() + fj_cxxflags.split() + ['-fopenmp']
+    libs, ldflags = [], []
 
-    module = Extension('_' + name,
-                   sources=['Py{}.cc'.format(name)],
-                   language='c++',
-                   include_dirs=[np.get_include(), 'Wasserstein/wasserstein'],
-                   library_dirs=fj_libdirs,
-                   libraries=libs,
-                   extra_compile_args=cxxflags,
-                   extra_link_args=ldflags,
-                   #undef_macros=['NDEBUG']
-                  )
+    # handle multithreading with OpenMP
+    if platform.system() == 'Darwin':
+        cxxflags.insert(-1, '-Xpreprocessor')
+        libs.append('omp')
+    else:
+        ldflags.append('-fopenmp')
+
+    # determine library paths and names for Python
+    fj_libdirs = []
+    for x in fj_ldflags.split():
+        if x.startswith('-L'):
+            fj_libdirs.append(x[2:])
+        elif x.startswith('-l'):
+            libs.append(x[2:])
+        else:
+            ldflags.append(x)
+
+    from setuptools import setup
+    from setuptools.extension import Extension
+
+    import numpy as np
+
+    module = Extension('{0}._{0}'.format(lname),
+                       sources=['Py{}.cc'.format(name)],
+                       language='c++',
+                       include_dirs=[np.get_include(), 'Wasserstein/wasserstein'],
+                       library_dirs=fj_libdirs,
+                       libraries=libs,
+                       extra_compile_args=cxxflags + ['-DSWIG_TYPE_TABLE=fastjet', '-g0'],
+                       extra_link_args=ldflags)
 
     setup(
-        name=name,
         version=__version__,
-        author='Patrick T. Komiske III',
-        description='{} FastJet Contrib'.format(name),
-        long_description=readme,
-        url='https://fastjet.hepforge.org/contrib/',
-        py_modules=[name],
-        ext_modules=[module]
+        ext_modules=[module],
     )
+
+def main():
+    commands = {'help': show_help, 'swig': run_swig}
+    commands.get(sys.argv[1], run_setup)()
+
+if __name__ == '__main__':
+    main()

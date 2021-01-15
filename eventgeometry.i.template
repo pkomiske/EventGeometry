@@ -1,6 +1,5 @@
 %define EVENTGEOMETRY_DOCSTRING
-"# EventGeometry FastJet Contrib
-"
+"\{docstring\}"
 %enddef
 
 %module("docstring"=EVENTGEOMETRY_DOCSTRING, "threads"=1) eventgeometry
@@ -126,7 +125,7 @@ namespace fastjet {
 
 from fastjet import FastJetError
 
-__version__ = '1.0.0'
+__version__ = '\{version\}'
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
