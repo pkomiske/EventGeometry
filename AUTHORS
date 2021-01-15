@@ -1,0 +1,23 @@
+-------------------------------------------------------------------------------
+
+The EventGeometry FastJet contrib is developed by:
+
+   Patrick T. Komiske <pkomiske@mit.edu>
+   Eric M. Metodiev <metodiev@mit.edu>
+   Jesse Thaler <jthaler@mit.edu>
+
+Questions and comments should be directed to: pkomiske@mit.edu.
+
+-------------------------------------------------------------------------------
+
+For physics details on the energy mover's distance and optimal tansport methods, see:
+
+   The Metric Space of Collider Events.
+   Patrick T. Komiske, Eric M. Metodiev, Jesse Thaler.
+   Phys. Rev. Lett. 123 (2019) 041801, arXiv:1902.02346.
+
+   The Hidden Geometry of Particle Collisions.
+   Patrick T. Komiske, Eric M. Metodiev, Jesse Thaler.
+   JHEP 07 (2020) 006, arXiv:2004.04159.
+
+-------------------------------------------------------------------------------

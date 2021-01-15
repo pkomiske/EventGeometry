@@ -1,0 +1,3 @@
+[submodule "Wasserstein"]
+	path = Wasserstein
+	url = https://github.com/pkomiske/Wasserstein
