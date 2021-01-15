@@ -1565,7 +1565,7 @@ _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnerg
 
 from fastjet import FastJetError
 
-__version__ = '1.0.0'
+__version__ = '1.0.0a0'
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 

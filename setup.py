@@ -58,8 +58,8 @@ with open('README.md', 'r') as f:
     readme = f.read()
 
 # get contrib version
-with open(os.path.join(lname, '__init__.py'), 'r') as f:
-    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
+with open('VERSION', 'r') as f:
+    __version__ = f.read().strip()
 
 HELP_MESSAGE = """{name} FastJet Contrib Python Package
 
