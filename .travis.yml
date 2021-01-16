@@ -10,14 +10,10 @@ stages:
 
 install:
   - pip3 install cibuildwheel twine
+  - brew install libomp
 
 script:
   - cibuildwheel --output-dir wheelhouse
-
-addons:
-  homebrew:
-    packages:
-      - libomp
 
 jobs:
   include:

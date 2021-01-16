@@ -17,12 +17,8 @@ check_script = ../utils/check.sh
 NAME=EventGeometry
 SRCS=
 EXAMPLES=example
-INSTALLED_HEADERS=EventGeometry.hh Wasserstein/wasserstein/CorrelationDimension.hh Wasserstein/wasserstein/EMD.hh
-INSTALLED_INTERNAL_HEADERS=Wasserstein/wasserstein/internal/EMDUtils.hh Wasserstein/wasserstein/internal/Event.hh Wasserstein/wasserstein/internal/HistogramUtils.hh Wasserstein/wasserstein/internal/PairwiseDistance.hh Wasserstein/wasserstein/internal/NetworkSimplex.hh
-FASTJET_SWIG_INTERFACE=/usr/local/opt/fastjet-3.3.4/pyinterface/fastjet.i
-SWIG_NUMPY=true
-SWIGINTERFACE=EventGeometry.i
-SWIGFLAGS=-w509,511 -keyword -fastproxy -IWasserstein/wasserstein
+INSTALLED_HEADERS=EventGeometry.hh
+BOOST=false
 #------------------------------------------------------------------------
 
 CXXFLAGS+= $(shell $(FASTJETCONFIG) --cxxflags)
@@ -37,17 +33,6 @@ install_DIR     = $(install_script) -d
 install_DATA    = $(install_script) -c -m 644
 install_PROGRAM = $(install_script) -c -s
 install_SCRIPT  = $(install_script) -c
-
-ifdef SWIGINTERFACE
-SWIG_SRC=Py$(NAME).cc
-SRCS+=$(SWIG_SRC)
-endif
-ifdef SWIG_NUMPY
-SWIGINTERFACE+=Wasserstein/swig/numpy.i
-SWIGFLAGS+=-DSWIG_NUMPY
-endif
-SWIGINTERFACE+=$(FASTJET_SWIG_INTERFACE)
-SWIGFLAGS+=-DFASTJET_SWIG_INTERFACE=$(FASTJET_SWIG_INTERFACE)
 
 .PHONY: clean distclean examples check install all swig
 
@@ -93,21 +78,13 @@ distclean: clean
 # install things in PREFIX/...
 install:
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
-	$(install_DIR) $(PREFIX)/include/fastjet/contrib/internal
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
 	done
-	for header in $(INSTALLED_INTERNAL_HEADERS); do\
-	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/internal;\
-	done
+	$(shell ./Wasserstein/install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST))
 
 depend:
 	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)
-
-swig: $(SWIG_SRC)
-
-$(SWIG_SRC): $(SWIGINTERFACE) $(INSTALLED_HEADERS) $(INSTALLED_INTERNAL_HEADERS)
-	swig -c++ -python $(SWIGFLAGS) -I$(PREFIX)/include -o $@ $<
 
 $(DEPDIR): ; @mkdir -p $@
 
