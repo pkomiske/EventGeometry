@@ -4,8 +4,8 @@ FASTJETCONFIG=fastjet-config
 PREFIX=$(shell $(FASTJETCONFIG) --prefix)
 CXX=g++
 CXXFLAGS+=-O3 -Wall -g -std=c++14 -fPIC -Xpreprocessor -fopenmp
-install_script = $(SHELL) ../utils/install-sh
-check_script = ../utils/check.sh
+install_script = $(SHELL) ./scripts/install-sh
+check_script = ./scripts/check.sh
 
 # global contrib-wide Makefile include may override some of the above
 # variables (leading "-" means don't give an error if you can't find
@@ -81,7 +81,7 @@ install:
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
 	done
-	$(shell ./Wasserstein/install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST))
+	$(shell cd Wasserstein; ./install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST))
 
 depend:
 	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)

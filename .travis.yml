@@ -10,7 +10,6 @@ stages:
 
 install:
   - pip3 install cibuildwheel twine
-  - brew install libomp
 
 script:
   - cibuildwheel --output-dir wheelhouse
@@ -35,7 +34,10 @@ jobs:
 
     - name: Build wheels on Mac and deploy
       os: osx
+      osx_image: xcode11
       language: shell
+      before_install:
+        - brew install libomp
       after_success: |
         pip3 install twine
         if [ ! -z $PYPI_TEST ]; then
