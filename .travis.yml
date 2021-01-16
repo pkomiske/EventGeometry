@@ -14,6 +14,11 @@ install:
 script:
   - cibuildwheel --output-dir wheelhouse
 
+addons:
+  homebrew:
+    packages:
+      - libomp
+
 jobs:
   include:
 
