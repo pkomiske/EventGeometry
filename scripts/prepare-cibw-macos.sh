@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# homebrew packages
+brew update > /dev/null
+brew install libomp
+
 # install fastjet
 git clone https://gitlab.com/pkomiske/fastjet.git
 cd fastjet

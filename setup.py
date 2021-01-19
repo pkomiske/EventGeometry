@@ -39,7 +39,7 @@ name = 'EventGeometry'
 lname = name.lower()
 
 # some extra options that swig needs for this package
-extra_swig_opts = '-keyword -w509,511 -IWasserstein/wasserstein -DSWIG_NUMPY'
+extra_swig_opts = '-keyword -w509,511 -IWasserstein -DSWIG_NUMPY'
 
 ################################################################################
 
@@ -141,7 +141,7 @@ def run_setup():
     module = Extension('{0}._{0}'.format(lname),
                        sources=['Py{}.cc'.format(name)],
                        language='c++',
-                       include_dirs=[np.get_include(), 'Wasserstein/wasserstein'],
+                       include_dirs=[np.get_include(), 'Wasserstein'],
                        library_dirs=fj_libdirs,
                        libraries=libs,
                        extra_compile_args=cxxflags + ['-DSWIG_TYPE_TABLE=fastjet', '-g0'],

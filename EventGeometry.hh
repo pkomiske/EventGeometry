@@ -32,9 +32,9 @@
 #define END_EMD_NAMESPACE } } FASTJET_END_NAMESPACE
 #define EMDNAMESPACE fastjet::contrib::emd
 
-#include "internal/Event.hh"
-#include "internal/PairwiseDistance.hh"
-#include "CorrelationDimension.hh"
+#include "wasserstein/internal/Event.hh"
+#include "wasserstein/internal/PairwiseDistance.hh"
+#include "wasserstein/CorrelationDimension.hh"
 // EMD.hh incuded at the end, to have access to FastJet classes defined here
 
 BEGIN_EMD_NAMESPACE
@@ -420,7 +420,7 @@ private:
 
 END_EMD_NAMESPACE
 
-#include "EMD.hh"
+#include "wasserstein/EMD.hh"
 
 BEGIN_EMD_NAMESPACE
 

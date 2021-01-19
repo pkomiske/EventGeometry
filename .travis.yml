@@ -36,8 +36,6 @@ jobs:
       os: osx
       osx_image: xcode11
       language: shell
-      before_install:
-        - brew install libomp
       after_success: |
         pip3 install twine
         if [ ! -z $PYPI_TEST ]; then

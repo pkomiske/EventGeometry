@@ -81,7 +81,7 @@ install:
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
 	done
-	$(shell cd Wasserstein; ./install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST))
+	cd Wasserstein; ./install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST)
 
 depend:
 	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)

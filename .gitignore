@@ -3,7 +3,6 @@
 *.a
 *.d
 *.dylib
-*.ipynb
 *.pyc
 **/__pycache__
 **/.ipynb_checkpoints

@@ -126,7 +126,7 @@ namespace fastjet {
 
 from fastjet import FastJetError
 
-__version__ = '1.0.0a0'
+__version__ = '1.0.0a1'
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
