@@ -41,7 +41,7 @@ else
     dynlibext=so
 endif
 
-.PHONY: clean shared distclean examples check install all swig install_shared
+.PHONY: clean shared distclean examples check install all swig install_shared headers install_wasserstein
 
 # http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/#combine
 DEPDIR = .deps
@@ -59,7 +59,7 @@ lib$(NAME).a: $(OBJS)
 	ar cru lib$(NAME).a $(OBJS)
 	ranlib lib$(NAME).a
 
-shared: $(SRCS)
+shared: $(SRCS) install_wasserstein
 	$(CXX) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext) $(SRCS)
 
 # building the examples
@@ -89,17 +89,22 @@ install_shared: shared
 	$(install_DIR) $(PREFIX)/lib
 	$(install_LIB) lib$(NAME).$(dynlibext) $(PREFIX)/lib
 
-# install things in PREFIX/...
-install: all install_shared
+install_wasserstein:
+	$(install_DIR) $(PREFIX)/include/fastjet/contrib
+	cd Wasserstein; ./install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
+
+install_headers:
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
 	done
-	cd Wasserstein; ./install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
-	$(install_DIR) $(PREFIX)/lib
-	$(install_LIB) lib$(NAME).a $(PREFIX)/lib
 	$(install_DIR) $(PREFIX)/share/fastjet/contrib
 	$(install_DATA) eventgeometry.i $(PREFIX)/share/fastjet/contrib
+
+# install things in PREFIX/...
+install: all install_shared install_headers
+	$(install_DIR) $(PREFIX)/lib
+	$(install_LIB) lib$(NAME).a $(PREFIX)/lib
 
 depend:
 	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)
