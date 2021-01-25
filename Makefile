@@ -60,7 +60,8 @@ lib$(NAME).a: $(OBJS)
 	ranlib lib$(NAME).a
 
 shared: $(SRCS) install_wasserstein
-	$(CXX) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext) $(SRCS)
+	$(CXX) $(SRCS) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext)
+	if [ "$(shell uname)" = "Darwin" ]; then install_name_tool -id @rpath/lib$(NAME).dylib lib$(NAME).dylib; fi
 
 # building the examples
 examples: $(EXAMPLES)
