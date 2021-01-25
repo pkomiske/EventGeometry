@@ -41,7 +41,7 @@ else
     dynlibext=so
 endif
 
-.PHONY: clean shared distclean examples check install all swig
+.PHONY: clean shared distclean examples check install all swig install_shared
 
 # http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/#combine
 DEPDIR = .deps
@@ -85,8 +85,12 @@ clean:
 distclean: clean
 	rm -f lib$(NAME).a $(EXAMPLES)
 
+install_shared: shared
+	$(install_DIR) $(PREFIX)/lib
+	$(install_LIB) lib$(NAME).$(dynlibext) $(PREFIX)/lib
+
 # install things in PREFIX/...
-install: all shared
+install: all install_shared
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
@@ -94,7 +98,6 @@ install: all shared
 	cd Wasserstein; ./install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
 	$(install_DIR) $(PREFIX)/lib
 	$(install_LIB) lib$(NAME).a $(PREFIX)/lib
-	$(install_LIB) lib$(NAME).$(dynlibext) $(PREFIX)/lib
 	$(install_DIR) $(PREFIX)/share/fastjet/contrib
 	$(install_DATA) eventgeometry.i $(PREFIX)/share/fastjet/contrib
 
