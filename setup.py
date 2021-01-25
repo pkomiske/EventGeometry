@@ -1,9 +1,9 @@
-# Nsubjettiness Package
-#  Questions/Comments?  jthaler@jthaler.net
-#    Python questions/comments?  pkomiske@mit.edu
+# EventGeometry Package
 #
-#  Copyright (c) 2011-14
-#  Jesse Thaler, Ken Van Tilburg, Christopher K. Vermilion, and TJ Wilkason
+#  Questions/comments? pkomiske@mit.edu
+#
+#  Copyright (c) 2019-2021
+#  Patrick T. Komiske III, Eric M. Metodiev, Jesse Thaler
 #
 #----------------------------------------------------------------------
 # This file is part of FastJet contrib.
@@ -98,8 +98,7 @@ def run_swig():
         f_interface.write(temp.format(**contrib))
 
     # form swig options
-    fj_swig_interface = os.path.join(fj_prefix, 'share', 'fastjet', 'pyinterface', 'fastjet.i')
-    opts = '-fastproxy {} -DFASTJET_SWIG_INTERFACE={}'.format(fj_cxxflags, fj_swig_interface)
+    opts = '-fastproxy {} -DFASTJET_PREFIX={}'.format(fj_cxxflags, fj_prefix)
 
     # handle extra options for swig
     sys.argv += extra_swig_opts.split()

@@ -3,12 +3,12 @@
 *.a
 *.d
 *.dylib
+*.sublime-project
+*.sublime-workspace
 *.pyc
 **/__pycache__
 **/.ipynb_checkpoints
-.eggs/
 *.egg-info
+.eggs/
 build/
 dist/
-EventGeometry.sublime-project
-EventGeometry.sublime-workspace

@@ -9,10 +9,16 @@ stages:
   - build
 
 install:
-  - pip3 install cibuildwheel twine
+  - pip3 install cibuildwheel
 
 script:
   - cibuildwheel --output-dir wheelhouse
+
+after_success: |
+  pip3 install twine
+  if [ ! -z $PYPI_TEST ]; then
+    twine upload -r testpypi --skip-existing wheelhouse/*.whl
+  fi
 
 jobs:
   include:
@@ -23,10 +29,6 @@ jobs:
 
     - name: Build wheels on Linux and deploy
       services: docker
-      after_success: |
-        if [ ! -z $PYPI_TEST ]; then
-          twine upload -r testpypi --skip-existing wheelhouse/*.whl
-        fi
 
   ##############################################################################
   # MACOS BUILDS
@@ -36,11 +38,6 @@ jobs:
       os: osx
       osx_image: xcode11
       language: shell
-      after_success: |
-        pip3 install twine
-        if [ ! -z $PYPI_TEST ]; then
-          twine upload -r testpypi --skip-existing wheelhouse/*.whl
-        fi
 
 env:
   global:

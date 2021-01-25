@@ -15,14 +15,13 @@ check_script = ./scripts/check.sh
 #------------------------------------------------------------------------
 # things that are specific to this contrib
 NAME=EventGeometry
-SRCS=
+SRCS=EventGeometry.cc
 EXAMPLES=example
 INSTALLED_HEADERS=EventGeometry.hh
-BOOST=false
 #------------------------------------------------------------------------
 
 CXXFLAGS+= $(shell $(FASTJETCONFIG) --cxxflags)
-LDFLAGS += -lm $(shell $(FASTJETCONFIG) --libs)
+LDFLAGS += $(shell $(FASTJETCONFIG) --libs)
 
 OBJS  := $(SRCS:.cc=.o)
 EXAMPLES_SRCS  = $(EXAMPLES:=.cc)
@@ -34,7 +33,15 @@ install_DATA    = $(install_script) -c -m 644
 install_PROGRAM = $(install_script) -c -s
 install_SCRIPT  = $(install_script) -c
 
-.PHONY: clean distclean examples check install all swig
+ifeq "$(shell uname)" "Darwin"
+	dynlibopt=-dynamiclib
+    dynlibext=dylib
+else 
+    dynlibopt=-shared
+    dynlibext=so
+endif
+
+.PHONY: clean shared distclean examples check install all swig
 
 # http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/#combine
 DEPDIR = .deps
@@ -51,6 +58,9 @@ all: lib$(NAME).a
 lib$(NAME).a: $(OBJS) 
 	ar cru lib$(NAME).a $(OBJS)
 	ranlib lib$(NAME).a
+
+shared: $(SRCS)
+	$(CXX) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext) $(SRCS)
 
 # building the examples
 examples: $(EXAMPLES)
@@ -76,12 +86,17 @@ distclean: clean
 	rm -f lib$(NAME).a $(EXAMPLES)
 
 # install things in PREFIX/...
-install:
+install: all shared
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
 	for header in $(INSTALLED_HEADERS); do\
 	  $(install_HEADER) $$header $(PREFIX)/include/fastjet/contrib/;\
 	done
-	cd Wasserstein; ./install_wasserstein.sh $(PREFIX)/include/fastjet/contrib $(BOOST)
+	cd Wasserstein; ./install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
+	$(install_DIR) $(PREFIX)/lib
+	$(install_LIB) lib$(NAME).a $(PREFIX)/lib
+	$(install_LIB) lib$(NAME).$(dynlibext) $(PREFIX)/lib
+	$(install_DIR) $(PREFIX)/share/fastjet/contrib
+	$(install_DATA) eventgeometry.i $(PREFIX)/share/fastjet/contrib
 
 depend:
 	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)

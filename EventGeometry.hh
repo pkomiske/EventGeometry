@@ -37,6 +37,30 @@
 #include "wasserstein/CorrelationDimension.hh"
 // EMD.hh incuded at the end, to have access to FastJet classes defined here
 
+// macro for controling template visibility
+#ifndef EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
+#define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY extern
+#endif
+
+// macro for declaring extern EMD templates
+#define DECLARE_EMD_TEMPLATES \
+  BEGIN_EMD_NAMESPACE\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, DeltaR>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, HadronicDot>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, HadronicDotMassive>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, DeltaR>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, HadronicDot>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, HadronicDotMassive>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEDot>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEDotMassive>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEArcLength>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEArcLengthMassive>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEDot>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEDotMassive>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEArcLength>;\
+    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEArcLengthMassive>;\
+  END_EMD_NAMESPACE
+
 BEGIN_EMD_NAMESPACE
 
 ////////////////////////////////////////////////////////////////////////////////

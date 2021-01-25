@@ -12,7 +12,7 @@
 
 // this makes SWIG aware of the types contained in the main fastjet library
 // but does not generate new wrappers for them here
-%import FASTJET_SWIG_INTERFACE
+%import FASTJET_PREFIX/share/fastjet/pyinterface/fastjet.i
 
 // converts fastjet::Error into a FastJetError Python exception
 FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
@@ -33,7 +33,7 @@ using namespace fastjet::contrib::emd;
 // include EMD wrappers from Wasserstein package
 #define BEGIN_EMD_NAMESPACE namespace fastjet { namespace contrib { namespace emd {
 #define END_EMD_NAMESPACE } } }
-%include "Wasserstein/swig/wasserstein_common.i"
+%include "wasserstein/swig/wasserstein_common.i"
 
 %define ADD_EXPLICIT_PREPROCESSING(Class)
 Class & preprocess_CenterEScheme() { return $self->preprocess<CenterEScheme>(); }

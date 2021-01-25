@@ -5375,7 +5375,7 @@ SWIGINTERN std::string fastjet_contrib_emd_Histogram1DHandler_Sl__Sg____repr__(f
     if (py_obj == Py_None       ) return "Python None" ;
     if (PyCallable_Check(py_obj)) return "callable"    ;
     if (PyBytes_Check(   py_obj)) return "string"      ;
-    if (PyInt_Check(     py_obj)) return "int"         ;
+    if (PyLong_Check(    py_obj)) return "int"         ;
     if (PyFloat_Check(   py_obj)) return "float"       ;
     if (PyDict_Check(    py_obj)) return "dict"        ;
     if (PyList_Check(    py_obj)) return "list"        ;
@@ -5436,7 +5436,7 @@ SWIGINTERN std::string fastjet_contrib_emd_Histogram1DHandler_Sl__Sg____repr__(f
 
 
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_bin_centers(fastjet::contrib::emd::Histogram1DHandler< > *self,double **arr_out0,int *n0){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins();
   size_t nbytes = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes);
@@ -5448,7 +5448,7 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_bin_centers(f
   memcpy(*arr_out0, self->bin_centers().data(), nbytes);
 }
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_bin_edges(fastjet::contrib::emd::Histogram1DHandler< > *self,double **arr_out0,int *n0){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins() + 1;
   size_t nbytes = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes);
@@ -5461,8 +5461,8 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_bin_edges(fas
 }
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_hist_vals_errs(fastjet::contrib::emd::Histogram1DHandler< > *self,double **arr_out0,int *n0,double **arr_out1,int *n1,bool overflows=true){
     unsigned int nbins = self->nbins() + (overflows ? 2 : 0);
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = nbins;
   size_t nbytes0 = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes0);
@@ -5471,7 +5471,7 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl__Sg__npy_hist_vals_err
     return;
   }
 /*@SWIG@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n1 = nbins;
   size_t nbytes1 = size_t(*n1)*sizeof(double);
   *arr_out1 = (double *) malloc(nbytes1);
@@ -5492,7 +5492,7 @@ SWIGINTERN std::string fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_transform_log_Sg__npy_bin_centers(fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::log > *self,double **arr_out0,int *n0){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins();
   size_t nbytes = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes);
@@ -5504,7 +5504,7 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_t
   memcpy(*arr_out0, self->bin_centers().data(), nbytes);
 }
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_transform_log_Sg__npy_bin_edges(fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::log > *self,double **arr_out0,int *n0){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins() + 1;
   size_t nbytes = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes);
@@ -5517,8 +5517,8 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_t
 }
 SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_transform_log_Sg__npy_hist_vals_errs(fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::log > *self,double **arr_out0,int *n0,double **arr_out1,int *n1,bool overflows=true){
     unsigned int nbins = self->nbins() + (overflows ? 2 : 0);
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = nbins;
   size_t nbytes0 = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes0);
@@ -5527,7 +5527,7 @@ SWIGINTERN void fastjet_contrib_emd_Histogram1DHandler_Sl_boost_histogram_axis_t
     return;
   }
 /*@SWIG@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n1 = nbins;
   size_t nbytes1 = size_t(*n1)*sizeof(double);
   *arr_out1 = (double *) malloc(nbytes1);
@@ -5548,7 +5548,7 @@ SWIGINTERN std::string fastjet_contrib_emd_CorrelationDimension___repr__(fastjet
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_corrdim_bins(fastjet::contrib::emd::CorrelationDimension *self,double **arr_out0,int *n0){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins() - 1;
   size_t nbytes = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes);
@@ -5560,8 +5560,8 @@ SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_corrdim_bins(fastje
   memcpy(*arr_out0, self->corrdim_bins().data(), nbytes);
 }
 SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_corrdims(fastjet::contrib::emd::CorrelationDimension *self,double **arr_out0,int *n0,double **arr_out1,int *n1){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins() - 1;
   size_t nbytes0 = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes0);
@@ -5570,7 +5570,7 @@ SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_corrdims(fastjet::c
     return;
   }
 /*@SWIG@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n1 = self->nbins() - 1;
   size_t nbytes1 = size_t(*n1)*sizeof(double);
   *arr_out1 = (double *) malloc(nbytes1);
@@ -5585,8 +5585,8 @@ memcpy(*arr_out1, vecpair.second.data(), nbytes1);
 /*@SWIG@*/
 }
 SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_cumulative_vals_vars(fastjet::contrib::emd::CorrelationDimension *self,double **arr_out0,int *n0,double **arr_out1,int *n1){
-  /*@SWIG:Wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+  /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,241,PAIRED_1DNUMPY_FROM_VECPAIR@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n0 = self->nbins();
   size_t nbytes0 = size_t(*n0)*sizeof(double);
   *arr_out0 = (double *) malloc(nbytes0);
@@ -5595,7 +5595,7 @@ SWIGINTERN void fastjet_contrib_emd_CorrelationDimension_npy_cumulative_vals_var
     return;
   }
 /*@SWIG@*/
-/*@SWIG:Wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
+/*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,224,MALLOC_1D_VALUE_ARRAY@*/
   *n1 = self->nbins();
   size_t nbytes1 = size_t(*n1)*sizeof(double);
   *arr_out1 = (double *) malloc(nbytes1);
@@ -5616,7 +5616,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_DeltaR_S
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_DeltaR_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5634,7 +5634,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_DeltaR_Sg__npy_
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_DeltaR_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5689,7 +5689,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_Hadronic
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDot_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5707,7 +5707,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDot_Sg_
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDot_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5744,7 +5744,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_Hadronic
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDotMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5762,7 +5762,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDotMass
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDotMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5799,7 +5799,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_DeltaR_Sg_
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_DeltaR_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5817,7 +5817,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_DeltaR_Sg__npy_fl
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_DeltaR_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5854,7 +5854,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDo
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDot_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5872,7 +5872,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDot_Sg__n
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDot_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5909,7 +5909,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDo
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDotMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5927,7 +5927,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDotMassiv
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDotMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5964,7 +5964,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDot_Sg____repr__
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDot_Sg__npy_flows(fastjet::contrib::emd::EMD< Momentum,EEDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -5982,7 +5982,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDot_Sg__npy_flows(fastj
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDot_Sg__npy_dists(fastjet::contrib::emd::EMD< Momentum,EEDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6019,7 +6019,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDotMassive_Sg___
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDotMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6037,7 +6037,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDotMassive_Sg__npy_flow
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDotMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6074,7 +6074,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLength_Sg____
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLength_Sg__npy_flows(fastjet::contrib::emd::EMD< Momentum,EEArcLength > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6092,7 +6092,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLength_Sg__npy_flows
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLength_Sg__npy_dists(fastjet::contrib::emd::EMD< Momentum,EEArcLength > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6129,7 +6129,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLengthMassive
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLengthMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6147,7 +6147,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLengthMassive_Sg__np
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLengthMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6184,7 +6184,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDot_Sg____repr__(f
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDot_Sg__npy_flows(fastjet::contrib::emd::EMD< Energy,EEDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6202,7 +6202,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDot_Sg__npy_flows(fastjet
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDot_Sg__npy_dists(fastjet::contrib::emd::EMD< Energy,EEDot > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6239,7 +6239,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDotMassive_Sg____r
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDotMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< Energy,EEDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6257,7 +6257,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDotMassive_Sg__npy_flows(
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDotMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< Energy,EEDotMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6294,7 +6294,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLength_Sg____re
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLength_Sg__npy_flows(fastjet::contrib::emd::EMD< Energy,EEArcLength > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6312,7 +6312,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLength_Sg__npy_flows(f
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLength_Sg__npy_dists(fastjet::contrib::emd::EMD< Energy,EEArcLength > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6349,7 +6349,7 @@ SWIGINTERN std::string fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLengthMassive_S
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLengthMassive_Sg__npy_flows(fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6367,7 +6367,7 @@ SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLengthMassive_Sg__npy_
       values[i] *= self->scale();
   }
 SWIGINTERN void fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLengthMassive_Sg__npy_dists(fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->n0();
   *n1 = self->n1();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6404,7 +6404,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_DeltaR_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6447,7 +6447,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDot_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6490,7 +6490,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseMomentum_Sc_HadronicDotMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6533,7 +6533,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_DeltaR_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6576,7 +6576,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDot_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6619,7 +6619,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_TransverseEnergy_Sc_HadronicDotMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6662,7 +6662,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDot_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Momentum,EEDot > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6705,7 +6705,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEDotMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Momentum,EEDotMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6748,7 +6748,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLength_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Momentum,EEArcLength > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6791,7 +6791,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Momentum_Sc_EEArcLengthMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6834,7 +6834,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDot_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Energy,EEDot > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6877,7 +6877,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEDotMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Energy,EEDotMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6920,7 +6920,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLength_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Energy,EEArcLength > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
@@ -6963,7 +6963,7 @@ SWIGINTERN std::string fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EM
   return self->description();
 }
 SWIGINTERN void fastjet_contrib_emd_PairwiseEMD_Sl_fastjet_contrib_emd_EMD_Sl_Energy_Sc_EEArcLengthMassive_Sg__Sg__npy_emds(fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > > *self,double **arr_out,int *n0,int *n1){
-    /*@SWIG:Wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
+    /*@SWIG:Wasserstein/wasserstein/swig/wasserstein_common.i,256,MALLOC_2D_VALUE_ARRAY@*/
   *n0 = self->nevA();
   *n1 = self->nevB();
   size_t num_elements = size_t(*n0)*size_t(*n1);
