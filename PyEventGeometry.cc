@@ -14711,7 +14711,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *) 0 ;
   long long arg2 ;
@@ -14722,26 +14722,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow(PyObject *SWIGUNUSED
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseMomentumDeltaR_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumDeltaR_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseMomentumDeltaR_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -14757,6 +14751,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow(PyObject *SWIGUNUSED
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumDeltaR_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseMomentumDeltaR_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_DeltaR_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseMomentumDeltaR_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_DeltaR_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseMomentumDeltaR_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseMomentumDeltaR_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,DeltaR >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -15837,7 +15920,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *) 0 ;
   long long arg2 ;
@@ -15848,26 +15931,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow(PyObject *SWIGU
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseMomentumHadronicDot_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDot_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseMomentumHadronicDot_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -15883,6 +15960,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow(PyObject *SWIGU
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDot_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseMomentumHadronicDot_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseMomentumHadronicDot_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDot_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseMomentumHadronicDot_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDot >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -16963,7 +17129,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *) 0 ;
   long long arg2 ;
@@ -16974,26 +17140,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow(PyObject
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseMomentumHadronicDotMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDotMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseMomentumHadronicDotMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -17009,6 +17169,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow(PyObject
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *arg1 = (fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDotMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseMomentumHadronicDotMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseMomentumHadronicDotMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseMomentum_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDotMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseMomentumHadronicDotMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseMomentum,HadronicDotMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -18089,7 +18338,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *) 0 ;
   long long arg2 ;
@@ -18100,26 +18349,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow(PyObject *SWIGUNUSEDPA
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseEnergyDeltaR_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyDeltaR_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseEnergyDeltaR_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -18135,6 +18378,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow(PyObject *SWIGUNUSEDPA
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_DeltaR_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyDeltaR_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseEnergyDeltaR_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_DeltaR_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseEnergyDeltaR_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_DeltaR_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseEnergyDeltaR_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseEnergyDeltaR_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,DeltaR >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -19215,7 +19547,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *) 0 ;
   long long arg2 ;
@@ -19226,26 +19558,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow(PyObject *SWIGUNU
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseEnergyHadronicDot_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDot_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseEnergyHadronicDot_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -19261,6 +19587,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow(PyObject *SWIGUNU
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDot_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseEnergyHadronicDot_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseEnergyHadronicDot_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDot_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseEnergyHadronicDot_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDot >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -20341,7 +20756,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *) 0 ;
   long long arg2 ;
@@ -20352,26 +20767,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow(PyObject *
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDTransverseEnergyHadronicDotMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDotMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDTransverseEnergyHadronicDotMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -20387,6 +20796,95 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow(PyObject *
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *arg1 = (fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDotMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDTransverseEnergyHadronicDotMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDTransverseEnergyHadronicDotMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_TransverseEnergy_HadronicDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDotMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDTransverseEnergyHadronicDotMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< TransverseEnergy,HadronicDotMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -21467,7 +21965,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Momentum,EEDot > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEDot > *) 0 ;
   long long arg2 ;
@@ -21478,26 +21976,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow(PyObject *SWIGUNUSEDPARM(self),
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDMomentumEEDot_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEDot > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEDot > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDot_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDMomentumEEDot_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -21513,6 +22005,95 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow(PyObject *SWIGUNUSEDPARM(self),
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Momentum,EEDot > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEDot > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEDot > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEDot > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDot_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Momentum,EEDot > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEDot_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDMomentumEEDot_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDMomentumEEDot_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEDot_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEDot >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEDot >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -22593,7 +23174,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *) 0 ;
   long long arg2 ;
@@ -22604,26 +23185,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow(PyObject *SWIGUNUSEDPARM
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDMomentumEEDotMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEDotMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEDotMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDMomentumEEDotMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -22639,6 +23214,95 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow(PyObject *SWIGUNUSEDPARM
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEDotMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEDotMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEDotMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Momentum,EEDotMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEDotMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDMomentumEEDotMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDMomentumEEDotMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEDotMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEDotMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEDotMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -23719,7 +24383,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Momentum,EEArcLength > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEArcLength > *) 0 ;
   long long arg2 ;
@@ -23730,26 +24394,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow(PyObject *SWIGUNUSEDPARM(
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDMomentumEEArcLength_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEArcLength > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEArcLength > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLength_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDMomentumEEArcLength_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -23765,6 +24423,95 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow(PyObject *SWIGUNUSEDPARM(
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Momentum,EEArcLength > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEArcLength > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEArcLength > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEArcLength > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLength_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Momentum,EEArcLength > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEArcLength_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLength_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDMomentumEEArcLength_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLength_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLength_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEArcLength_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEArcLength >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEArcLength >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -24845,7 +25592,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *) 0 ;
   long long arg2 ;
@@ -24856,26 +25603,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow(PyObject *SWIGUNUS
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDMomentumEEArcLengthMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLengthMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDMomentumEEArcLengthMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -24891,6 +25632,95 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow(PyObject *SWIGUNUS
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *arg1 = (fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLengthMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEArcLengthMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDMomentumEEArcLengthMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Momentum_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLengthMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEArcLengthMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Momentum,EEArcLengthMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -25971,7 +26801,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Energy,EEDot > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEDot > *) 0 ;
   long long arg2 ;
@@ -25982,26 +26812,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow(PyObject *SWIGUNUSEDPARM(self), P
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDEnergyEEDot_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEDot > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEDot > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDot_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDEnergyEEDot_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -26017,6 +26841,95 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow(PyObject *SWIGUNUSEDPARM(self), P
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Energy,EEDot > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEDot > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDot_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEDot > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEDot > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDot_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Energy,EEDot > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEDot_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDEnergyEEDot_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDot_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDEnergyEEDot_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEDot_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEDot >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEDot >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -27097,7 +28010,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Energy,EEDotMassive > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEDotMassive > *) 0 ;
   long long arg2 ;
@@ -27108,26 +28021,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow(PyObject *SWIGUNUSEDPARM(s
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDEnergyEEDotMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEDotMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEDotMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDEnergyEEDotMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -27143,6 +28050,95 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow(PyObject *SWIGUNUSEDPARM(s
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Energy,EEDotMassive > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEDotMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDotMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEDotMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEDotMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Energy,EEDotMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEDotMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDEnergyEEDotMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEDotMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDEnergyEEDotMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEDotMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEDotMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEDotMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -28223,7 +29219,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Energy,EEArcLength > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEArcLength > *) 0 ;
   long long arg2 ;
@@ -28234,26 +29230,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow(PyObject *SWIGUNUSEDPARM(se
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDEnergyEEArcLength_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEArcLength > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEArcLength > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLength_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDEnergyEEArcLength_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -28269,6 +29259,95 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow(PyObject *SWIGUNUSEDPARM(se
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Energy,EEArcLength > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEArcLength > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLength_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEArcLength > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEArcLength > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLength_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Energy,EEArcLength > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEArcLength_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLength_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDEnergyEEArcLength_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLength_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLength_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEArcLength_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEArcLength >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEArcLength >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -29349,7 +30428,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *) 0 ;
   long long arg2 ;
@@ -29360,26 +30439,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow(PyObject *SWIGUNUSED
   int ecode2 = 0 ;
   long long val3 ;
   int ecode3 = 0 ;
-  PyObject * obj0 = 0 ;
-  PyObject * obj1 = 0 ;
-  PyObject * obj2 = 0 ;
-  char * kwnames[] = {
-    (char *)"self",  (char *)"i",  (char *)"j",  NULL 
-  };
   fastjet::contrib::emd::Value result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OOO:EMDEnergyEEArcLengthMassive_flow", kwnames, &obj0, &obj1, &obj2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
     SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > const *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > * >(argp1);
-  ecode2 = SWIG_AsVal_long_SS_long(obj1, &val2);
+  ecode2 = SWIG_AsVal_long_SS_long(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
     SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLengthMassive_flow" "', argument " "2"" of type '" "long long""'");
   } 
   arg2 = static_cast< long long >(val2);
-  ecode3 = SWIG_AsVal_long_SS_long(obj2, &val3);
+  ecode3 = SWIG_AsVal_long_SS_long(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
     SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "EMDEnergyEEArcLengthMassive_flow" "', argument " "3"" of type '" "long long""'");
   } 
@@ -29395,6 +30468,95 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow(PyObject *SWIGUNUSED
   return resultobj;
 fail:
   return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *arg1 = (fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > *) 0 ;
+  std::size_t arg2 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  size_t val2 ;
+  int ecode2 = 0 ;
+  fastjet::contrib::emd::Value result;
+  
+  if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive_flow" "', argument " "1"" of type '" "fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > const *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > * >(argp1);
+  ecode2 = SWIG_AsVal_size_t(swig_obj[1], &val2);
+  if (!SWIG_IsOK(ecode2)) {
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLengthMassive_flow" "', argument " "2"" of type '" "std::size_t""'");
+  } 
+  arg2 = static_cast< std::size_t >(val2);
+  {
+    try {
+      result = (fastjet::contrib::emd::Value)((fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive > const *)arg1)->flow(arg2); 
+    }
+    CATCH_STD_OUT_OF_RANGE
+    CATCH_STD_EXCEPTION
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  return resultobj;
+fail:
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_flow(PyObject *self, PyObject *args) {
+  Py_ssize_t argc;
+  PyObject *argv[4] = {
+    0
+  };
+  
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEArcLengthMassive_flow", 0, 3, argv))) SWIG_fail;
+  --argc;
+  if (argc == 2) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_size_t(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        return _wrap_EMDEnergyEEArcLengthMassive_flow__SWIG_1(self, argc, argv);
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__emd__EMDT_Energy_EEArcLengthMassive_lemon__NetworkSimplexT_t_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      {
+        int res = SWIG_AsVal_long_SS_long(argv[1], NULL);
+        _v = SWIG_CheckState(res);
+      }
+      if (_v) {
+        {
+          int res = SWIG_AsVal_long_SS_long(argv[2], NULL);
+          _v = SWIG_CheckState(res);
+        }
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLengthMassive_flow__SWIG_0(self, argc, argv);
+        }
+      }
+    }
+  }
+  
+fail:
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEArcLengthMassive_flow'.\n"
+    "  Possible C/C++ prototypes are:\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive >::flow(long long,long long) const\n"
+    "    fastjet::contrib::emd::EMD< Energy,EEArcLengthMassive >::flow(std::size_t) const\n");
+  return 0;
 }
 
 
@@ -53241,7 +54403,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumDeltaR_clear", _wrap_EMDTransverseMomentumDeltaR_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_dists_vec", _wrap_EMDTransverseMomentumDeltaR_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_flows_vec", _wrap_EMDTransverseMomentumDeltaR_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumDeltaR_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumDeltaR_flow", _wrap_EMDTransverseMomentumDeltaR_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumDeltaR___str__", _wrap_EMDTransverseMomentumDeltaR___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR___repr__", _wrap_EMDTransverseMomentumDeltaR___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_flows", _wrap_EMDTransverseMomentumDeltaR_flows, METH_O, NULL},
@@ -53264,7 +54426,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDot_clear", _wrap_EMDTransverseMomentumHadronicDot_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_dists_vec", _wrap_EMDTransverseMomentumHadronicDot_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_flows_vec", _wrap_EMDTransverseMomentumHadronicDot_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumHadronicDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumHadronicDot_flow", _wrap_EMDTransverseMomentumHadronicDot_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumHadronicDot___str__", _wrap_EMDTransverseMomentumHadronicDot___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot___repr__", _wrap_EMDTransverseMomentumHadronicDot___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_flows", _wrap_EMDTransverseMomentumHadronicDot_flows, METH_O, NULL},
@@ -53287,7 +54449,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive_clear", _wrap_EMDTransverseMomentumHadronicDotMassive_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_dists_vec", _wrap_EMDTransverseMomentumHadronicDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_flows_vec", _wrap_EMDTransverseMomentumHadronicDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumHadronicDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumHadronicDotMassive_flow", _wrap_EMDTransverseMomentumHadronicDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive___str__", _wrap_EMDTransverseMomentumHadronicDotMassive___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive___repr__", _wrap_EMDTransverseMomentumHadronicDotMassive___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_flows", _wrap_EMDTransverseMomentumHadronicDotMassive_flows, METH_O, NULL},
@@ -53310,7 +54472,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyDeltaR_clear", _wrap_EMDTransverseEnergyDeltaR_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_dists_vec", _wrap_EMDTransverseEnergyDeltaR_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_flows_vec", _wrap_EMDTransverseEnergyDeltaR_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyDeltaR_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyDeltaR_flow", _wrap_EMDTransverseEnergyDeltaR_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyDeltaR___str__", _wrap_EMDTransverseEnergyDeltaR___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR___repr__", _wrap_EMDTransverseEnergyDeltaR___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_flows", _wrap_EMDTransverseEnergyDeltaR_flows, METH_O, NULL},
@@ -53333,7 +54495,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDot_clear", _wrap_EMDTransverseEnergyHadronicDot_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_dists_vec", _wrap_EMDTransverseEnergyHadronicDot_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_flows_vec", _wrap_EMDTransverseEnergyHadronicDot_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyHadronicDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyHadronicDot_flow", _wrap_EMDTransverseEnergyHadronicDot_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyHadronicDot___str__", _wrap_EMDTransverseEnergyHadronicDot___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot___repr__", _wrap_EMDTransverseEnergyHadronicDot___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_flows", _wrap_EMDTransverseEnergyHadronicDot_flows, METH_O, NULL},
@@ -53356,7 +54518,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive_clear", _wrap_EMDTransverseEnergyHadronicDotMassive_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_dists_vec", _wrap_EMDTransverseEnergyHadronicDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_flows_vec", _wrap_EMDTransverseEnergyHadronicDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyHadronicDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyHadronicDotMassive_flow", _wrap_EMDTransverseEnergyHadronicDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive___str__", _wrap_EMDTransverseEnergyHadronicDotMassive___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive___repr__", _wrap_EMDTransverseEnergyHadronicDotMassive___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_flows", _wrap_EMDTransverseEnergyHadronicDotMassive_flows, METH_O, NULL},
@@ -53379,7 +54541,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEDot_clear", _wrap_EMDMomentumEEDot_clear, METH_O, NULL},
 	 { "EMDMomentumEEDot_dists_vec", _wrap_EMDMomentumEEDot_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEDot_flows_vec", _wrap_EMDMomentumEEDot_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEDot_flow", _wrap_EMDMomentumEEDot_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEDot___str__", _wrap_EMDMomentumEEDot___str__, METH_O, NULL},
 	 { "EMDMomentumEEDot___repr__", _wrap_EMDMomentumEEDot___repr__, METH_O, NULL},
 	 { "EMDMomentumEEDot_flows", _wrap_EMDMomentumEEDot_flows, METH_O, NULL},
@@ -53402,7 +54564,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEDotMassive_clear", _wrap_EMDMomentumEEDotMassive_clear, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_dists_vec", _wrap_EMDMomentumEEDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_flows_vec", _wrap_EMDMomentumEEDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEDotMassive_flow", _wrap_EMDMomentumEEDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEDotMassive___str__", _wrap_EMDMomentumEEDotMassive___str__, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive___repr__", _wrap_EMDMomentumEEDotMassive___repr__, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_flows", _wrap_EMDMomentumEEDotMassive_flows, METH_O, NULL},
@@ -53425,7 +54587,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLength_clear", _wrap_EMDMomentumEEArcLength_clear, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_dists_vec", _wrap_EMDMomentumEEArcLength_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_flows_vec", _wrap_EMDMomentumEEArcLength_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEArcLength_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEArcLength_flow", _wrap_EMDMomentumEEArcLength_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEArcLength___str__", _wrap_EMDMomentumEEArcLength___str__, METH_O, NULL},
 	 { "EMDMomentumEEArcLength___repr__", _wrap_EMDMomentumEEArcLength___repr__, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_flows", _wrap_EMDMomentumEEArcLength_flows, METH_O, NULL},
@@ -53448,7 +54610,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLengthMassive_clear", _wrap_EMDMomentumEEArcLengthMassive_clear, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_dists_vec", _wrap_EMDMomentumEEArcLengthMassive_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_flows_vec", _wrap_EMDMomentumEEArcLengthMassive_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEArcLengthMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEArcLengthMassive_flow", _wrap_EMDMomentumEEArcLengthMassive_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEArcLengthMassive___str__", _wrap_EMDMomentumEEArcLengthMassive___str__, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive___repr__", _wrap_EMDMomentumEEArcLengthMassive___repr__, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_flows", _wrap_EMDMomentumEEArcLengthMassive_flows, METH_O, NULL},
@@ -53471,7 +54633,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEDot_clear", _wrap_EMDEnergyEEDot_clear, METH_O, NULL},
 	 { "EMDEnergyEEDot_dists_vec", _wrap_EMDEnergyEEDot_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEDot_flows_vec", _wrap_EMDEnergyEEDot_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEDot_flow", _wrap_EMDEnergyEEDot_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEDot___str__", _wrap_EMDEnergyEEDot___str__, METH_O, NULL},
 	 { "EMDEnergyEEDot___repr__", _wrap_EMDEnergyEEDot___repr__, METH_O, NULL},
 	 { "EMDEnergyEEDot_flows", _wrap_EMDEnergyEEDot_flows, METH_O, NULL},
@@ -53494,7 +54656,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEDotMassive_clear", _wrap_EMDEnergyEEDotMassive_clear, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_dists_vec", _wrap_EMDEnergyEEDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_flows_vec", _wrap_EMDEnergyEEDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEDotMassive_flow", _wrap_EMDEnergyEEDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEDotMassive___str__", _wrap_EMDEnergyEEDotMassive___str__, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive___repr__", _wrap_EMDEnergyEEDotMassive___repr__, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_flows", _wrap_EMDEnergyEEDotMassive_flows, METH_O, NULL},
@@ -53517,7 +54679,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLength_clear", _wrap_EMDEnergyEEArcLength_clear, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_dists_vec", _wrap_EMDEnergyEEArcLength_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_flows_vec", _wrap_EMDEnergyEEArcLength_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEArcLength_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEArcLength_flow", _wrap_EMDEnergyEEArcLength_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEArcLength___str__", _wrap_EMDEnergyEEArcLength___str__, METH_O, NULL},
 	 { "EMDEnergyEEArcLength___repr__", _wrap_EMDEnergyEEArcLength___repr__, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_flows", _wrap_EMDEnergyEEArcLength_flows, METH_O, NULL},
@@ -53540,7 +54702,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLengthMassive_clear", _wrap_EMDEnergyEEArcLengthMassive_clear, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_dists_vec", _wrap_EMDEnergyEEArcLengthMassive_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_flows_vec", _wrap_EMDEnergyEEArcLengthMassive_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEArcLengthMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEArcLengthMassive_flow", _wrap_EMDEnergyEEArcLengthMassive_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEArcLengthMassive___str__", _wrap_EMDEnergyEEArcLengthMassive___str__, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive___repr__", _wrap_EMDEnergyEEArcLengthMassive___repr__, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_flows", _wrap_EMDEnergyEEArcLengthMassive_flows, METH_O, NULL},
@@ -54224,7 +55386,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumDeltaR_clear", _wrap_EMDTransverseMomentumDeltaR_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_dists_vec", _wrap_EMDTransverseMomentumDeltaR_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_flows_vec", _wrap_EMDTransverseMomentumDeltaR_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumDeltaR_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumDeltaR_flow", _wrap_EMDTransverseMomentumDeltaR_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumDeltaR___str__", _wrap_EMDTransverseMomentumDeltaR___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR___repr__", _wrap_EMDTransverseMomentumDeltaR___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumDeltaR_flows", _wrap_EMDTransverseMomentumDeltaR_flows, METH_O, NULL},
@@ -54247,7 +55409,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDot_clear", _wrap_EMDTransverseMomentumHadronicDot_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_dists_vec", _wrap_EMDTransverseMomentumHadronicDot_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_flows_vec", _wrap_EMDTransverseMomentumHadronicDot_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumHadronicDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumHadronicDot_flow", _wrap_EMDTransverseMomentumHadronicDot_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumHadronicDot___str__", _wrap_EMDTransverseMomentumHadronicDot___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot___repr__", _wrap_EMDTransverseMomentumHadronicDot___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDot_flows", _wrap_EMDTransverseMomentumHadronicDot_flows, METH_O, NULL},
@@ -54270,7 +55432,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive_clear", _wrap_EMDTransverseMomentumHadronicDotMassive_clear, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_dists_vec", _wrap_EMDTransverseMomentumHadronicDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_flows_vec", _wrap_EMDTransverseMomentumHadronicDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDTransverseMomentumHadronicDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseMomentumHadronicDotMassive_flow", _wrap_EMDTransverseMomentumHadronicDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive___str__", _wrap_EMDTransverseMomentumHadronicDotMassive___str__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive___repr__", _wrap_EMDTransverseMomentumHadronicDotMassive___repr__, METH_O, NULL},
 	 { "EMDTransverseMomentumHadronicDotMassive_flows", _wrap_EMDTransverseMomentumHadronicDotMassive_flows, METH_O, NULL},
@@ -54293,7 +55455,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyDeltaR_clear", _wrap_EMDTransverseEnergyDeltaR_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_dists_vec", _wrap_EMDTransverseEnergyDeltaR_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_flows_vec", _wrap_EMDTransverseEnergyDeltaR_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyDeltaR_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyDeltaR_flow", _wrap_EMDTransverseEnergyDeltaR_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyDeltaR___str__", _wrap_EMDTransverseEnergyDeltaR___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR___repr__", _wrap_EMDTransverseEnergyDeltaR___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyDeltaR_flows", _wrap_EMDTransverseEnergyDeltaR_flows, METH_O, NULL},
@@ -54316,7 +55478,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDot_clear", _wrap_EMDTransverseEnergyHadronicDot_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_dists_vec", _wrap_EMDTransverseEnergyHadronicDot_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_flows_vec", _wrap_EMDTransverseEnergyHadronicDot_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyHadronicDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyHadronicDot_flow", _wrap_EMDTransverseEnergyHadronicDot_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyHadronicDot___str__", _wrap_EMDTransverseEnergyHadronicDot___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot___repr__", _wrap_EMDTransverseEnergyHadronicDot___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDot_flows", _wrap_EMDTransverseEnergyHadronicDot_flows, METH_O, NULL},
@@ -54339,7 +55501,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive_clear", _wrap_EMDTransverseEnergyHadronicDotMassive_clear, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_dists_vec", _wrap_EMDTransverseEnergyHadronicDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_flows_vec", _wrap_EMDTransverseEnergyHadronicDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDTransverseEnergyHadronicDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDTransverseEnergyHadronicDotMassive_flow", _wrap_EMDTransverseEnergyHadronicDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive___str__", _wrap_EMDTransverseEnergyHadronicDotMassive___str__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive___repr__", _wrap_EMDTransverseEnergyHadronicDotMassive___repr__, METH_O, NULL},
 	 { "EMDTransverseEnergyHadronicDotMassive_flows", _wrap_EMDTransverseEnergyHadronicDotMassive_flows, METH_O, NULL},
@@ -54362,7 +55524,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEDot_clear", _wrap_EMDMomentumEEDot_clear, METH_O, NULL},
 	 { "EMDMomentumEEDot_dists_vec", _wrap_EMDMomentumEEDot_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEDot_flows_vec", _wrap_EMDMomentumEEDot_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEDot_flow", _wrap_EMDMomentumEEDot_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEDot___str__", _wrap_EMDMomentumEEDot___str__, METH_O, NULL},
 	 { "EMDMomentumEEDot___repr__", _wrap_EMDMomentumEEDot___repr__, METH_O, NULL},
 	 { "EMDMomentumEEDot_flows", _wrap_EMDMomentumEEDot_flows, METH_O, NULL},
@@ -54385,7 +55547,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEDotMassive_clear", _wrap_EMDMomentumEEDotMassive_clear, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_dists_vec", _wrap_EMDMomentumEEDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_flows_vec", _wrap_EMDMomentumEEDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEDotMassive_flow", _wrap_EMDMomentumEEDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEDotMassive___str__", _wrap_EMDMomentumEEDotMassive___str__, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive___repr__", _wrap_EMDMomentumEEDotMassive___repr__, METH_O, NULL},
 	 { "EMDMomentumEEDotMassive_flows", _wrap_EMDMomentumEEDotMassive_flows, METH_O, NULL},
@@ -54408,7 +55570,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLength_clear", _wrap_EMDMomentumEEArcLength_clear, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_dists_vec", _wrap_EMDMomentumEEArcLength_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_flows_vec", _wrap_EMDMomentumEEArcLength_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEArcLength_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEArcLength_flow", _wrap_EMDMomentumEEArcLength_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEArcLength___str__", _wrap_EMDMomentumEEArcLength___str__, METH_O, NULL},
 	 { "EMDMomentumEEArcLength___repr__", _wrap_EMDMomentumEEArcLength___repr__, METH_O, NULL},
 	 { "EMDMomentumEEArcLength_flows", _wrap_EMDMomentumEEArcLength_flows, METH_O, NULL},
@@ -54431,7 +55593,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLengthMassive_clear", _wrap_EMDMomentumEEArcLengthMassive_clear, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_dists_vec", _wrap_EMDMomentumEEArcLengthMassive_dists_vec, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_flows_vec", _wrap_EMDMomentumEEArcLengthMassive_flows_vec, METH_O, NULL},
-	 { "EMDMomentumEEArcLengthMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDMomentumEEArcLengthMassive_flow", _wrap_EMDMomentumEEArcLengthMassive_flow, METH_VARARGS, NULL},
 	 { "EMDMomentumEEArcLengthMassive___str__", _wrap_EMDMomentumEEArcLengthMassive___str__, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive___repr__", _wrap_EMDMomentumEEArcLengthMassive___repr__, METH_O, NULL},
 	 { "EMDMomentumEEArcLengthMassive_flows", _wrap_EMDMomentumEEArcLengthMassive_flows, METH_O, NULL},
@@ -54454,7 +55616,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEDot_clear", _wrap_EMDEnergyEEDot_clear, METH_O, NULL},
 	 { "EMDEnergyEEDot_dists_vec", _wrap_EMDEnergyEEDot_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEDot_flows_vec", _wrap_EMDEnergyEEDot_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEDot_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEDot_flow", _wrap_EMDEnergyEEDot_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEDot___str__", _wrap_EMDEnergyEEDot___str__, METH_O, NULL},
 	 { "EMDEnergyEEDot___repr__", _wrap_EMDEnergyEEDot___repr__, METH_O, NULL},
 	 { "EMDEnergyEEDot_flows", _wrap_EMDEnergyEEDot_flows, METH_O, NULL},
@@ -54477,7 +55639,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEDotMassive_clear", _wrap_EMDEnergyEEDotMassive_clear, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_dists_vec", _wrap_EMDEnergyEEDotMassive_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_flows_vec", _wrap_EMDEnergyEEDotMassive_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEDotMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEDotMassive_flow", _wrap_EMDEnergyEEDotMassive_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEDotMassive___str__", _wrap_EMDEnergyEEDotMassive___str__, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive___repr__", _wrap_EMDEnergyEEDotMassive___repr__, METH_O, NULL},
 	 { "EMDEnergyEEDotMassive_flows", _wrap_EMDEnergyEEDotMassive_flows, METH_O, NULL},
@@ -54500,7 +55662,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLength_clear", _wrap_EMDEnergyEEArcLength_clear, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_dists_vec", _wrap_EMDEnergyEEArcLength_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_flows_vec", _wrap_EMDEnergyEEArcLength_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEArcLength_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEArcLength_flow", _wrap_EMDEnergyEEArcLength_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEArcLength___str__", _wrap_EMDEnergyEEArcLength___str__, METH_O, NULL},
 	 { "EMDEnergyEEArcLength___repr__", _wrap_EMDEnergyEEArcLength___repr__, METH_O, NULL},
 	 { "EMDEnergyEEArcLength_flows", _wrap_EMDEnergyEEArcLength_flows, METH_O, NULL},
@@ -54523,7 +55685,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLengthMassive_clear", _wrap_EMDEnergyEEArcLengthMassive_clear, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_dists_vec", _wrap_EMDEnergyEEArcLengthMassive_dists_vec, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_flows_vec", _wrap_EMDEnergyEEArcLengthMassive_flows_vec, METH_O, NULL},
-	 { "EMDEnergyEEArcLengthMassive_flow", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_flow, METH_VARARGS|METH_KEYWORDS, NULL},
+	 { "EMDEnergyEEArcLengthMassive_flow", _wrap_EMDEnergyEEArcLengthMassive_flow, METH_VARARGS, NULL},
 	 { "EMDEnergyEEArcLengthMassive___str__", _wrap_EMDEnergyEEArcLengthMassive___str__, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive___repr__", _wrap_EMDEnergyEEArcLengthMassive___repr__, METH_O, NULL},
 	 { "EMDEnergyEEArcLengthMassive_flows", _wrap_EMDEnergyEEArcLengthMassive_flows, METH_O, NULL},
