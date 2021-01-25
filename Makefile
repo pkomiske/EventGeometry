@@ -3,7 +3,7 @@
 FASTJETCONFIG=fastjet-config
 PREFIX=$(shell $(FASTJETCONFIG) --prefix)
 CXX=g++
-CXXFLAGS+=-O3 -Wall -g -std=c++14 -fPIC -Xpreprocessor -fopenmp
+CXXFLAGS+=-O3 -Wall -g -std=c++14 -IWasserstein -Xpreprocessor -fopenmp
 install_script = $(SHELL) ./scripts/install-sh
 check_script = ./scripts/check.sh
 
