@@ -39,14 +39,19 @@ name = 'EventGeometry'
 lname = name.lower()
 
 # some extra options that swig needs for this package
-extra_swig_opts = '-keyword -w509,511 -IWasserstein -DSWIG_NUMPY'
+extra_swig_opts = '-keyword -w320,509,511 -IWasserstein -DSWIG_NUMPY'
+
+# using PyFJCore or not
+use_pyfjcore = True
 
 ################################################################################
 
 # function to query a config binary and get the result
 fastjet_config = os.environ.get('FASTJET_CONFIG', 'fastjet-config')
 def query_config(query):
-    return subprocess.check_output([fastjet_config, query]).decode('utf-8').strip()
+    if not use_pyfjcore:
+        return subprocess.check_output([fastjet_config, query]).decode('utf-8').strip()
+    return ''
 
 # get fastjet info
 fj_prefix = query_config('--prefix')
@@ -98,7 +103,11 @@ def run_swig():
         f_interface.write(temp.format(**contrib))
 
     # form swig options
-    opts = '-fastproxy {} -DFASTJET_PREFIX={}'.format(fj_cxxflags, fj_prefix)
+    opts = '-fastproxy {}'.format(fj_cxxflags)
+    if use_pyfjcore:
+        opts += ' -DEVENTGEOMETRY_USE_PYFJCORE -IPyFJCore/pyfjcore'
+    else:
+        opts += ' -DFASTJET_PREFIX=' + fj_prefix
 
     # handle extra options for swig
     sys.argv += extra_swig_opts.split()
@@ -112,8 +121,8 @@ def run_swig():
 def run_setup():
 
     # get cxxflags from environment, add fastjet cxxflags, and SWIG type table info
-    cxxflags = os.environ.get('CXXFLAGS', '').split() + fj_cxxflags.split() + ['-fopenmp']
-    libs, ldflags = [name], []
+    cxxflags = os.environ.get('CXXFLAGS', '').split() + fj_cxxflags.split() + ['-g0', '-fopenmp']
+    libs, ldflags = [], []
 
     # handle multithreading with OpenMP
     if platform.system() == 'Darwin':
@@ -123,10 +132,10 @@ def run_setup():
         ldflags.append('-fopenmp')
 
     # determine library paths and names for Python
-    fj_libdirs = []
+    library_dirs = []
     for x in fj_ldflags.split():
         if x.startswith('-L'):
-            fj_libdirs.append(x[2:])
+            library_dirs.append(x[2:])
         elif x.startswith('-l'):
             libs.append(x[2:])
         else:
@@ -137,14 +146,25 @@ def run_setup():
 
     import numpy as np
 
+    sources = ['Py{}.cc'.format(name)]
+    include_dirs = [np.get_include(), 'Wasserstein']
+    macros = [('SWIG_TYPE_TABLE', 'fastjet')]
+    if use_pyfjcore:
+        sources.append('PyFJCore/pyfjcore/fjcore.cc')
+        cxxflags.append('-std=c++14')
+        include_dirs.append('PyFJCore')
+        macros.append(('EVENTGEOMETRY_USE_PYFJCORE', None))
+
     module = Extension('{0}._{0}'.format(lname),
-                       sources=['Py{}.cc'.format(name)],
+                       sources=sources,
                        language='c++',
-                       include_dirs=[np.get_include(), 'Wasserstein'],
-                       library_dirs=fj_libdirs,
+                       include_dirs=include_dirs,
+                       library_dirs=library_dirs,
                        libraries=libs,
-                       extra_compile_args=cxxflags + ['-DSWIG_TYPE_TABLE=fastjet', '-g0'],
-                       extra_link_args=ldflags)
+                       extra_compile_args=cxxflags,
+                       extra_link_args=ldflags,
+                       define_macros=macros
+                      )
 
     setup(
         version=__version__,

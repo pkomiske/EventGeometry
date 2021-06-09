@@ -9,6 +9,11 @@
 
 """
 
+
+import numpy as np
+
+
+
 from sys import version_info as _swig_python_version_info
 if _swig_python_version_info < (2, 7, 0):
     raise RuntimeError("Python 2.7 or later required")
@@ -98,8 +103,10 @@ class SwigPyIterator(object):
 # Register SwigPyIterator in _eventgeometry:
 _eventgeometry.SwigPyIterator_swigregister(SwigPyIterator)
 
-import fastjet
+import pyfjcore
 class vectorDouble(object):
+    r"""Proxy of C++ std::vector< double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     iterator = _swig_new_instance_method(_eventgeometry.vectorDouble_iterator)
@@ -129,6 +136,12 @@ class vectorDouble(object):
     erase = _swig_new_instance_method(_eventgeometry.vectorDouble_erase)
 
     def __init__(self, *args):
+        r"""
+        __init__(vectorDouble self) -> vectorDouble
+        __init__(vectorDouble self, vectorDouble other) -> vectorDouble
+        __init__(vectorDouble self, std::vector< double >::size_type size) -> vectorDouble
+        __init__(vectorDouble self, std::vector< double >::size_type size, std::vector< double >::value_type const & value) -> vectorDouble
+        """
         _eventgeometry.vectorDouble_swiginit(self, _eventgeometry.new_vectorDouble(*args))
     push_back = _swig_new_instance_method(_eventgeometry.vectorDouble_push_back)
     front = _swig_new_instance_method(_eventgeometry.vectorDouble_front)
@@ -144,6 +157,8 @@ class vectorDouble(object):
 _eventgeometry.vectorDouble_swigregister(vectorDouble)
 
 class vectorString(object):
+    r"""Proxy of C++ std::vector< std::string > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
     iterator = _swig_new_instance_method(_eventgeometry.vectorString_iterator)
@@ -173,6 +188,12 @@ class vectorString(object):
     erase = _swig_new_instance_method(_eventgeometry.vectorString_erase)
 
     def __init__(self, *args):
+        r"""
+        __init__(vectorString self) -> vectorString
+        __init__(vectorString self, vectorString other) -> vectorString
+        __init__(vectorString self, std::vector< std::string >::size_type size) -> vectorString
+        __init__(vectorString self, std::vector< std::string >::size_type size, std::vector< std::string >::value_type const & value) -> vectorString
+        """
         _eventgeometry.vectorString_swiginit(self, _eventgeometry.new_vectorString(*args))
     push_back = _swig_new_instance_method(_eventgeometry.vectorString_push_back)
     front = _swig_new_instance_method(_eventgeometry.vectorString_front)
@@ -188,13 +209,20 @@ class vectorString(object):
 _eventgeometry.vectorString_swigregister(vectorString)
 
 class pairVectorDouble(object):
+    r"""Proxy of C++ std::pair< std::vector< double >,std::vector< double > > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
 
     def __init__(self, *args):
+        r"""
+        __init__(pairVectorDouble self) -> pairVectorDouble
+        __init__(pairVectorDouble self, vectorDouble first, vectorDouble second) -> pairVectorDouble
+        __init__(pairVectorDouble self, pairVectorDouble other) -> pairVectorDouble
+        """
         _eventgeometry.pairVectorDouble_swiginit(self, _eventgeometry.new_pairVectorDouble(*args))
-    first = property(_eventgeometry.pairVectorDouble_first_get, _eventgeometry.pairVectorDouble_first_set)
-    second = property(_eventgeometry.pairVectorDouble_second_get, _eventgeometry.pairVectorDouble_second_set)
+    first = property(_eventgeometry.pairVectorDouble_first_get, _eventgeometry.pairVectorDouble_first_set, doc=r"""first : std::vector<(double,std::allocator<(double)>)>""")
+    second = property(_eventgeometry.pairVectorDouble_second_get, _eventgeometry.pairVectorDouble_second_set, doc=r"""second : std::vector<(double,std::allocator<(double)>)>""")
     def __len__(self):
         return 2
     def __repr__(self):
@@ -215,108 +243,217 @@ class pairVectorDouble(object):
 _eventgeometry.pairVectorDouble_swigregister(pairVectorDouble)
 
 EMDStatus_Success = _eventgeometry.EMDStatus_Success
+
 EMDStatus_Empty = _eventgeometry.EMDStatus_Empty
+
 EMDStatus_SupplyMismatch = _eventgeometry.EMDStatus_SupplyMismatch
+
 EMDStatus_Unbounded = _eventgeometry.EMDStatus_Unbounded
+
 EMDStatus_MaxIterReached = _eventgeometry.EMDStatus_MaxIterReached
+
 EMDStatus_Infeasible = _eventgeometry.EMDStatus_Infeasible
+
 ExtraParticle_Neither = _eventgeometry.ExtraParticle_Neither
+
 ExtraParticle_Zero = _eventgeometry.ExtraParticle_Zero
+
 ExtraParticle_One = _eventgeometry.ExtraParticle_One
-phi_fix = _eventgeometry.phi_fix
+
+EMDPairsStorage_Full = _eventgeometry.EMDPairsStorage_Full
+
+EMDPairsStorage_FullSymmetric = _eventgeometry.EMDPairsStorage_FullSymmetric
+
+EMDPairsStorage_FlattenedSymmetric = _eventgeometry.EMDPairsStorage_FlattenedSymmetric
+
+EMDPairsStorage_External = _eventgeometry.EMDPairsStorage_External
+
 check_emd_status = _eventgeometry.check_emd_status
-class ExternalEMDHandler(object):
+class EMDBaseFloat64(object):
+    r"""Proxy of C++ fastjet::contrib::emd::EMDBase< double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
         raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
-    __swig_destroy__ = _eventgeometry.delete_ExternalEMDHandler
-    description = _swig_new_instance_method(_eventgeometry.ExternalEMDHandler_description)
-    __call__ = _swig_new_instance_method(_eventgeometry.ExternalEMDHandler___call__)
-    num_calls = _swig_new_instance_method(_eventgeometry.ExternalEMDHandler_num_calls)
+    __swig_destroy__ = _eventgeometry.delete_EMDBaseFloat64
+    R = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_R)
+    beta = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_beta)
+    set_R = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_R)
+    set_beta = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_beta)
+    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_network_simplex_params)
+    norm = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_norm)
+    set_norm = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_norm)
+    do_timing = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_do_timing)
+    set_do_timing = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_do_timing)
+    external_dists = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_external_dists)
+    set_external_dists = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_set_external_dists)
+    n0 = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_n0)
+    n1 = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_n1)
+    extra = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_extra)
+    emd = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_emd)
+    status = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_status)
+    weightdiff = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_weightdiff)
+    scale = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_scale)
+    n_iter = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_n_iter)
+    dists_vec = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_dists_vec)
+    flows_vec = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_flows_vec)
+    flow = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_flow)
+    node_potentials = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_node_potentials)
+    duration = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_duration)
+    clear = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_clear)
+    flows = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_flows)
+    dists = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_dists)
+    npy_node_potentials = _swig_new_instance_method(_eventgeometry.EMDBaseFloat64_npy_node_potentials)
 
-# Register ExternalEMDHandler in _eventgeometry:
-_eventgeometry.ExternalEMDHandler_swigregister(ExternalEMDHandler)
+# Register EMDBaseFloat64 in _eventgeometry:
+_eventgeometry.EMDBaseFloat64_swigregister(EMDBaseFloat64)
 cvar = _eventgeometry.cvar
 PI = cvar.PI
 TWOPI = cvar.TWOPI
 
-class EMDBaseDouble(object):
+class PairwiseEMDBaseFloat64(object):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMDBase< double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
     __repr__ = _swig_repr
+    __swig_destroy__ = _eventgeometry.delete_PairwiseEMDBaseFloat64
+    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_R)
+    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_R)
+    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_beta)
+    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_beta)
+    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_norm)
+    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_norm)
+    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_network_simplex_params)
 
-    def __init__(self, norm=False, do_timing=False, external_dists=False):
-        _eventgeometry.EMDBaseDouble_swiginit(self, _eventgeometry.new_EMDBaseDouble(norm, do_timing, external_dists))
-    __swig_destroy__ = _eventgeometry.delete_EMDBaseDouble
-    norm = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_set_norm)
-    do_timing = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_do_timing)
-    set_do_timing = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_set_do_timing)
-    external_dists = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_external_dists)
-    set_external_dists = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_set_external_dists)
-    n0 = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_n0)
-    n1 = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_n1)
-    extra = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_extra)
-    emd = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_emd)
-    status = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_status)
-    weightdiff = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_weightdiff)
-    scale = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_scale)
-    duration = _swig_new_instance_method(_eventgeometry.EMDBaseDouble_duration)
+    def set_external_emd_handler(self, handler):
+        if not handler.thisown:
+            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
+        handler.thisown = 0
+        _eventgeometry.PairwiseEMDBaseFloat64_set_external_emd_handler(self, handler)
+        self._external_emd_handler = handler
 
-# Register EMDBaseDouble in _eventgeometry:
-_eventgeometry.EMDBaseDouble_swigregister(EMDBaseDouble)
 
-class Histogram1DHandler(ExternalEMDHandler):
+    have_external_emd_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_have_external_emd_handler)
+    num_threads = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_num_threads)
+    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_omp_dynamic_chunksize)
+    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_omp_dynamic_chunksize)
+    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_set_request_mode)
+    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_request_mode)
+    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_duration)
+    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_nevA)
+    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_nevB)
+    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_num_emds)
+    storage = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_storage)
+    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_errored)
+    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_error_messages)
+    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emds_vec)
+    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emd)
+
+    def __del__(self):
+        if hasattr(self, '_external_emd_handler'):
+            self._external_emd_handler.thisown = 1
+            del self._external_emd_handler
+
+    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emds)
+    raw_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_raw_emds)
+
+# Register PairwiseEMDBaseFloat64 in _eventgeometry:
+_eventgeometry.PairwiseEMDBaseFloat64_swigregister(PairwiseEMDBaseFloat64)
+
+class ExternalEMDHandlerFloat64(object):
+    r"""Proxy of C++ fastjet::contrib::emd::ExternalEMDHandler< double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        _eventgeometry.Histogram1DHandler_swiginit(self, _eventgeometry.new_Histogram1DHandler(*args))
-    __swig_destroy__ = _eventgeometry.delete_Histogram1DHandler
-    axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_axis_min)
-    axis_max = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_axis_max)
-    nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_nbins)
-    description = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_description)
-    hist_vals_errs_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_hist_vals_errs_vec)
-    bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_bin_centers_vec)
-    bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_bin_edges_vec)
-    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandler___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandler___repr__)
-    bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_bin_centers)
-    bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_bin_edges)
-    hist_vals_errs = _swig_new_instance_method(_eventgeometry.Histogram1DHandler_hist_vals_errs)
+    def __init__(self, *args, **kwargs):
+        raise AttributeError("No constructor defined - class is abstract")
+    __repr__ = _swig_repr
+    __swig_destroy__ = _eventgeometry.delete_ExternalEMDHandlerFloat64
+    description = _swig_new_instance_method(_eventgeometry.ExternalEMDHandlerFloat64_description)
+    num_calls = _swig_new_instance_method(_eventgeometry.ExternalEMDHandlerFloat64_num_calls)
+    __call__ = _swig_new_instance_method(_eventgeometry.ExternalEMDHandlerFloat64___call__)
+    evaluate = _swig_new_instance_method(_eventgeometry.ExternalEMDHandlerFloat64_evaluate)
+    evaluate_symmetric = _swig_new_instance_method(_eventgeometry.ExternalEMDHandlerFloat64_evaluate_symmetric)
 
-# Register Histogram1DHandler in _eventgeometry:
-_eventgeometry.Histogram1DHandler_swigregister(Histogram1DHandler)
+# Register ExternalEMDHandlerFloat64 in _eventgeometry:
+_eventgeometry.ExternalEMDHandlerFloat64_swigregister(ExternalEMDHandlerFloat64)
 
-class Histogram1DHandlerLog(ExternalEMDHandler):
+class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::log,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        _eventgeometry.Histogram1DHandlerLog_swiginit(self, _eventgeometry.new_Histogram1DHandlerLog(*args))
-    __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerLog
-    axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_axis_min)
-    axis_max = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_axis_max)
-    nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_nbins)
-    description = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_description)
-    hist_vals_errs_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_hist_vals_errs_vec)
-    bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_bin_centers_vec)
-    bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_bin_edges_vec)
-    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog___repr__)
-    bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_bin_centers)
-    bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_bin_edges)
-    hist_vals_errs = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLog_hist_vals_errs)
+    def __init__(self, nbins, axis_min, axis_max):
+        r"""__init__(Histogram1DHandlerLogFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerLogFloat64"""
+        _eventgeometry.Histogram1DHandlerLogFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerLogFloat64(nbins, axis_min, axis_max))
+    __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerLogFloat64
+    nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_nbins)
+    axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_axis_min)
+    axis_max = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_axis_max)
+    description = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_description)
+    hist_vals_vars_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_hist_vals_vars_vec)
+    bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers_vec)
+    bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_edges_vec)
+    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___repr__)
+    bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers)
+    bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_edges)
+    hist_vals_vars = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_hist_vals_vars)
 
-# Register Histogram1DHandlerLog in _eventgeometry:
-_eventgeometry.Histogram1DHandlerLog_swigregister(Histogram1DHandlerLog)
+    def hist_vals_errs(self, overflows=True):
+        vals, vars = self.hist_vals_vars(overflows)
+        return vals, np.sqrt(vars)
 
-class CorrelationDimension(Histogram1DHandlerLog):
+
+# Register Histogram1DHandlerLogFloat64 in _eventgeometry:
+_eventgeometry.Histogram1DHandlerLogFloat64_swigregister(Histogram1DHandlerLogFloat64)
+
+class Histogram1DHandlerFloat64(ExternalEMDHandlerFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::id,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(*args))
-    __swig_destroy__ = _eventgeometry.delete_CorrelationDimension
+    def __init__(self, nbins, axis_min, axis_max):
+        r"""__init__(Histogram1DHandlerFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerFloat64"""
+        _eventgeometry.Histogram1DHandlerFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerFloat64(nbins, axis_min, axis_max))
+    __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerFloat64
+    nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_nbins)
+    axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_axis_min)
+    axis_max = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_axis_max)
+    description = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_description)
+    hist_vals_vars_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_hist_vals_vars_vec)
+    bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers_vec)
+    bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_edges_vec)
+    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___repr__)
+    bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers)
+    bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_edges)
+    hist_vals_vars = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_hist_vals_vars)
+
+    def hist_vals_errs(self, overflows=True):
+        vals, vars = self.hist_vals_vars(overflows)
+        return vals, np.sqrt(vars)
+
+
+# Register Histogram1DHandlerFloat64 in _eventgeometry:
+_eventgeometry.Histogram1DHandlerFloat64_swigregister(Histogram1DHandlerFloat64)
+
+class CorrelationDimension(Histogram1DHandlerLogFloat64):
+    r"""
+    Proxy of C++ fastjet::contrib::emd::CorrelationDimension< double > class.
+    Proxy of C++ fastjet::contrib::emd::CorrelationDimension< double > class.
+    """
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, nbins, axis_min, axis_max):
+        r"""__init__(CorrelationDimension self, unsigned int nbins, double axis_min, double axis_max) -> CorrelationDimension"""
+        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(nbins, axis_min, axis_max))
     corrdims_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims_vec)
     corrdim_bins_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins_vec)
     cumulative_vals_vars_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_cumulative_vals_vars_vec)
@@ -325,32 +462,26 @@ class CorrelationDimension(Histogram1DHandlerLog):
     corrdim_bins = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins)
     corrdims = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims)
     cumulative_vals_vars = _swig_new_instance_method(_eventgeometry.CorrelationDimension_cumulative_vals_vars)
+    __swig_destroy__ = _eventgeometry.delete_CorrelationDimension
 
 # Register CorrelationDimension in _eventgeometry:
 _eventgeometry.CorrelationDimension_swigregister(CorrelationDimension)
 
-class EMDTransverseMomentumDeltaR(EMDBaseDouble):
+phi_fix = _eventgeometry.phi_fix
+class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::DeltaR > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseMomentumDeltaR self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseMomentumDeltaR"""
         _eventgeometry.EMDTransverseMomentumDeltaR_swiginit(self, _eventgeometry.new_EMDTransverseMomentumDeltaR(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumDeltaR
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_set_network_simplex_params)
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_flow)
     __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___call__)
@@ -358,435 +489,21 @@ class EMDTransverseMomentumDeltaR(EMDBaseDouble):
 # Register EMDTransverseMomentumDeltaR in _eventgeometry:
 _eventgeometry.EMDTransverseMomentumDeltaR_swigregister(EMDTransverseMomentumDeltaR)
 
-class EMDTransverseMomentumHadronicDot(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+class PairwiseEMDTransverseMomentumDeltaR(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::DeltaR >,double > class."""
 
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDTransverseMomentumHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDot
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___call__)
-
-# Register EMDTransverseMomentumHadronicDot in _eventgeometry:
-_eventgeometry.EMDTransverseMomentumHadronicDot_swigregister(EMDTransverseMomentumHadronicDot)
-
-class EMDTransverseMomentumHadronicDotMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDTransverseMomentumHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDotMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___call__)
-
-# Register EMDTransverseMomentumHadronicDotMassive in _eventgeometry:
-_eventgeometry.EMDTransverseMomentumHadronicDotMassive_swigregister(EMDTransverseMomentumHadronicDotMassive)
-
-class EMDTransverseEnergyDeltaR(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDTransverseEnergyDeltaR_swiginit(self, _eventgeometry.new_EMDTransverseEnergyDeltaR(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyDeltaR
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___call__)
-
-# Register EMDTransverseEnergyDeltaR in _eventgeometry:
-_eventgeometry.EMDTransverseEnergyDeltaR_swigregister(EMDTransverseEnergyDeltaR)
-
-class EMDTransverseEnergyHadronicDot(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDTransverseEnergyHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDot
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___call__)
-
-# Register EMDTransverseEnergyHadronicDot in _eventgeometry:
-_eventgeometry.EMDTransverseEnergyHadronicDot_swigregister(EMDTransverseEnergyHadronicDot)
-
-class EMDTransverseEnergyHadronicDotMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDTransverseEnergyHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDotMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___call__)
-
-# Register EMDTransverseEnergyHadronicDotMassive in _eventgeometry:
-_eventgeometry.EMDTransverseEnergyHadronicDotMassive_swigregister(EMDTransverseEnergyHadronicDotMassive)
-
-class EMDMomentumEEDot(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDMomentumEEDot_swiginit(self, _eventgeometry.new_EMDMomentumEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDot
-    R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___call__)
-
-# Register EMDMomentumEEDot in _eventgeometry:
-_eventgeometry.EMDMomentumEEDot_swigregister(EMDMomentumEEDot)
-
-class EMDMomentumEEDotMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDotMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___call__)
-
-# Register EMDMomentumEEDotMassive in _eventgeometry:
-_eventgeometry.EMDMomentumEEDotMassive_swigregister(EMDMomentumEEDotMassive)
-
-class EMDMomentumEEArcLength(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDMomentumEEArcLength_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLength
-    R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___call__)
-
-# Register EMDMomentumEEArcLength in _eventgeometry:
-_eventgeometry.EMDMomentumEEArcLength_swigregister(EMDMomentumEEArcLength)
-
-class EMDMomentumEEArcLengthMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDMomentumEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLengthMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___call__)
-
-# Register EMDMomentumEEArcLengthMassive in _eventgeometry:
-_eventgeometry.EMDMomentumEEArcLengthMassive_swigregister(EMDMomentumEEArcLengthMassive)
-
-class EMDEnergyEEDot(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDEnergyEEDot_swiginit(self, _eventgeometry.new_EMDEnergyEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDot
-    R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___call__)
-
-# Register EMDEnergyEEDot in _eventgeometry:
-_eventgeometry.EMDEnergyEEDot_swigregister(EMDEnergyEEDot)
-
-class EMDEnergyEEDotMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDotMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___call__)
-
-# Register EMDEnergyEEDotMassive in _eventgeometry:
-_eventgeometry.EMDEnergyEEDotMassive_swigregister(EMDEnergyEEDotMassive)
-
-class EMDEnergyEEArcLength(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDEnergyEEArcLength_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLength
-    R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___call__)
-
-# Register EMDEnergyEEArcLength in _eventgeometry:
-_eventgeometry.EMDEnergyEEArcLength_swigregister(EMDEnergyEEArcLength)
-
-class EMDEnergyEEArcLengthMassive(EMDBaseDouble):
-    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
-
-    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=10000, epsilon_small_factor=1):
-        _eventgeometry.EMDEnergyEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLengthMassive
-    R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_R)
-    beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_beta)
-    set_R = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_set_R)
-    set_beta = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_set_beta)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_set_network_simplex_params)
-    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_clear)
-    dists_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_dists_vec)
-    flows_vec = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_flows_vec)
-    flow = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_flow)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___str__)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___repr__)
-    flows = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_flows)
-    dists = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_dists)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___call__)
-
-# Register EMDEnergyEEArcLengthMassive in _eventgeometry:
-_eventgeometry.EMDEnergyEEArcLengthMassive_swigregister(EMDEnergyEEArcLengthMassive)
-
-class PairwiseEMDTransverseMomentumDeltaR(object):
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseMomentumDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumDeltaR"""
         _eventgeometry.PairwiseEMDTransverseMomentumDeltaR_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumDeltaR(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumDeltaR
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___call__)
@@ -794,58 +511,42 @@ class PairwiseEMDTransverseMomentumDeltaR(object):
 # Register PairwiseEMDTransverseMomentumDeltaR in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumDeltaR_swigregister(PairwiseEMDTransverseMomentumDeltaR)
 
-class PairwiseEMDTransverseMomentumHadronicDot(object):
+class EMDTransverseMomentumHadronicDot(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDot > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseMomentumHadronicDot self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseMomentumHadronicDot"""
+        _eventgeometry.EMDTransverseMomentumHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDot
+    description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___call__)
+
+# Register EMDTransverseMomentumHadronicDot in _eventgeometry:
+_eventgeometry.EMDTransverseMomentumHadronicDot_swigregister(EMDTransverseMomentumHadronicDot)
+
+class PairwiseEMDTransverseMomentumHadronicDot(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDot >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseMomentumHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDot"""
         _eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumHadronicDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumHadronicDot
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___call__)
@@ -853,58 +554,42 @@ class PairwiseEMDTransverseMomentumHadronicDot(object):
 # Register PairwiseEMDTransverseMomentumHadronicDot in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_swigregister(PairwiseEMDTransverseMomentumHadronicDot)
 
-class PairwiseEMDTransverseMomentumHadronicDotMassive(object):
+class EMDTransverseMomentumHadronicDotMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDotMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseMomentumHadronicDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseMomentumHadronicDotMassive"""
+        _eventgeometry.EMDTransverseMomentumHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDotMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___call__)
+
+# Register EMDTransverseMomentumHadronicDotMassive in _eventgeometry:
+_eventgeometry.EMDTransverseMomentumHadronicDotMassive_swigregister(EMDTransverseMomentumHadronicDotMassive)
+
+class PairwiseEMDTransverseMomentumHadronicDotMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDotMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDotMassive"""
         _eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumHadronicDotMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___call__)
@@ -912,58 +597,42 @@ class PairwiseEMDTransverseMomentumHadronicDotMassive(object):
 # Register PairwiseEMDTransverseMomentumHadronicDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_swigregister(PairwiseEMDTransverseMomentumHadronicDotMassive)
 
-class PairwiseEMDTransverseEnergyDeltaR(object):
+class EMDTransverseEnergyDeltaR(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::DeltaR > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseEnergyDeltaR self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseEnergyDeltaR"""
+        _eventgeometry.EMDTransverseEnergyDeltaR_swiginit(self, _eventgeometry.new_EMDTransverseEnergyDeltaR(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyDeltaR
+    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___call__)
+
+# Register EMDTransverseEnergyDeltaR in _eventgeometry:
+_eventgeometry.EMDTransverseEnergyDeltaR_swigregister(EMDTransverseEnergyDeltaR)
+
+class PairwiseEMDTransverseEnergyDeltaR(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::DeltaR >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseEnergyDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyDeltaR"""
         _eventgeometry.PairwiseEMDTransverseEnergyDeltaR_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyDeltaR(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyDeltaR
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___call__)
@@ -971,58 +640,42 @@ class PairwiseEMDTransverseEnergyDeltaR(object):
 # Register PairwiseEMDTransverseEnergyDeltaR in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyDeltaR_swigregister(PairwiseEMDTransverseEnergyDeltaR)
 
-class PairwiseEMDTransverseEnergyHadronicDot(object):
+class EMDTransverseEnergyHadronicDot(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDot > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseEnergyHadronicDot self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseEnergyHadronicDot"""
+        _eventgeometry.EMDTransverseEnergyHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDot
+    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___call__)
+
+# Register EMDTransverseEnergyHadronicDot in _eventgeometry:
+_eventgeometry.EMDTransverseEnergyHadronicDot_swigregister(EMDTransverseEnergyHadronicDot)
+
+class PairwiseEMDTransverseEnergyHadronicDot(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDot >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseEnergyHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDot"""
         _eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyHadronicDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyHadronicDot
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___call__)
@@ -1030,58 +683,42 @@ class PairwiseEMDTransverseEnergyHadronicDot(object):
 # Register PairwiseEMDTransverseEnergyHadronicDot in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_swigregister(PairwiseEMDTransverseEnergyHadronicDot)
 
-class PairwiseEMDTransverseEnergyHadronicDotMassive(object):
+class EMDTransverseEnergyHadronicDotMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDotMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDTransverseEnergyHadronicDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDTransverseEnergyHadronicDotMassive"""
+        _eventgeometry.EMDTransverseEnergyHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDotMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___call__)
+
+# Register EMDTransverseEnergyHadronicDotMassive in _eventgeometry:
+_eventgeometry.EMDTransverseEnergyHadronicDotMassive_swigregister(EMDTransverseEnergyHadronicDotMassive)
+
+class PairwiseEMDTransverseEnergyHadronicDotMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDotMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDotMassive"""
         _eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyHadronicDotMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___call__)
@@ -1089,58 +726,42 @@ class PairwiseEMDTransverseEnergyHadronicDotMassive(object):
 # Register PairwiseEMDTransverseEnergyHadronicDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_swigregister(PairwiseEMDTransverseEnergyHadronicDotMassive)
 
-class PairwiseEMDMomentumEEDot(object):
+class EMDMomentumEEDot(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDot > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDMomentumEEDot self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDot"""
+        _eventgeometry.EMDMomentumEEDot_swiginit(self, _eventgeometry.new_EMDMomentumEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDot
+    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___call__)
+
+# Register EMDMomentumEEDot in _eventgeometry:
+_eventgeometry.EMDMomentumEEDot_swigregister(EMDMomentumEEDot)
+
+class PairwiseEMDMomentumEEDot(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDot >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDMomentumEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDot"""
         _eventgeometry.PairwiseEMDMomentumEEDot_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDot
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDMomentumEEDot_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___call__)
@@ -1148,58 +769,42 @@ class PairwiseEMDMomentumEEDot(object):
 # Register PairwiseEMDMomentumEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEDot_swigregister(PairwiseEMDMomentumEEDot)
 
-class PairwiseEMDMomentumEEDotMassive(object):
+class EMDMomentumEEDotMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDotMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassive"""
+        _eventgeometry.EMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDotMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___call__)
+
+# Register EMDMomentumEEDotMassive in _eventgeometry:
+_eventgeometry.EMDMomentumEEDotMassive_swigregister(EMDMomentumEEDotMassive)
+
+class PairwiseEMDMomentumEEDotMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDotMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"""
         _eventgeometry.PairwiseEMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDotMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDMomentumEEDotMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___call__)
@@ -1207,58 +812,42 @@ class PairwiseEMDMomentumEEDotMassive(object):
 # Register PairwiseEMDMomentumEEDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEDotMassive_swigregister(PairwiseEMDMomentumEEDotMassive)
 
-class PairwiseEMDMomentumEEArcLength(object):
+class EMDMomentumEEArcLength(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLength > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDMomentumEEArcLength self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEArcLength"""
+        _eventgeometry.EMDMomentumEEArcLength_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLength
+    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___call__)
+
+# Register EMDMomentumEEArcLength in _eventgeometry:
+_eventgeometry.EMDMomentumEEArcLength_swigregister(EMDMomentumEEArcLength)
+
+class PairwiseEMDMomentumEEArcLength(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLength >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDMomentumEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLength"""
         _eventgeometry.PairwiseEMDMomentumEEArcLength_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEArcLength(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEArcLength
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDMomentumEEArcLength_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___call__)
@@ -1266,58 +855,42 @@ class PairwiseEMDMomentumEEArcLength(object):
 # Register PairwiseEMDMomentumEEArcLength in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEArcLength_swigregister(PairwiseEMDMomentumEEArcLength)
 
-class PairwiseEMDMomentumEEArcLengthMassive(object):
+class EMDMomentumEEArcLengthMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLengthMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDMomentumEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEArcLengthMassive"""
+        _eventgeometry.EMDMomentumEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLengthMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___call__)
+
+# Register EMDMomentumEEArcLengthMassive in _eventgeometry:
+_eventgeometry.EMDMomentumEEArcLengthMassive_swigregister(EMDMomentumEEArcLengthMassive)
+
+class PairwiseEMDMomentumEEArcLengthMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLengthMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDMomentumEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLengthMassive"""
         _eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEArcLengthMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEArcLengthMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___call__)
@@ -1325,58 +898,42 @@ class PairwiseEMDMomentumEEArcLengthMassive(object):
 # Register PairwiseEMDMomentumEEArcLengthMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_swigregister(PairwiseEMDMomentumEEArcLengthMassive)
 
-class PairwiseEMDEnergyEEDot(object):
+class EMDEnergyEEDot(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDot > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDEnergyEEDot self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDot"""
+        _eventgeometry.EMDEnergyEEDot_swiginit(self, _eventgeometry.new_EMDEnergyEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDot
+    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___call__)
+
+# Register EMDEnergyEEDot in _eventgeometry:
+_eventgeometry.EMDEnergyEEDot_swigregister(EMDEnergyEEDot)
+
+class PairwiseEMDEnergyEEDot(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDot >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDEnergyEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDot"""
         _eventgeometry.PairwiseEMDEnergyEEDot_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDot
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDEnergyEEDot_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___call__)
@@ -1384,58 +941,42 @@ class PairwiseEMDEnergyEEDot(object):
 # Register PairwiseEMDEnergyEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEDot_swigregister(PairwiseEMDEnergyEEDot)
 
-class PairwiseEMDEnergyEEDotMassive(object):
+class EMDEnergyEEDotMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDotMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassive"""
+        _eventgeometry.EMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDotMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___call__)
+
+# Register EMDEnergyEEDotMassive in _eventgeometry:
+_eventgeometry.EMDEnergyEEDotMassive_swigregister(EMDEnergyEEDotMassive)
+
+class PairwiseEMDEnergyEEDotMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDotMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"""
         _eventgeometry.PairwiseEMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDotMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDEnergyEEDotMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___call__)
@@ -1443,58 +984,42 @@ class PairwiseEMDEnergyEEDotMassive(object):
 # Register PairwiseEMDEnergyEEDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEDotMassive_swigregister(PairwiseEMDEnergyEEDotMassive)
 
-class PairwiseEMDEnergyEEArcLength(object):
+class EMDEnergyEEArcLength(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLength > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDEnergyEEArcLength self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEArcLength"""
+        _eventgeometry.EMDEnergyEEArcLength_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLength
+    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___call__)
+
+# Register EMDEnergyEEArcLength in _eventgeometry:
+_eventgeometry.EMDEnergyEEArcLength_swigregister(EMDEnergyEEArcLength)
+
+class PairwiseEMDEnergyEEArcLength(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLength >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDEnergyEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLength"""
         _eventgeometry.PairwiseEMDEnergyEEArcLength_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEArcLength(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEArcLength
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDEnergyEEArcLength_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___call__)
@@ -1502,58 +1027,42 @@ class PairwiseEMDEnergyEEArcLength(object):
 # Register PairwiseEMDEnergyEEArcLength in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEArcLength_swigregister(PairwiseEMDEnergyEEArcLength)
 
-class PairwiseEMDEnergyEEArcLengthMassive(object):
+class EMDEnergyEEArcLengthMassive(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLengthMassive > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+
+    def __init__(self, R=1, beta=1, norm=False, do_timing=False, external_dists=False, n_iter_max=100000, epsilon_large_factor=1000, epsilon_small_factor=1):
+        r"""__init__(EMDEnergyEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEArcLengthMassive"""
+        _eventgeometry.EMDEnergyEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLengthMassive
+    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_description)
+    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___str__)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
+    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___call__)
+
+# Register EMDEnergyEEArcLengthMassive in _eventgeometry:
+_eventgeometry.EMDEnergyEEArcLengthMassive_swigregister(EMDEnergyEEArcLengthMassive)
+
+class PairwiseEMDEnergyEEArcLengthMassive(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLengthMassive >,double > class."""
+
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
+        r"""__init__(PairwiseEMDEnergyEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLengthMassive"""
         _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEArcLengthMassive
-    R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_R)
-    set_R = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_R)
-    beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_beta)
-    set_beta = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_beta)
-    norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_norm)
-    set_norm = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_norm)
-    set_network_simplex_params = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_network_simplex_params)
-    set_omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_omp_dynamic_chunksize)
-    omp_dynamic_chunksize = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_omp_dynamic_chunksize)
-
-    def set_external_emd_handler(self, handler):
-        if not handler.thisown:
-            raise RuntimeError('ExternalEMDHandler must own itself; perhaps it is already in use elsewhere')
-        handler.thisown = 0
-        _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_external_emd_handler(self, handler)
-        self.external_emd_handler = handler
-
-
-    external_handler = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_external_handler)
-    set_request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_set_request_mode)
-    request_mode = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_request_mode)
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_clear)
-    emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_emds_vec)
-    emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_emd)
-    errored = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_errored)
-    error_messages = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_error_messages)
-    num_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_num_emds)
-    nevA = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_nevA)
-    nevB = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_nevB)
-    duration = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_duration)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___repr__)
-    emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_emds)
-
-
-        # ensure proper destruction of objects held by this instance
-    def __del__(self):
-        if hasattr(self, 'event_arrs'):
-            del self.event_arrs
-        if hasattr(self, 'external_emd_handler'):
-            self.external_emd_handler.thisown = 1
-            del self.external_emd_handler
-
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
     __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___call__)
@@ -1565,7 +1074,7 @@ _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnerg
 
 from fastjet import FastJetError
 
-__version__ = '1.0.0a1'
+__version__ = '1.0.0a2'
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 

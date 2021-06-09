@@ -25,70 +25,88 @@
 #ifndef EVENTGEOMETRY_HH
 #define EVENTGEOMETRY_HH
 
+// handle using PyFJCore for PseudoJet
+#ifdef EVENTGEOMETRY_USE_PYFJCORE
+#include "pyfjcore/fjcore.hh"
+#define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
+#elif !defined(__FASTJET_PSEUDOJET_HH__) && !defined(__FJCORE__)
 #include "fastjet/PseudoJet.hh"
+#endif
 
 // include Wasserstein package in the proper namespace
-#define BEGIN_EMD_NAMESPACE FASTJET_BEGIN_NAMESPACE namespace contrib { namespace emd {
-#define END_EMD_NAMESPACE } } FASTJET_END_NAMESPACE
+#ifndef BEGIN_EMD_NAMESPACE
+#define BEGIN_EMD_NAMESPACE namespace fastjet { namespace contrib { namespace emd {
+#define END_EMD_NAMESPACE } } }
 #define EMDNAMESPACE fastjet::contrib::emd
+#endif
 
-#include "wasserstein/internal/Event.hh"
-#include "wasserstein/internal/PairwiseDistance.hh"
-#include "wasserstein/CorrelationDimension.hh"
-// EMD.hh incuded at the end, to have access to FastJet classes defined here
+// the Wasserstein library (indicate FastJet compatibility)
+#define WASSERSTEIN_FASTJET
+#include "wasserstein/Wasserstein.hh"
 
 // macro for controling template visibility
 #ifndef EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
 #define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY extern
 #endif
 
-// macro for declaring extern EMD templates
+// macro for declaring specific EMD template
+#define EVENTGEOMETRY_EMDTEMPLATE(PW, PD) \
+  EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<double, PW, PD>; \
+  EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class PairwiseEMD<EMD<double, PW, PD>>; \
+  typedef EMDFloat64<PW, PD> EMD##PW##PD; \
+  typedef PairwiseEMD<EMD##PW##PD> PairwiseEMD##PW##PD;
+
+// declare all EMD templates
 #define DECLARE_EMD_TEMPLATES \
-  BEGIN_EMD_NAMESPACE\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, DeltaR>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, HadronicDot>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseMomentum, HadronicDotMassive>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, DeltaR>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, HadronicDot>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<TransverseEnergy, HadronicDotMassive>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEDot>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEDotMassive>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEArcLength>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Momentum, EEArcLengthMassive>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEDot>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEDotMassive>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEArcLength>;\
-    EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<Energy, EEArcLengthMassive>;\
+  BEGIN_EMD_NAMESPACE \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, DeltaR) \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, HadronicDot) \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, HadronicDotMassive) \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, DeltaR) \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, HadronicDot) \
+    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, HadronicDotMassive) \
+    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEDot) \
+    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEDotMassive) \
+    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEArcLength) \
+    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEArcLengthMassive) \
+    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEDot) \
+    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEDotMassive) \
+    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEArcLength) \
+    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEArcLengthMassive) \
   END_EMD_NAMESPACE
 
 BEGIN_EMD_NAMESPACE
+
+using fastjet::PseudoJet;
 
 ////////////////////////////////////////////////////////////////////////////////
 // FastJetEvent - an event consisting of FastJet PseudoJets and weights
 ////////////////////////////////////////////////////////////////////////////////
 
 // FastJet events will derive from this, for checking types later
-class FastJetEventBase {};
+struct FastJetEventBase {};
 
 // PW : a particle weight class (see below)
-template<class PW>
-struct FastJetEvent : public EventBase<std::vector<PseudoJet>, std::vector<double>>,
+template<class _ParticleWeight>
+struct FastJetEvent : public EventBase<std::vector<typename _ParticleWeight::value_type>, std::vector<PseudoJet>>,
                       public FastJetEventBase {
-  typedef PW ParticleWeight;
+
+  typedef _ParticleWeight ParticleWeight;
+  typedef typename ParticleWeight::value_type value_type;
   typedef std::vector<PseudoJet> ParticleCollection;
-  typedef std::vector<double> WeightCollection;
+  typedef std::vector<value_type> WeightCollection;
 
   // constructor from PseudoJet, possibly with constituents
-  FastJetEvent(const PseudoJet & pj) :
-    EventBase<ParticleCollection, WeightCollection>(pj.has_constituents() ? 
+  FastJetEvent(const PseudoJet & pj, value_type event_weight = 1) :
+    EventBase<WeightCollection, ParticleCollection>(pj.has_constituents() ? 
                                                     pj.constituents() : 
-                                                    ParticleCollection{pj}),
+                                                    ParticleCollection{pj}, event_weight),
     axis_(pj)
   {}
 
   // constructor from vector of PseudoJets
-  FastJetEvent(const ParticleCollection & pjs) :
-    EventBase<ParticleCollection, WeightCollection>(pjs)
+  FastJetEvent(const ParticleCollection & pjs, value_type event_weight = 1) :
+    EventBase<WeightCollection, ParticleCollection>(pjs, event_weight)
   {}
 
   FastJetEvent() {}
@@ -102,13 +120,13 @@ struct FastJetEvent : public EventBase<std::vector<PseudoJet>, std::vector<doubl
 
   // determine weights
   void ensure_weights() {
-    if (!has_weights_) {
-      weights_.reserve(particles_.size());
-      for (const PseudoJet & pj : particles_) {
-        weights_.push_back(ParticleWeight::weight(pj));
-        total_weight_ += weights_.back();
+    if (!this->has_weights()) {
+      this->weights().reserve(this->particles().size());
+      for (const PseudoJet & pj : this->particles()) {
+        this->weights().push_back(ParticleWeight::weight(pj));
+        this->total_weight() += this->weights().back();
       }
-      has_weights_ = true;
+      this->has_weights_ = true;
     }
   }
 
@@ -122,180 +140,204 @@ private:
 
 }; // FastJetEvent
 
+
 ////////////////////////////////////////////////////////////////////////////////
 // FastJetParticleWeight - extracts weight from a PseudoJet
 ////////////////////////////////////////////////////////////////////////////////
 
 // base class to use for checking types later
-struct FastJetParticleWeight {
-  typedef double Value;
-};
+struct FastJetParticleWeight {};
 
 // use pT as weight, most typical choice for hadronic colliders
+template<typename Value>
 struct TransverseMomentum : FastJetParticleWeight {
+  typedef Value value_type;
   static std::string name() { return "TransverseMomentum"; }
   static Value weight(const PseudoJet & pj) { return pj.pt(); }
-  static void set_weight(PseudoJet & pj, Value w) {
+  static void set_weight(PseudoJet & pj, double w) {
     pj.reset_momentum_PtYPhiM(w, pj.rap(), pj.phi(), pj.m());
   }
 };
 
 // use ET as weight, typical for hadronic colliders if mass is relevant
+template<typename Value>
 struct TransverseEnergy : FastJetParticleWeight {
+  typedef Value value_type;
   static std::string name() { return "TransverseEnergy"; }
   static Value weight(const PseudoJet & pj) { return pj.Et(); }
-  static void set_weight(PseudoJet & pj, Value w) {
-    Value pt2(w*w - pj.m2()), pt(pt2 > 0 ? std::sqrt(pt2) : -std::sqrt(-pt2));
+  static void set_weight(PseudoJet & pj, double w) {
+    double pt2(w*w - pj.m2()), pt(pt2 > 0 ? std::sqrt(pt2) : -std::sqrt(-pt2));
     pj.reset_momentum_PtYPhiM(pt, pj.rap(), pj.phi(), pj.m());
   }
 };
 
 // use |p3| as weight, typical of e+e- colliders treating pjs as massless
+template<typename Value>
 struct Momentum : FastJetParticleWeight {
+  typedef Value value_type;
   static std::string name() { return "Momentum"; }
   static Value weight(const PseudoJet & pj) { return pj.modp(); }
-  static void set_weight(PseudoJet & pj, Value w) {
-    Value e2(w*w + pj.m2()), e(e2 > 0 ? std::sqrt(e2) : -std::sqrt(-e2));
+  static void set_weight(PseudoJet & pj, double w) {
+    double e2(w*w + pj.m2()), e(e2 > 0 ? std::sqrt(e2) : -std::sqrt(-e2));
     pj.reset_momentum(pj.px(), pj.py(), pj.pz(), e);
   }
 };
 
 // use E as weight, typical of e+e- colliders
+template<typename Value>
 struct Energy : FastJetParticleWeight {
+  typedef Value value_type;
   static std::string name() { return "Energy"; }
   static Value weight(const PseudoJet & pj) { return pj.E(); }
-  static void set_weight(PseudoJet & pj, Value w) {
+  static void set_weight(PseudoJet & pj, double w) {
     pj.reset_momentum(pj.px(), pj.py(), pj.pz(), w);
   }
 };
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // FastJet-specific pairwise distances
 ////////////////////////////////////////////////////////////////////////////////
 
 // Hadronic Delta_R measure with proper checking for phi
-struct DeltaR : public PairwiseDistanceBase<DeltaR, std::vector<PseudoJet>, double> {
+template<typename Value>
+class DeltaR : public PairwiseDistanceBase<DeltaR<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   DeltaR(Value R, Value beta) :
-    PairwiseDistanceBase<DeltaR, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<DeltaR<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "DeltaR"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value dphiabs(std::fabs(p0.phi() - p1.phi()));
-    Value dy(p0.rap() - p1.rap()), dphi(dphiabs > PI ? TWOPI - dphiabs : dphiabs);
+    double dphiabs(std::fabs(p0.phi() - p1.phi()));
+    double dy(p0.rap() - p1.rap()), dphi(dphiabs > PI ? TWOPI - dphiabs : dphiabs);
     return dy*dy + dphi*dphi;
   }
 }; // DeltaR
 
 // Massless dot product measure normalized with transverse momenta
-struct HadronicDot : public PairwiseDistanceBase<HadronicDot, std::vector<PseudoJet>, double> {
+template<typename Value>
+class HadronicDot : public PairwiseDistanceBase<HadronicDot<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   HadronicDot(Value R, Value beta) :
-    PairwiseDistanceBase<HadronicDot, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<HadronicDot<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "HadronicDot"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value d(2*(p0.E()*p1.E() - p0.px()*p1.px() - p0.py()*p1.py() - p0.pz()*p1.pz())/(p0.pt()*p1.pt()));
+    double d(2*(p0.E()*p1.E() - p0.px()*p1.px() - p0.py()*p1.py() - p0.pz()*p1.pz())/(p0.pt()*p1.pt()));
     return (d > 0 ? d : 0);
   }  
 }; // HadronicDot
 
 // Massless dot product measure normalized by total momenta
-struct EEDot : public PairwiseDistanceBase<EEDot, std::vector<PseudoJet>, double> {
+template<typename Value>
+class EEDot : public PairwiseDistanceBase<EEDot<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   EEDot(Value R, Value beta) :
-    PairwiseDistanceBase<EEDot, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<EEDot<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEDot"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value d(2 - 2*(p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.modp()*p1.modp()));
+    double d(2 - 2*(p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.modp()*p1.modp()));
     return (d > 0 ? d : 0);
   }
 }; // EEDot
 
 // Massive dot product measure normalized with transverse energies
-struct HadronicDotMassive : public PairwiseDistanceBase<HadronicDotMassive, std::vector<PseudoJet>, double> {
+template<typename Value>
+class HadronicDotMassive : public PairwiseDistanceBase<HadronicDotMassive<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   HadronicDotMassive(Value R, Value beta) :
-    PairwiseDistanceBase<HadronicDotMassive, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<HadronicDotMassive<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "HadronicDotMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value d(2*(p0.E()*p1.E() - p0.px()*p1.px() - p0.py()*p1.py() - p0.pz()*p1.pz())/(p0.Et()*p1.Et())
+    double d(2*(p0.E()*p1.E() - p0.px()*p1.px() - p0.py()*p1.py() - p0.pz()*p1.pz())/(p0.Et()*p1.Et())
              - p0.m2()/p0.Et2() - p1.m2()/p1.Et2());
     return (d > 0 ? d : 0);
   }
 }; // HadronicDotMassive
 
 // Massive dot product measure normalized with energies
-struct EEDotMassive : public PairwiseDistanceBase<EEDotMassive, std::vector<PseudoJet>, double> {
+template<typename Value>
+class EEDotMassive : public PairwiseDistanceBase<EEDotMassive<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   EEDotMassive(Value R, Value beta) :
-    PairwiseDistanceBase<EEDotMassive, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<EEDotMassive<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEDotMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value d(2 - 2*(p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E())
+    double d(2 - 2*(p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E())
                - p0.m2()/(p0.E()*p0.E()) - p1.m2()/(p1.E()*p1.E()));
     return (d > 0 ? d : 0);
   }
 }; // EEDotMassive
 
 // Arc length between momentum vectors
-struct EEArcLength : public PairwiseDistanceBase<EEArcLength, std::vector<PseudoJet>, double> {
+template<typename Value>
+class EEArcLength : public PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   EEArcLength(Value R, Value beta) :
-    PairwiseDistanceBase<EEArcLength, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEArcLength"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.modp()*p1.modp()));
-    return (dot > 1 ? 0 : (dot < -1 ? pi : std::acos(dot)));
+    double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.modp()*p1.modp()));
+    return (dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
   }
 }; // EEArcLength
 
 // Arc length between momentum vectors, normalized by the energy
-struct EEArcLengthMassive : public PairwiseDistanceBase<EEArcLengthMassive, std::vector<PseudoJet>, double> {
+template<typename Value>
+class EEArcLengthMassive : public PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, Value> {
+public:
   typedef PseudoJet Particle;
-  typedef double Value;
 
   EEArcLengthMassive(Value R, Value beta) :
-    PairwiseDistanceBase<EEArcLengthMassive, std::vector<PseudoJet>, double>(R, beta)
+    PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEArcLengthMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    Value dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E()));
-    return (dot > 1 ? 0 : (dot < -1 ? pi : std::acos(dot)));
+    double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E()));
+    return (dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
   }
 }; // EEArcLengthMassive
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // FastJet-specific Preprocessors
 ////////////////////////////////////////////////////////////////////////////////
 
+inline double phi_fix(double phi, double ref_phi) {
+  double diff(phi - ref_phi);
+  if (diff > PI) phi -= TWOPI;
+  else if (diff < -PI) phi += TWOPI;
+  return phi; 
+}
+
 // center all the particles in a vector according to a given rapidity and azimuth
 template<class ParticleWeight>
 void center_event(FastJetEvent<ParticleWeight> & event,
-                  typename ParticleWeight::Value rap,
-                  typename ParticleWeight::Value phi) {
+                  typename ParticleWeight::value_type rap,
+                  typename ParticleWeight::value_type phi) {
 
   PseudoJet & axis(event.axis());
   axis.reset_momentum_PtYPhiM(axis.pt(), axis.rap() - rap, phi_fix(axis.phi(), phi) - phi, axis.m());
   for (PseudoJet & pj: event.particles())
     pj.reset_momentum_PtYPhiM(pj.pt(), pj.rap() - rap, phi_fix(pj.phi(), phi) - phi, pj.m());
 }
+
 
 ////////////////////////////////////////////////////////////////////////////////
 // CenterEScheme - center all the particles according to their Escheme axis
@@ -330,6 +372,7 @@ public:
 
 }; // CenterEScheme
 
+
 ////////////////////////////////////////////////////////////////////////////////
 // CenterPtCentroid - center all the particles according to their pT centroid
 ////////////////////////////////////////////////////////////////////////////////
@@ -338,7 +381,7 @@ template<class EMD>
 class CenterPtCentroid : public Preprocessor<typename EMD::Self> {
 public:
   typedef typename EMD::Event Event;
-  typedef typename EMD::ValuePublic Value;
+  typedef typename EMD::value_type value_type;
 
   static_assert(std::is_base_of<FastJetEventBase, Event>::value,
                 "CenterPtCentroid works only with FastJet events.");
@@ -347,9 +390,9 @@ public:
   Event & operator()(Event & event) const {
 
     // determine pt centroid
-    Value pttot(0), y(0), phi(0);
+    value_type pttot(0), y(0), phi(0);
     for (const PseudoJet & pj : event.particles()) {
-      Value pt(pj.pt());
+      value_type pt(pj.pt());
       pttot += pt;
       y += pt * pj.rap();
       phi += pt * phi_fix(pj.phi(), event.particles()[0].phi());
@@ -368,6 +411,7 @@ public:
 
 }; // CenterPtCentroid
 
+
 ////////////////////////////////////////////////////////////////////////////////
 // CenterWeightedCentroid - definition of the case specialized for fastjet
 ////////////////////////////////////////////////////////////////////////////////
@@ -375,13 +419,15 @@ public:
 template<class EMD>
 FastJetEvent<typename EMD::ParticleWeight> & 
 CenterWeightedCentroid<EMD>::center(FastJetEvent<typename EMD::ParticleWeight> & event) const {
-  event.ensure_weights();
 
+  typedef typename EMD::value_type value_type;
+
+  event.ensure_weights();
   const ParticleCollection & ps(event.particles());
   const WeightCollection & ws(event.weights());
 
   // determine weighted centroid
-  Value x(0), y(0);
+  value_type x(0), y(0);
   for (std::size_t i = 0; i < ps.size(); i++) {
     x += ws[i] * ps[i].rap();
     y += ws[i] * phi_fix(ps[i].phi(), ps[0].phi());
@@ -398,16 +444,22 @@ CenterWeightedCentroid<EMD>::center(FastJetEvent<typename EMD::ParticleWeight> &
   return event;
 }
 
-// mask out particles farther than a certain distance from the pseudojet of the event
-// since this uses the pseudojet, make sure it is properly set first
+
+////////////////////////////////////////////////////////////////////////////////
+// MaskCircleRapPhi - mask out particles farther than a certain distance from the pseudojet of the event
+////////////////////////////////////////////////////////////////////////////////
+
 template<class EMD>
 class MaskCircleRapPhi : public Preprocessor<typename EMD::Self> {
 public:
   typedef typename EMD::Event Event;
-  typedef typename EMD::ValuePublic Value;
+  typedef typename EMD::value_type value_type;
 
-  MaskCircleRapPhi(Value R) : R_(R), R2_(R*R) {}
-  std::string description() const { return "Mask particles farther than " + std::to_string(R_) + " from axis"; }
+  MaskCircleRapPhi(double R) : R_(R), R2_(R*R) {}
+  std::string description() const {
+    return "Mask particles farther than " + std::to_string(R_) + " from axis";
+  }
+
   Event & operator()(Event & event) const {
 
     std::vector<PseudoJet> & ps(event.particles());
@@ -438,50 +490,13 @@ public:
 
 private:
 
-  Value R_, R2_;
+  value_type R_, R2_;
 
 }; // MaskCircleRapPhi
 
 END_EMD_NAMESPACE
 
-#include "wasserstein/EMD.hh"
-
-BEGIN_EMD_NAMESPACE
-
-////////////////////////////////////////////////////////////////////////////////
-// Aliases
-////////////////////////////////////////////////////////////////////////////////
-
-typedef EMD<TransverseMomentum, DeltaR> EMDTransverseMomentumDeltaR;
-typedef EMD<TransverseMomentum, HadronicDot> EMDTransverseMomentumHadronicDot;
-typedef EMD<TransverseMomentum, HadronicDotMassive> EMDTransverseMomentumHadronicDotMassive;
-typedef EMD<TransverseEnergy, DeltaR> EMDTransverseEnergyDeltaR;
-typedef EMD<TransverseEnergy, HadronicDot> EMDTransverseEnergyHadronicDot;
-typedef EMD<TransverseEnergy, HadronicDotMassive> EMDTransverseEnergyHadronicDotMassive;
-typedef EMD<Momentum, EEDot> EMDMomentumEEDot;
-typedef EMD<Momentum, EEDotMassive> EMDMomentumEEDotMassive;
-typedef EMD<Momentum, EEArcLength> EMDMomentumEEArcLength;
-typedef EMD<Momentum, EEArcLengthMassive> EMDMomentumEEArcLengthMassive;
-typedef EMD<Energy, EEDot> EMDEnergyEEDot;
-typedef EMD<Energy, EEDotMassive> EMDEnergyEEDotMassive;
-typedef EMD<Energy, EEArcLength> EMDEnergyEEArcLength;
-typedef EMD<Energy, EEArcLengthMassive> EMDEnergyEEArcLengthMassive;
-
-typedef PairwiseEMD<EMD<TransverseMomentum, DeltaR>> PairwiseEMDTransverseMomentumDeltaR;
-typedef PairwiseEMD<EMD<TransverseMomentum, HadronicDot>> PairwiseEMDTransverseMomentumHadronicDot;
-typedef PairwiseEMD<EMD<TransverseMomentum, HadronicDotMassive>> PairwiseEMDTransverseMomentumHadronicDotMassive;
-typedef PairwiseEMD<EMD<TransverseEnergy, DeltaR>> PairwiseEMDTransverseEnergyDeltaR;
-typedef PairwiseEMD<EMD<TransverseEnergy, HadronicDot>> PairwiseEMDTransverseEnergyHadronicDot;
-typedef PairwiseEMD<EMD<TransverseEnergy, HadronicDotMassive>> PairwiseEMDTransverseEnergyHadronicDotMassive;
-typedef PairwiseEMD<EMD<Momentum, EEDot>> PairwiseEMDMomentumEEDot;
-typedef PairwiseEMD<EMD<Momentum, EEDotMassive>> PairwiseEMDMomentumEEDotMassive;
-typedef PairwiseEMD<EMD<Momentum, EEArcLength>> PairwiseEMDMomentumEEArcLength;
-typedef PairwiseEMD<EMD<Momentum, EEArcLengthMassive>> PairwiseEMDMomentumEEArcLengthMassive;
-typedef PairwiseEMD<EMD<Energy, EEDot>> PairwiseEMDEnergyEEDot;
-typedef PairwiseEMD<EMD<Energy, EEDotMassive>> PairwiseEMDEnergyEEDotMassive;
-typedef PairwiseEMD<EMD<Energy, EEArcLength>> PairwiseEMDEnergyEEArcLength;
-typedef PairwiseEMD<EMD<Energy, EEArcLengthMassive>> PairwiseEMDEnergyEEArcLengthMassive;
-
-END_EMD_NAMESPACE
+// declares templates, by default extern (so that library must be linked)
+DECLARE_EMD_TEMPLATES
 
 #endif // EVENTGEOMETRY_HH

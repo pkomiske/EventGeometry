@@ -36,6 +36,7 @@ install_SCRIPT  = $(install_script) -c
 ifeq "$(shell uname)" "Darwin"
 	dynlibopt=-dynamiclib
     dynlibext=dylib
+    LDFLAGS += -lomp
 else 
     dynlibopt=-shared
     dynlibext=so
@@ -60,8 +61,8 @@ lib$(NAME).a: $(OBJS)
 	ranlib lib$(NAME).a
 
 shared: $(SRCS) install_wasserstein
-	$(CXX) $(SRCS) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) -g0 $(LDFLAGS) -o lib$(NAME).$(dynlibext)
-	if [ "$(shell uname)" = "Darwin" ]; then install_name_tool -id @rpath/lib$(NAME).dylib lib$(NAME).dylib; fi
+	$(CXX) $(SRCS) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) $(LDFLAGS) -g0 -o lib$(NAME).$(dynlibext)
+	#if [ "$(shell uname)" = "Darwin" ]; then install_name_tool -id @rpath/lib$(NAME).dylib lib$(NAME).dylib; fi
 
 # building the examples
 examples: $(EXAMPLES)
@@ -80,8 +81,8 @@ check: examples
 
 # cleaning the directory
 clean:
-	rm -fv *~ *.o *.a *.so Py$(NAME).cc $(NAME).py
-	rm -rfv __pycache__ build .deps
+	rm -fv *~ *.o *.a *.so
+	rm -rfv __pycache__ build .deps *.dylib*
 
 distclean: clean
 	rm -f lib$(NAME).a $(EXAMPLES)
@@ -92,7 +93,7 @@ install_shared: shared
 
 install_wasserstein:
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib
-	cd Wasserstein; ./install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
+	cd Wasserstein; ./scripts/install_wasserstein.sh -p $(PREFIX) -i $(PREFIX)/include/fastjet/contrib
 
 install_headers:
 	$(install_DIR) $(PREFIX)/include/fastjet/contrib

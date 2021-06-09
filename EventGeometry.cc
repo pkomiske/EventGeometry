@@ -26,6 +26,3 @@
 #define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
 
 #include "EventGeometry.hh"
-
-// explicitly instantiate EMD templates as part of this library
-DECLARE_EMD_TEMPLATES

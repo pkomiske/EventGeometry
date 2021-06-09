@@ -1,24 +1,14 @@
 ---
-os: linux
-dist: bionic
-language: python
-python:
-  - 3.8
 
 stages:
   - build
 
 install:
-  - pip3 install cibuildwheel
+  - python3 -m pip install cibuildwheel
 
 script:
-  - cibuildwheel --output-dir wheelhouse
-
-after_success: |
-  pip3 install twine
-  if [ ! -z $PYPI_TEST ]; then
-    twine upload -r testpypi --skip-existing wheelhouse/*.whl
-  fi
+  - python3 -m cibuildwheel --output-dir wheelhouse
+  - python3 -m pip install twine
 
 jobs:
   include:
@@ -28,27 +18,34 @@ jobs:
   ##############################################################################
 
     - name: Build wheels on Linux and deploy
+      stage: build
+      os: linux
+      dist: bionic
       services: docker
+      language: python
+      python: 3.8
+      after_success:
+        - ./scripts/pypi-upload.sh sdist
 
   ##############################################################################
   # MACOS BUILDS
   ##############################################################################
 
     - name: Build wheels on Mac and deploy
+      stage: build
       os: osx
       osx_image: xcode11
       language: shell
+      after_success:
+        - ./scripts/pypi-upload.sh
 
 env:
   global:
     - TWINE_USERNAME=__token__
     - CIBW_BEFORE_ALL_MACOS=./scripts/prepare-cibw-macos.sh
     - CIBW_BEFORE_ALL_LINUX=./scripts/prepare-cibw-linux.sh
-    - CIBW_BEFORE_BUILD="pip install numpy"
-    - CIBW_BUILD="cp*_x86_64"
-    - CIBW_BUILD_VERBOSITY=1
-    - CIBW_ENVIRONMENT="CXXFLAGS=-std=c++14"
-    - CIBW_MANYLINUX_X86_64_IMAGE=registry.gitlab.com/pkomiske/fastjet:latest
+    - CIBW_BUILD="*x86_64"
+    - CIBW_SKIP="pp*"
     - PYPI_TEST=true
 
 branches:

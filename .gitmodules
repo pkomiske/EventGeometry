@@ -1,3 +1,6 @@
 [submodule "Wasserstein"]
 	path = Wasserstein
 	url = https://github.com/pkomiske/Wasserstein
+[submodule "PyFJCore"]
+	path = PyFJCore
+	url = git@github.com:pkomiske/PyFJCore.git

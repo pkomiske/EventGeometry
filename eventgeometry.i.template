@@ -1,3 +1,4 @@
+// -*- C++ -*-
 %define EVENTGEOMETRY_DOCSTRING
 "\{docstring\}"
 %enddef
@@ -5,14 +6,19 @@
 %module("docstring"=EVENTGEOMETRY_DOCSTRING, "threads"=1) eventgeometry
 %nothreadallow;
 
-#define EMDNAMESPACE fastjet::contrib::emd
-
 // C++ standard library wrappers
-%include <std_list.i>
+%include <std_vector.i>
 
 // this makes SWIG aware of the types contained in the main fastjet library
 // but does not generate new wrappers for them here
+#ifdef FASTJET_PREFIX
 %import FASTJET_PREFIX/share/fastjet/pyinterface/fastjet.i
+#else
+%import PyFJCore/pyfjcore/swig/pyfjcore.i
+%init %{
+fastjet::set_pseudojet_format(fastjet::PseudoJetRepresentation::ptyphim);
+%}
+#endif
 
 // converts fastjet::Error into a FastJetError Python exception
 FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
@@ -26,98 +32,109 @@ FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
 #define SWIG
 #endif
 
+#define WASSERSTEIN_FASTJET
 #include "EventGeometry.hh"
-using namespace fastjet::contrib::emd;
 %}
 
 // include EMD wrappers from Wasserstein package
+#define EMDNAMESPACE fastjet::contrib::emd
 #define BEGIN_EMD_NAMESPACE namespace fastjet { namespace contrib { namespace emd {
 #define END_EMD_NAMESPACE } } }
+#define WASSERSTEIN_NO_FLOAT32
 %include "wasserstein/swig/wasserstein_common.i"
 
-%define ADD_EXPLICIT_PREPROCESSING(Class)
-Class & preprocess_CenterEScheme() { return $self->preprocess<CenterEScheme>(); }
-Class & preprocess_CenterWeightedCentroid() { return $self->preprocess<CenterWeightedCentroid>(); }
-Class & preprocess_CenterPtCentroid() { return $self->preprocess<CenterPtCentroid>(); }
-Class & preprocess_MaskCircleRapPhi(double R) { return $self->preprocess<MaskCircleRapPhi>(R); }
+// this needs to come after numpy has been included by wasserstein_common.i
+%{
+#include "pyfjcore/PyFJCoreExtensions.hh"
+%}
+
+%define EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
+void preprocess_CenterEScheme() { $self->preprocess<EMDNAMESPACE::CenterEScheme>(); }
+//void preprocess_CenterWeightedCentroid() { $self->preprocess<CenterWeightedCentroid>(); }
+void preprocess_CenterPtCentroid() { $self->preprocess<EMDNAMESPACE::CenterPtCentroid>(); }
+void preprocess_MaskCircleRapPhi(double R) { $self->preprocess<EMDNAMESPACE::MaskCircleRapPhi>(R); }
 %enddef
 
-// extend [Pairwise]EMD to explicitly support PseudoJet arguments and printing
-%extend fastjet::contrib::emd::EMD {
-  ADD_EXPLICIT_PREPROCESSING(EMD)
+%ignore EMDNAMESPACE::FastJetEventBase;
+%ignore EMDNAMESPACE::FastJetParticleWeight;
 
-  Value operator()(const fastjet::PseudoJet & pj0, const fastjet::PseudoJet & pj1) {
-    return (*$self)(pj0, pj1);
-  }
-  Value operator()(const std::vector<fastjet::PseudoJet> & pjs0, const fastjet::PseudoJet & pj1) {
-    return (*$self)(pjs0, pj1);
-  }
-  Value operator()(const fastjet::PseudoJet & pj0, const std::vector<fastjet::PseudoJet> & pjs1) {
-    return (*$self)(pj0, pjs1);
-  }
-  Value operator()(const std::vector<fastjet::PseudoJet> & pjs0, const std::vector<fastjet::PseudoJet> & pjs1) {
-    return (*$self)(pjs0, pjs1);
-  }
-}
+%include "EventGeometry.hh"
 
-%extend fastjet::contrib::emd::PairwiseEMD {
-  ADD_EXPLICIT_PREPROCESSING(PairwiseEMD)
+namespace EMDNAMESPACE {
 
-  void operator()(const std::vector<fastjet::PseudoJet> & evs) {
-    (*$self)(evs);
-  }
-  void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evs) {
-    (*$self)(evs);
-  }
-  void operator()(const std::vector<fastjet::PseudoJet> & evs0, const std::vector<fastjet::PseudoJet> & evs1) {
-    (*$self)(evs0, evs1);
-  }
-  void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evs0, const std::vector<fastjet::PseudoJet> & evs1) {
-    (*$self)(evs0, evs1);
-  }
-  void operator()(const std::vector<fastjet::PseudoJet> & evs0, const std::vector<std::vector<fastjet::PseudoJet>> & evs1) {
-    (*$self)(evs0, evs1);
-  }
-  void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evs0, const std::vector<std::vector<fastjet::PseudoJet>> & evs1) {
-    (*$self)(evs0, evs1);
-  }
-}
+  // extend [Pairwise]EMD to explicitly support PseudoJet arguments and printing
+  %extend EMD {
+    EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
 
-// instantiate hadronic and ee [Pairwise]EMD templates
-namespace fastjet {
-  namespace contrib {
-    namespace emd {
-      %template(EMDTransverseMomentumDeltaR) EMD<TransverseMomentum, DeltaR>;
-      %template(EMDTransverseMomentumHadronicDot) EMD<TransverseMomentum, HadronicDot>;
-      %template(EMDTransverseMomentumHadronicDotMassive) EMD<TransverseMomentum, HadronicDotMassive>;
-      %template(EMDTransverseEnergyDeltaR) EMD<TransverseEnergy, DeltaR>;
-      %template(EMDTransverseEnergyHadronicDot) EMD<TransverseEnergy, HadronicDot>;
-      %template(EMDTransverseEnergyHadronicDotMassive) EMD<TransverseEnergy, HadronicDotMassive>;
-      %template(EMDMomentumEEDot) EMD<Momentum, EEDot>;
-      %template(EMDMomentumEEDotMassive) EMD<Momentum, EEDotMassive>;
-      %template(EMDMomentumEEArcLength) EMD<Momentum, EEArcLength>;
-      %template(EMDMomentumEEArcLengthMassive) EMD<Momentum, EEArcLengthMassive>;
-      %template(EMDEnergyEEDot) EMD<Energy, EEDot>;
-      %template(EMDEnergyEEDotMassive) EMD<Energy, EEDotMassive>;
-      %template(EMDEnergyEEArcLength) EMD<Energy, EEArcLength>;
-      %template(EMDEnergyEEArcLengthMassive) EMD<Energy, EEArcLengthMassive>;
-
-      %template(PairwiseEMDTransverseMomentumDeltaR) PairwiseEMD<EMD<TransverseMomentum, DeltaR>>;
-      %template(PairwiseEMDTransverseMomentumHadronicDot) PairwiseEMD<EMD<TransverseMomentum, HadronicDot>>;
-      %template(PairwiseEMDTransverseMomentumHadronicDotMassive) PairwiseEMD<EMD<TransverseMomentum, HadronicDotMassive>>;
-      %template(PairwiseEMDTransverseEnergyDeltaR) PairwiseEMD<EMD<TransverseEnergy, DeltaR>>;
-      %template(PairwiseEMDTransverseEnergyHadronicDot) PairwiseEMD<EMD<TransverseEnergy, HadronicDot>>;
-      %template(PairwiseEMDTransverseEnergyHadronicDotMassive) PairwiseEMD<EMD<TransverseEnergy, HadronicDotMassive>>;
-      %template(PairwiseEMDMomentumEEDot) PairwiseEMD<EMD<Momentum, EEDot>>;
-      %template(PairwiseEMDMomentumEEDotMassive) PairwiseEMD<EMD<Momentum, EEDotMassive>>;
-      %template(PairwiseEMDMomentumEEArcLength) PairwiseEMD<EMD<Momentum, EEArcLength>>;
-      %template(PairwiseEMDMomentumEEArcLengthMassive) PairwiseEMD<EMD<Momentum, EEArcLengthMassive>>;
-      %template(PairwiseEMDEnergyEEDot) PairwiseEMD<EMD<Energy, EEDot>>;
-      %template(PairwiseEMDEnergyEEDotMassive) PairwiseEMD<EMD<Energy, EEDotMassive>>;
-      %template(PairwiseEMDEnergyEEArcLength) PairwiseEMD<EMD<Energy, EEArcLength>>;
-      %template(PairwiseEMDEnergyEEArcLengthMassive) PairwiseEMD<EMD<Energy, EEArcLengthMassive>>;
+    double operator()(const fastjet::PseudoJet & pj0, const fastjet::PseudoJet & pj1) {
+      return (*$self)(pj0, pj1);
+    }
+    double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const fastjet::PseudoJet & pj1) {
+      return (*$self)(pjs0, pj1);
+    }
+    double operator()(const fastjet::PseudoJet & pj0, const std::vector<fastjet::PseudoJet> & pjs1) {
+      return (*$self)(pj0, pjs1);
+    }
+    double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const std::vector<fastjet::PseudoJet> & pjs1) {
+      return (*$self)(pjs0, pjs1);
     }
   }
+
+  %extend PairwiseEMD {
+    EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
+
+    void operator()(const std::vector<fastjet::PseudoJet> & evs, const std::vector<double> & event_weights = {}) {
+      (*$self)(evs, event_weights);
+    }
+    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evs, const std::vector<double> & event_weights = {}) {
+      (*$self)(evs, event_weights);
+    }
+    void operator()(const std::vector<fastjet::PseudoJet> & evsA,
+                    const std::vector<fastjet::PseudoJet> & evsB,
+                    const std::vector<double> & event_weightsA = {},
+                    const std::vector<double> & event_weightsB = {}) {
+      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
+    }
+    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evsA,
+                    const std::vector<fastjet::PseudoJet> & evsB,
+                    const std::vector<double> & event_weightsA = {},
+                    const std::vector<double> & event_weightsB = {}) {
+      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
+    }
+    void operator()(const std::vector<fastjet::PseudoJet> & evsA,
+                    const std::vector<std::vector<fastjet::PseudoJet>> & evsB,
+                    const std::vector<double> & event_weightsA = {},
+                    const std::vector<double> & event_weightsB = {}) {
+      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
+    }
+    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evsA,
+                    const std::vector<std::vector<fastjet::PseudoJet>> & evsB,
+                    const std::vector<double> & event_weightsA = {},
+                    const std::vector<double> & event_weightsB = {}) {
+      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
+    }
+  }
+
+  // instantiate EMD and PairwiseEMD templates
+  %define EVENTGEOMETRY_EMD_TEMPLATE(Weight, Distance)
+    %template(EMD##Weight##Distance) EMD<double, Weight, Distance>;
+    %template(PairwiseEMD##Weight##Distance) PairwiseEMD<EMD<double, Weight, Distance>, double>;
+  %enddef
+
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, DeltaR)
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDot)
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDotMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, DeltaR)
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDot)
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDotMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDot)
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDotMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLength)
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLengthMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDot)
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDotMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLength)
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLengthMassive)
 }
 
 // add convenience functions for accessing templated EMD, PairwiseEMD, and ApolloniusGroomer classes
