@@ -63,8 +63,8 @@ with open('README.md', 'r') as f:
     readme = f.read()
 
 # get contrib version
-with open('VERSION', 'r') as f:
-    __version__ = f.read().strip()
+with open(os.path.join('eventgeometry', 'eventgeometry.py'), 'r') as f:
+    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
 
 HELP_MESSAGE = """{name} FastJet Contrib Python Package
 

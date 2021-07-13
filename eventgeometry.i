@@ -131,8 +131,6 @@ namespace WASSERSTEIN_NAMESPACE {
 // add convenience functions for accessing templated EMD, PairwiseEMD, and ApolloniusGroomer classes
 %pythoncode %{
 
-from fastjet import FastJetError
-
 __version__ = '1.0.0a2'
 
 # function for storing events in a pairwise_emd object

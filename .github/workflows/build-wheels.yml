@@ -17,7 +17,10 @@ jobs:
   linux-build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -28,7 +31,10 @@ jobs:
   macos-build:
     runs-on: macos-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
@@ -41,7 +47,10 @@ jobs:
   windows-build:
     runs-on: windows-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout repository and submodules
+        uses: actions/checkout@v2
+        with:
+          submodules: recursive
       - name: Setup Python
         uses: actions/setup-python@v2
         with:

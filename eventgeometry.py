@@ -1245,8 +1245,6 @@ _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnerg
 
 
 
-from fastjet import FastJetError
-
 __version__ = '1.0.0a2'
 
 # function for storing events in a pairwise_emd object
