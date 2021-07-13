@@ -39,7 +39,7 @@ name = 'EventGeometry'
 lname = name.lower()
 
 # some extra options that swig needs for this package
-extra_swig_opts = '-keyword -w320,509,511 -IWasserstein -DSWIG_NUMPY'
+extra_swig_opts = '-keyword -w325,402,509,511 -IWasserstein -DSWIG_NUMPY'
 
 # using PyFJCore or not
 use_pyfjcore = True

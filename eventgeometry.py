@@ -11,6 +11,7 @@
 
 
 import numpy as np
+import itertools
 
 
 
@@ -270,7 +271,7 @@ EMDPairsStorage_External = _eventgeometry.EMDPairsStorage_External
 
 check_emd_status = _eventgeometry.check_emd_status
 class EMDBaseFloat64(object):
-    r"""Proxy of C++ fastjet::contrib::emd::EMDBase< double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMDBase< double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -314,7 +315,7 @@ PI = cvar.PI
 TWOPI = cvar.TWOPI
 
 class PairwiseEMDBaseFloat64(object):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMDBase< double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMDBase< double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -354,10 +355,39 @@ class PairwiseEMDBaseFloat64(object):
     emds_vec = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emds_vec)
     emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emd)
 
+
     def __del__(self):
         if hasattr(self, '_external_emd_handler'):
             self._external_emd_handler.thisown = 1
             del self._external_emd_handler
+
+    def __call__(self, eventsA, eventsB=None, gdim=None, mask=False,
+                       event_weightsA=None, event_weightsB=None):
+
+        if eventsB is None:
+            self.init(len(eventsA))
+            eventsB = event_weightsB = []
+        else:
+            self.init(len(eventsA), len(eventsB))
+
+        if event_weightsA is None:
+            event_weightsA = np.ones(len(eventsA), dtype=float)
+        elif len(event_weightsA) != len(eventsA):
+            raise ValueError('length of `event_weightsA` does not match length of `eventsA`')
+
+        if event_weightsB is None:
+            event_weightsB = np.ones(len(eventsB), dtype=float)
+        elif len(event_weightsB) != len(eventsB):
+            raise ValueError('length of `event_weightsB` does not match length of `eventsB`')
+
+        self.event_arrs = []
+        _store_events(self, itertools.chain(eventsA, eventsB),
+                            itertools.chain(event_weightsA, event_weightsB),
+                            gdim, mask)
+
+    # run actual computation
+        if not self.request_mode():
+            self.compute()
 
     emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emds)
     raw_emds = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_raw_emds)
@@ -366,7 +396,7 @@ class PairwiseEMDBaseFloat64(object):
 _eventgeometry.PairwiseEMDBaseFloat64_swigregister(PairwiseEMDBaseFloat64)
 
 class ExternalEMDHandlerFloat64(object):
-    r"""Proxy of C++ fastjet::contrib::emd::ExternalEMDHandler< double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::ExternalEMDHandler< double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -384,13 +414,16 @@ class ExternalEMDHandlerFloat64(object):
 _eventgeometry.ExternalEMDHandlerFloat64_swigregister(ExternalEMDHandlerFloat64)
 
 class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::log,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::Histogram1DHandler< boost::histogram::axis::transform::log,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, nbins, axis_min, axis_max):
-        r"""__init__(Histogram1DHandlerLogFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerLogFloat64"""
-        _eventgeometry.Histogram1DHandlerLogFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerLogFloat64(nbins, axis_min, axis_max))
+    def __init__(self, *args):
+        r"""
+        __init__(Histogram1DHandlerLogFloat64 self) -> Histogram1DHandlerLogFloat64
+        __init__(Histogram1DHandlerLogFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerLogFloat64
+        """
+        _eventgeometry.Histogram1DHandlerLogFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerLogFloat64(*args))
     __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerLogFloat64
     nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_nbins)
     axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_axis_min)
@@ -399,6 +432,7 @@ class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
     hist_vals_vars_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_hist_vals_vars_vec)
     bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers_vec)
     bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_edges_vec)
+    __iadd__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___iadd__)
     __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___repr__)
     bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers)
@@ -414,13 +448,16 @@ class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
 _eventgeometry.Histogram1DHandlerLogFloat64_swigregister(Histogram1DHandlerLogFloat64)
 
 class Histogram1DHandlerFloat64(ExternalEMDHandlerFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::Histogram1DHandler< boost::histogram::axis::transform::id,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::Histogram1DHandler< boost::histogram::axis::transform::id,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, nbins, axis_min, axis_max):
-        r"""__init__(Histogram1DHandlerFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerFloat64"""
-        _eventgeometry.Histogram1DHandlerFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerFloat64(nbins, axis_min, axis_max))
+    def __init__(self, *args):
+        r"""
+        __init__(Histogram1DHandlerFloat64 self) -> Histogram1DHandlerFloat64
+        __init__(Histogram1DHandlerFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerFloat64
+        """
+        _eventgeometry.Histogram1DHandlerFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerFloat64(*args))
     __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerFloat64
     nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_nbins)
     axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_axis_min)
@@ -429,6 +466,7 @@ class Histogram1DHandlerFloat64(ExternalEMDHandlerFloat64):
     hist_vals_vars_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_hist_vals_vars_vec)
     bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers_vec)
     bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_edges_vec)
+    __iadd__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___iadd__)
     __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___repr__)
     bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers)
@@ -445,15 +483,18 @@ _eventgeometry.Histogram1DHandlerFloat64_swigregister(Histogram1DHandlerFloat64)
 
 class CorrelationDimension(Histogram1DHandlerLogFloat64):
     r"""
-    Proxy of C++ fastjet::contrib::emd::CorrelationDimension< double > class.
-    Proxy of C++ fastjet::contrib::emd::CorrelationDimension< double > class.
+    Proxy of C++ fastjet::contrib::eventgeometry::CorrelationDimension< double > class.
+    Proxy of C++ fastjet::contrib::eventgeometry::CorrelationDimension< double > class.
     """
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, nbins, axis_min, axis_max):
-        r"""__init__(CorrelationDimension self, unsigned int nbins, double axis_min, double axis_max) -> CorrelationDimension"""
-        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(nbins, axis_min, axis_max))
+    def __init__(self, *args):
+        r"""
+        __init__(CorrelationDimension self) -> CorrelationDimension
+        __init__(CorrelationDimension self, unsigned int nbins, double axis_min, double axis_max) -> CorrelationDimension
+        """
+        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(*args))
     corrdims_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims_vec)
     corrdim_bins_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins_vec)
     cumulative_vals_vars_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_cumulative_vals_vars_vec)
@@ -467,9 +508,113 @@ class CorrelationDimension(Histogram1DHandlerLogFloat64):
 # Register CorrelationDimension in _eventgeometry:
 _eventgeometry.CorrelationDimension_swigregister(CorrelationDimension)
 
+class vectorPseudoJetContainer(object):
+    r"""Proxy of C++ std::vector< fastjet::PseudoJetContainer > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    iterator = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_iterator)
+    def __iter__(self):
+        return self.iterator()
+    __nonzero__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___nonzero__)
+    __bool__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___bool__)
+    __len__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___len__)
+    __getslice__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___getslice__)
+    __setslice__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___setslice__)
+    __delslice__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___delslice__)
+    __delitem__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___delitem__)
+    __getitem__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___getitem__)
+    __setitem__ = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer___setitem__)
+    pop = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_pop)
+    append = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_append)
+    empty = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_empty)
+    size = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_size)
+    swap = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_swap)
+    begin = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_begin)
+    end = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_end)
+    rbegin = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_rbegin)
+    rend = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_rend)
+    clear = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_clear)
+    get_allocator = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_get_allocator)
+    pop_back = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_pop_back)
+    erase = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_erase)
+
+    def __init__(self, *args):
+        r"""
+        __init__(vectorPseudoJetContainer self) -> vectorPseudoJetContainer
+        __init__(vectorPseudoJetContainer self, vectorPseudoJetContainer other) -> vectorPseudoJetContainer
+        __init__(vectorPseudoJetContainer self, std::vector< fastjet::PseudoJetContainer >::size_type size) -> vectorPseudoJetContainer
+        __init__(vectorPseudoJetContainer self, std::vector< fastjet::PseudoJetContainer >::size_type size, PseudoJetContainer value) -> vectorPseudoJetContainer
+        """
+        _eventgeometry.vectorPseudoJetContainer_swiginit(self, _eventgeometry.new_vectorPseudoJetContainer(*args))
+    push_back = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_push_back)
+    front = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_front)
+    back = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_back)
+    assign = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_assign)
+    resize = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_resize)
+    insert = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_insert)
+    reserve = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_reserve)
+    capacity = _swig_new_instance_method(_eventgeometry.vectorPseudoJetContainer_capacity)
+    __swig_destroy__ = _eventgeometry.delete_vectorPseudoJetContainer
+
+# Register vectorPseudoJetContainer in _eventgeometry:
+_eventgeometry.vectorPseudoJetContainer_swigregister(vectorPseudoJetContainer)
+
+class vectorVectorPseudoJetr(object):
+    r"""Proxy of C++ std::vector< std::vector< fastjet::PseudoJet > > class."""
+
+    thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
+    __repr__ = _swig_repr
+    iterator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_iterator)
+    def __iter__(self):
+        return self.iterator()
+    __nonzero__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___nonzero__)
+    __bool__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___bool__)
+    __len__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___len__)
+    __getslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___getslice__)
+    __setslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___setslice__)
+    __delslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___delslice__)
+    __delitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___delitem__)
+    __getitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___getitem__)
+    __setitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___setitem__)
+    pop = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_pop)
+    append = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_append)
+    empty = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_empty)
+    size = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_size)
+    swap = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_swap)
+    begin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_begin)
+    end = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_end)
+    rbegin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_rbegin)
+    rend = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_rend)
+    clear = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_clear)
+    get_allocator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_get_allocator)
+    pop_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_pop_back)
+    erase = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_erase)
+
+    def __init__(self, *args):
+        r"""
+        __init__(vectorVectorPseudoJetr self) -> vectorVectorPseudoJetr
+        __init__(vectorVectorPseudoJetr self, vectorVectorPseudoJetr other) -> vectorVectorPseudoJetr
+        __init__(vectorVectorPseudoJetr self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size) -> vectorVectorPseudoJetr
+        __init__(vectorVectorPseudoJetr self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size, vectorPseudoJet value) -> vectorVectorPseudoJetr
+        """
+        _eventgeometry.vectorVectorPseudoJetr_swiginit(self, _eventgeometry.new_vectorVectorPseudoJetr(*args))
+    push_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_push_back)
+    front = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_front)
+    back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_back)
+    assign = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_assign)
+    resize = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_resize)
+    insert = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_insert)
+    reserve = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_reserve)
+    capacity = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_capacity)
+    __swig_destroy__ = _eventgeometry.delete_vectorVectorPseudoJetr
+
+# Register vectorVectorPseudoJetr in _eventgeometry:
+_eventgeometry.vectorVectorPseudoJetr_swigregister(vectorVectorPseudoJetr)
+
 phi_fix = _eventgeometry.phi_fix
 class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::DeltaR > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -490,29 +635,31 @@ class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
 _eventgeometry.EMDTransverseMomentumDeltaR_swigregister(EMDTransverseMomentumDeltaR)
 
 class PairwiseEMDTransverseMomentumDeltaR(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::DeltaR >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseMomentumDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumDeltaR"""
+        r"""__init__(PairwiseEMDTransverseMomentumDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumDeltaR"""
         _eventgeometry.PairwiseEMDTransverseMomentumDeltaR_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumDeltaR(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumDeltaR
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR__add_event)
 
 # Register PairwiseEMDTransverseMomentumDeltaR in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumDeltaR_swigregister(PairwiseEMDTransverseMomentumDeltaR)
 
 class EMDTransverseMomentumHadronicDot(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDot > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -533,29 +680,31 @@ class EMDTransverseMomentumHadronicDot(EMDBaseFloat64):
 _eventgeometry.EMDTransverseMomentumHadronicDot_swigregister(EMDTransverseMomentumHadronicDot)
 
 class PairwiseEMDTransverseMomentumHadronicDot(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDot >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseMomentumHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDot"""
+        r"""__init__(PairwiseEMDTransverseMomentumHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDot"""
         _eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumHadronicDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumHadronicDot
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot__add_event)
 
 # Register PairwiseEMDTransverseMomentumHadronicDot in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_swigregister(PairwiseEMDTransverseMomentumHadronicDot)
 
 class EMDTransverseMomentumHadronicDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDotMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -576,29 +725,31 @@ class EMDTransverseMomentumHadronicDotMassive(EMDBaseFloat64):
 _eventgeometry.EMDTransverseMomentumHadronicDotMassive_swigregister(EMDTransverseMomentumHadronicDotMassive)
 
 class PairwiseEMDTransverseMomentumHadronicDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseMomentum,fastjet::contrib::emd::HadronicDotMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDotMassive"""
+        r"""__init__(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseMomentumHadronicDotMassive"""
         _eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseMomentumHadronicDotMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive__add_event)
 
 # Register PairwiseEMDTransverseMomentumHadronicDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_swigregister(PairwiseEMDTransverseMomentumHadronicDotMassive)
 
 class EMDTransverseEnergyDeltaR(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::DeltaR > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -619,29 +770,31 @@ class EMDTransverseEnergyDeltaR(EMDBaseFloat64):
 _eventgeometry.EMDTransverseEnergyDeltaR_swigregister(EMDTransverseEnergyDeltaR)
 
 class PairwiseEMDTransverseEnergyDeltaR(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::DeltaR >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseEnergyDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyDeltaR"""
+        r"""__init__(PairwiseEMDTransverseEnergyDeltaR self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyDeltaR"""
         _eventgeometry.PairwiseEMDTransverseEnergyDeltaR_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyDeltaR(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyDeltaR
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR__add_event)
 
 # Register PairwiseEMDTransverseEnergyDeltaR in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyDeltaR_swigregister(PairwiseEMDTransverseEnergyDeltaR)
 
 class EMDTransverseEnergyHadronicDot(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDot > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -662,29 +815,31 @@ class EMDTransverseEnergyHadronicDot(EMDBaseFloat64):
 _eventgeometry.EMDTransverseEnergyHadronicDot_swigregister(EMDTransverseEnergyHadronicDot)
 
 class PairwiseEMDTransverseEnergyHadronicDot(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDot >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseEnergyHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDot"""
+        r"""__init__(PairwiseEMDTransverseEnergyHadronicDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDot"""
         _eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyHadronicDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyHadronicDot
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot__add_event)
 
 # Register PairwiseEMDTransverseEnergyHadronicDot in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_swigregister(PairwiseEMDTransverseEnergyHadronicDot)
 
 class EMDTransverseEnergyHadronicDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDotMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -705,29 +860,31 @@ class EMDTransverseEnergyHadronicDotMassive(EMDBaseFloat64):
 _eventgeometry.EMDTransverseEnergyHadronicDotMassive_swigregister(EMDTransverseEnergyHadronicDotMassive)
 
 class PairwiseEMDTransverseEnergyHadronicDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::TransverseEnergy,fastjet::contrib::emd::HadronicDotMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDotMassive"""
+        r"""__init__(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDTransverseEnergyHadronicDotMassive"""
         _eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDTransverseEnergyHadronicDotMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive__add_event)
 
 # Register PairwiseEMDTransverseEnergyHadronicDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_swigregister(PairwiseEMDTransverseEnergyHadronicDotMassive)
 
 class EMDMomentumEEDot(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDot > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -748,29 +905,31 @@ class EMDMomentumEEDot(EMDBaseFloat64):
 _eventgeometry.EMDMomentumEEDot_swigregister(EMDMomentumEEDot)
 
 class PairwiseEMDMomentumEEDot(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDot >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDMomentumEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDot"""
+        r"""__init__(PairwiseEMDMomentumEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDot"""
         _eventgeometry.PairwiseEMDMomentumEEDot_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDot
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot__add_event)
 
 # Register PairwiseEMDMomentumEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEDot_swigregister(PairwiseEMDMomentumEEDot)
 
 class EMDMomentumEEDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDotMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -791,29 +950,31 @@ class EMDMomentumEEDotMassive(EMDBaseFloat64):
 _eventgeometry.EMDMomentumEEDotMassive_swigregister(EMDMomentumEEDotMassive)
 
 class PairwiseEMDMomentumEEDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEDotMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"""
+        r"""__init__(PairwiseEMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"""
         _eventgeometry.PairwiseEMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDotMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive__add_event)
 
 # Register PairwiseEMDMomentumEEDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEDotMassive_swigregister(PairwiseEMDMomentumEEDotMassive)
 
 class EMDMomentumEEArcLength(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLength > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -834,29 +995,31 @@ class EMDMomentumEEArcLength(EMDBaseFloat64):
 _eventgeometry.EMDMomentumEEArcLength_swigregister(EMDMomentumEEArcLength)
 
 class PairwiseEMDMomentumEEArcLength(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLength >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDMomentumEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLength"""
+        r"""__init__(PairwiseEMDMomentumEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLength"""
         _eventgeometry.PairwiseEMDMomentumEEArcLength_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEArcLength(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEArcLength
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength__add_event)
 
 # Register PairwiseEMDMomentumEEArcLength in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEArcLength_swigregister(PairwiseEMDMomentumEEArcLength)
 
 class EMDMomentumEEArcLengthMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLengthMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -877,29 +1040,31 @@ class EMDMomentumEEArcLengthMassive(EMDBaseFloat64):
 _eventgeometry.EMDMomentumEEArcLengthMassive_swigregister(EMDMomentumEEArcLengthMassive)
 
 class PairwiseEMDMomentumEEArcLengthMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Momentum,fastjet::contrib::emd::EEArcLengthMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDMomentumEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLengthMassive"""
+        r"""__init__(PairwiseEMDMomentumEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEArcLengthMassive"""
         _eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEArcLengthMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEArcLengthMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive__add_event)
 
 # Register PairwiseEMDMomentumEEArcLengthMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_swigregister(PairwiseEMDMomentumEEArcLengthMassive)
 
 class EMDEnergyEEDot(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDot > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -920,29 +1085,31 @@ class EMDEnergyEEDot(EMDBaseFloat64):
 _eventgeometry.EMDEnergyEEDot_swigregister(EMDEnergyEEDot)
 
 class PairwiseEMDEnergyEEDot(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDot >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDEnergyEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDot"""
+        r"""__init__(PairwiseEMDEnergyEEDot self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDot"""
         _eventgeometry.PairwiseEMDEnergyEEDot_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDot(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDot
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot__add_event)
 
 # Register PairwiseEMDEnergyEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEDot_swigregister(PairwiseEMDEnergyEEDot)
 
 class EMDEnergyEEDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDotMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -963,29 +1130,31 @@ class EMDEnergyEEDotMassive(EMDBaseFloat64):
 _eventgeometry.EMDEnergyEEDotMassive_swigregister(EMDEnergyEEDotMassive)
 
 class PairwiseEMDEnergyEEDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEDotMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"""
+        r"""__init__(PairwiseEMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"""
         _eventgeometry.PairwiseEMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDotMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDotMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive__add_event)
 
 # Register PairwiseEMDEnergyEEDotMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEDotMassive_swigregister(PairwiseEMDEnergyEEDotMassive)
 
 class EMDEnergyEEArcLength(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLength > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -1006,29 +1175,31 @@ class EMDEnergyEEArcLength(EMDBaseFloat64):
 _eventgeometry.EMDEnergyEEArcLength_swigregister(EMDEnergyEEArcLength)
 
 class PairwiseEMDEnergyEEArcLength(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLength >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDEnergyEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLength"""
+        r"""__init__(PairwiseEMDEnergyEEArcLength self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLength"""
         _eventgeometry.PairwiseEMDEnergyEEArcLength_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEArcLength(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEArcLength
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength__add_event)
 
 # Register PairwiseEMDEnergyEEArcLength in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEArcLength_swigregister(PairwiseEMDEnergyEEArcLength)
 
 class EMDEnergyEEArcLengthMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLengthMassive > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
@@ -1049,23 +1220,25 @@ class EMDEnergyEEArcLengthMassive(EMDBaseFloat64):
 _eventgeometry.EMDEnergyEEArcLengthMassive_swigregister(EMDEnergyEEArcLengthMassive)
 
 class PairwiseEMDEnergyEEArcLengthMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::emd::PairwiseEMD< fastjet::contrib::emd::EMD< double,fastjet::contrib::emd::Energy,fastjet::contrib::emd::EEArcLengthMassive >,double > class."""
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDEnergyEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::emd::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLengthMassive"""
+        r"""__init__(PairwiseEMDEnergyEEArcLengthMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEArcLengthMassive"""
         _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs))
     __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEArcLengthMassive
     description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_description)
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_compute)
     __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
     preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___call__)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive__add_event)
 
 # Register PairwiseEMDEnergyEEArcLengthMassive in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnergyEEArcLengthMassive)
@@ -1075,6 +1248,15 @@ _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnerg
 from fastjet import FastJetError
 
 __version__ = '1.0.0a2'
+
+# function for storing events in a pairwise_emd object
+def _store_events(pairwise_emd, events, event_weights, gdim, mask):
+
+    if gdim or mask:
+        raise ValueError('`gdim` and `mask` are not supported')
+
+    for event, event_weight in zip(events, event_weights):
+        pairwise_emd._add_event(event, event_weight)
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
@@ -1086,7 +1268,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -1096,7 +1278,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -1108,7 +1290,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -1120,10 +1302,10 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not recognized'.format(weight))
+        raise TypeError('weight `{}` not allowed'.format(weight))
 
 def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
@@ -1135,7 +1317,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -1145,7 +1327,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -1157,7 +1339,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -1169,10 +1351,10 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not recognized'.format(weight))
+        raise TypeError('weight `{}` not allowed'.format(weight))
 
 
 

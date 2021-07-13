@@ -1,0 +1,51 @@
+name: Build and upload Python wheels
+
+on:
+  push:
+    branches:
+      - main
+
+env:
+  PYPI: 0
+  PYPITEST: 1
+  CIBW_SKIP: pp*
+  TWINE_USERNAME: __token__
+  TWINE_PASSWORD_PYPITEST: ${{ secrets.TWINE_PASSWORD_PYPITEST }}
+  TWINE_PASSWORD_PYPI: ${{ secrets.TWINE_PASSWORD_PYPI }}
+
+jobs:
+  linux-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Build wheels and upload to PyPI
+        run: ./scripts/build-wheels-and-upload.sh sdist
+
+  macos-build:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Install libomp
+        run: brew install libomp
+      - name: Build wheels and upload to PyPI
+        run: ./scripts/build-wheels-and-upload.sh
+
+  windows-build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Build wheels and upload to PyPI
+        shell: bash
+        run: ./scripts/build-wheels-and-upload.sh

@@ -27,55 +27,94 @@
 
 // handle using PyFJCore for PseudoJet
 #ifdef EVENTGEOMETRY_USE_PYFJCORE
-#include "pyfjcore/fjcore.hh"
-#define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
+# include "pyfjcore/fjcore.hh"
+//#define EVENTGEOMETRY_TEMPLATE_VISIBILITY
 #elif !defined(__FASTJET_PSEUDOJET_HH__) && !defined(__FJCORE__)
-#include "fastjet/PseudoJet.hh"
+# include "fastjet/PseudoJet.hh"
 #endif
 
 // include Wasserstein package in the proper namespace
-#ifndef BEGIN_EMD_NAMESPACE
-#define BEGIN_EMD_NAMESPACE namespace fastjet { namespace contrib { namespace emd {
-#define END_EMD_NAMESPACE } } }
-#define EMDNAMESPACE fastjet::contrib::emd
+#ifndef BEGIN_WASSERSTEIN_NAMESPACE
+# define BEGIN_WASSERSTEIN_NAMESPACE namespace fastjet { namespace contrib { namespace eventgeometry {
+# define END_WASSERSTEIN_NAMESPACE } } }
+# define WASSERSTEIN_NAMESPACE fastjet::contrib::eventgeometry
 #endif
-
-// the Wasserstein library (indicate FastJet compatibility)
-#define WASSERSTEIN_FASTJET
-#include "wasserstein/Wasserstein.hh"
 
 // macro for controling template visibility
-#ifndef EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY
-#define EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY extern
+#ifndef EVENTGEOMETRY_TEMPLATE_VISIBILITY
+# define EVENTGEOMETRY_TEMPLATE_VISIBILITY extern
 #endif
 
+// handle Wasserstein's template visibility
+#ifndef WASSERSTEIN_TEMPLATE_VISIBILITY
+# define WASSERSTEIN_TEMPLATE_VISIBILITY EVENTGEOMETRY_TEMPLATE_VISIBILITY
+#endif
+
+// macro for declaring templated types
+#define EVENTGEOMETRY_TEMPLATE(...) EVENTGEOMETRY_TEMPLATE_VISIBILITY template class __VA_ARGS__;
+#define EVENTGEOMETRY_TEMPLATE_STRUCT(...) EVENTGEOMETRY_TEMPLATE_VISIBILITY template struct __VA_ARGS__;
+
+#define EVENTGEOMETRY_PREPROCESSOR_TEMPLATE(...) \
+  EVENTGEOMETRY_TEMPLATE(CenterEScheme<__VA_ARGS__>) \
+  EVENTGEOMETRY_TEMPLATE(CenterPtCentroid<__VA_ARGS__>) \
+  EVENTGEOMETRY_TEMPLATE(CenterWeightedCentroid<__VA_ARGS__>) \
+  EVENTGEOMETRY_TEMPLATE(MaskCircleRapPhi<__VA_ARGS__>)
+
 // macro for declaring specific EMD template
-#define EVENTGEOMETRY_EMDTEMPLATE(PW, PD) \
-  EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class EMD<double, PW, PD>; \
-  EVENTGEOMETRY_EMD_TEMPLATE_VISIBILITY template class PairwiseEMD<EMD<double, PW, PD>>; \
-  typedef EMDFloat64<PW, PD> EMD##PW##PD; \
-  typedef PairwiseEMD<EMD##PW##PD> PairwiseEMD##PW##PD;
+#define EVENTGEOMETRY_EMD_TEMPLATE(PW, PD) \
+  EVENTGEOMETRY_TEMPLATE(EMD<double, PW, PD>) \
+  EVENTGEOMETRY_TEMPLATE(PairwiseEMD<EMD<double, PW, PD>>) \
+  EVENTGEOMETRY_PREPROCESSOR_TEMPLATE(EMD<double, PW, PD>) \
+  using EMD##PW##PD = EMDFloat64<PW, PD>; \
+  using PairwiseEMD##PW##PD = PairwiseEMD<EMD##PW##PD>;
+
+#define EVENTGEOMETRY_EVENT_TEMPLATE(E) \
+  EVENTGEOMETRY_TEMPLATE_STRUCT(E) \
+  EVENTGEOMETRY_TEMPLATE_STRUCT(FastJetEvent<E>)
+
+#define EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(PD) \
+  EVENTGEOMETRY_TEMPLATE(PD) \
+  EVENTGEOMETRY_TEMPLATE(PairwiseDistanceBase<PD, std::vector<PseudoJet>, double>)
 
 // declare all EMD templates
-#define DECLARE_EMD_TEMPLATES \
-  BEGIN_EMD_NAMESPACE \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, DeltaR) \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, HadronicDot) \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseMomentum, HadronicDotMassive) \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, DeltaR) \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, HadronicDot) \
-    EVENTGEOMETRY_EMDTEMPLATE(TransverseEnergy, HadronicDotMassive) \
-    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEDot) \
-    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEDotMassive) \
-    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEArcLength) \
-    EVENTGEOMETRY_EMDTEMPLATE(Momentum, EEArcLengthMassive) \
-    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEDot) \
-    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEDotMassive) \
-    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEArcLength) \
-    EVENTGEOMETRY_EMDTEMPLATE(Energy, EEArcLengthMassive) \
-  END_EMD_NAMESPACE
+#define EVENTGEOMETRY_TEMPLATES \
+  WASSERSTEIN_TEMPLATES \
+  EVENTGEOMETRY_TEMPLATE_STRUCT(EventBase<std::vector<double>, std::vector<PseudoJet>>) \
+  EVENTGEOMETRY_EVENT_TEMPLATE(TransverseMomentum<double>) \
+  EVENTGEOMETRY_EVENT_TEMPLATE(TransverseEnergy<double>) \
+  EVENTGEOMETRY_EVENT_TEMPLATE(Momentum<double>) \
+  EVENTGEOMETRY_EVENT_TEMPLATE(Energy<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(DeltaR<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(HadronicDot<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(HadronicDotMassive<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEDot<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEDotMassive<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEArcLength<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEArcLengthMassive<double>) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, DeltaR) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDot) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDotMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, DeltaR) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDot) \
+  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDotMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDot) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDotMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLength) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLengthMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDot) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDotMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLength) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLengthMassive)
 
-BEGIN_EMD_NAMESPACE
+// Wasserstein options
+#define WASSERSTEIN_FASTJET
+#define WASSERSTEIN_NO_FLOAT32
+
+// the Wasserstein library (indicate FastJet compatibility)
+#include "wasserstein/Wasserstein.hh"
+
+
+BEGIN_WASSERSTEIN_NAMESPACE
 
 using fastjet::PseudoJet;
 
@@ -99,8 +138,8 @@ struct FastJetEvent : public EventBase<std::vector<typename _ParticleWeight::val
   // constructor from PseudoJet, possibly with constituents
   FastJetEvent(const PseudoJet & pj, value_type event_weight = 1) :
     EventBase<WeightCollection, ParticleCollection>(pj.has_constituents() ? 
-                                                    pj.constituents() : 
-                                                    ParticleCollection{pj}, event_weight),
+        static_cast<const std::vector<PseudoJet> &>(pj.constituents()) : ParticleCollection{pj},
+      event_weight),
     axis_(pj)
   {}
 
@@ -319,7 +358,7 @@ public:
 // FastJet-specific Preprocessors
 ////////////////////////////////////////////////////////////////////////////////
 
-inline double phi_fix(double phi, double ref_phi) {
+double phi_fix(double phi, double ref_phi) {
   double diff(phi - ref_phi);
   if (diff > PI) phi -= TWOPI;
   else if (diff < -PI) phi += TWOPI;
@@ -494,9 +533,11 @@ private:
 
 }; // MaskCircleRapPhi
 
-END_EMD_NAMESPACE
-
 // declares templates, by default extern (so that library must be linked)
-DECLARE_EMD_TEMPLATES
+#ifdef DECLARE_EVENTGEOMETRY_TEMPLATES
+  EVENTGEOMETRY_TEMPLATES
+#endif
+
+END_WASSERSTEIN_NAMESPACE
 
 #endif // EVENTGEOMETRY_HH

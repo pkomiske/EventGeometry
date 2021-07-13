@@ -37,9 +37,9 @@ FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
 %}
 
 // include EMD wrappers from Wasserstein package
-#define EMDNAMESPACE fastjet::contrib::emd
-#define BEGIN_EMD_NAMESPACE namespace fastjet { namespace contrib { namespace emd {
-#define END_EMD_NAMESPACE } } }
+#define WASSERSTEIN_NAMESPACE fastjet::contrib::eventgeometry
+#define BEGIN_WASSERSTEIN_NAMESPACE namespace fastjet { namespace contrib { namespace eventgeometry {
+#define END_WASSERSTEIN_NAMESPACE } } }
 #define WASSERSTEIN_NO_FLOAT32
 %include "wasserstein/swig/wasserstein_common.i"
 
@@ -49,92 +49,82 @@ FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
 %}
 
 %define EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
-void preprocess_CenterEScheme() { $self->preprocess<EMDNAMESPACE::CenterEScheme>(); }
+void preprocess_CenterEScheme() { $self->preprocess<WASSERSTEIN_NAMESPACE::CenterEScheme>(); }
 //void preprocess_CenterWeightedCentroid() { $self->preprocess<CenterWeightedCentroid>(); }
-void preprocess_CenterPtCentroid() { $self->preprocess<EMDNAMESPACE::CenterPtCentroid>(); }
-void preprocess_MaskCircleRapPhi(double R) { $self->preprocess<EMDNAMESPACE::MaskCircleRapPhi>(R); }
+void preprocess_CenterPtCentroid() { $self->preprocess<WASSERSTEIN_NAMESPACE::CenterPtCentroid>(); }
+void preprocess_MaskCircleRapPhi(double R) { $self->preprocess<WASSERSTEIN_NAMESPACE::MaskCircleRapPhi>(R); }
 %enddef
 
-%ignore EMDNAMESPACE::FastJetEventBase;
-%ignore EMDNAMESPACE::FastJetParticleWeight;
+%ignore WASSERSTEIN_NAMESPACE::FastJetEventBase;
+%ignore WASSERSTEIN_NAMESPACE::FastJetParticleWeight;
+
+%template(vectorPseudoJetContainer) std::vector<fastjet::PseudoJetContainer>;
+%template(vectorVectorPseudoJetr) std::vector<std::vector<fastjet::PseudoJet>>;
 
 %include "EventGeometry.hh"
 
-namespace EMDNAMESPACE {
+namespace WASSERSTEIN_NAMESPACE {
 
   // extend [Pairwise]EMD to explicitly support PseudoJet arguments and printing
   %extend EMD {
     EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
 
-    double operator()(const fastjet::PseudoJet & pj0, const fastjet::PseudoJet & pj1) {
-      return (*$self)(pj0, pj1);
-    }
-    double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const fastjet::PseudoJet & pj1) {
-      return (*$self)(pjs0, pj1);
-    }
-    double operator()(const fastjet::PseudoJet & pj0, const std::vector<fastjet::PseudoJet> & pjs1) {
-      return (*$self)(pj0, pjs1);
+    double operator()(const PseudoJetContainer & pjs0, const PseudoJetContainer & pjs1) {
+      return (*$self)(pjs0, pjs1);
     }
     double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const std::vector<fastjet::PseudoJet> & pjs1) {
       return (*$self)(pjs0, pjs1);
     }
+    double operator()(const fastjet::PseudoJet & pj0, const fastjet::PseudoJet & pj1) {
+      return (*$self)(pj0, pj1);
+    }
+
+    /*double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const fastjet::PseudoJet & pj1) {
+      return (*$self)(pjs0, pj1);
+    }
+    double operator()(const fastjet::PseudoJet & pj0, const std::vector<fastjet::PseudoJet> & pjs1) {
+      return (*$self)(pj0, pjs1);
+    }*/
   }
 
   %extend PairwiseEMD {
     EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
 
-    void operator()(const std::vector<fastjet::PseudoJet> & evs, const std::vector<double> & event_weights = {}) {
-      (*$self)(evs, event_weights);
+    // add a single event to the PairwiseEMD object
+    void _add_event(const PseudoJetContainer & pjc, double event_weight = 1) {
+      $self->events().emplace_back(pjc, event_weight);
+      $self->preprocess_back_event();
     }
-    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evs, const std::vector<double> & event_weights = {}) {
-      (*$self)(evs, event_weights);
+    void _add_event(const std::vector<PseudoJet> & pjs, double event_weight = 1) {
+      $self->events().emplace_back(pjs, event_weight);
+      $self->preprocess_back_event();
     }
-    void operator()(const std::vector<fastjet::PseudoJet> & evsA,
-                    const std::vector<fastjet::PseudoJet> & evsB,
-                    const std::vector<double> & event_weightsA = {},
-                    const std::vector<double> & event_weightsB = {}) {
-      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
-    }
-    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evsA,
-                    const std::vector<fastjet::PseudoJet> & evsB,
-                    const std::vector<double> & event_weightsA = {},
-                    const std::vector<double> & event_weightsB = {}) {
-      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
-    }
-    void operator()(const std::vector<fastjet::PseudoJet> & evsA,
-                    const std::vector<std::vector<fastjet::PseudoJet>> & evsB,
-                    const std::vector<double> & event_weightsA = {},
-                    const std::vector<double> & event_weightsB = {}) {
-      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
-    }
-    void operator()(const std::vector<std::vector<fastjet::PseudoJet>> & evsA,
-                    const std::vector<std::vector<fastjet::PseudoJet>> & evsB,
-                    const std::vector<double> & event_weightsA = {},
-                    const std::vector<double> & event_weightsB = {}) {
-      (*$self)(evsA, evsB, event_weightsA, event_weightsB);
+    void _add_event(const PseudoJet & pj, double event_weight = 1) {
+      $self->events().emplace_back(pj, event_weight);
+      $self->preprocess_back_event();
     }
   }
 
   // instantiate EMD and PairwiseEMD templates
-  %define EVENTGEOMETRY_EMD_TEMPLATE(Weight, Distance)
+  %define EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Weight, Distance)
     %template(EMD##Weight##Distance) EMD<double, Weight, Distance>;
     %template(PairwiseEMD##Weight##Distance) PairwiseEMD<EMD<double, Weight, Distance>, double>;
   %enddef
 
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, DeltaR)
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDot)
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDotMassive)
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, DeltaR)
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDot)
-  EVENTGEOMETRY_EMD_TEMPLATE(TransverseEnergy, HadronicDotMassive)
-  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDot)
-  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDotMassive)
-  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLength)
-  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLengthMassive)
-  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDot)
-  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDotMassive)
-  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLength)
-  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLengthMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseMomentum, DeltaR)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseMomentum, HadronicDot)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseMomentum, HadronicDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseEnergy, DeltaR)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseEnergy, HadronicDot)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseEnergy, HadronicDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEDot)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEArcLength)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEArcLengthMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEDot)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEArcLength)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEArcLengthMassive)
 }
 
 // add convenience functions for accessing templated EMD, PairwiseEMD, and ApolloniusGroomer classes
@@ -143,6 +133,15 @@ namespace EMDNAMESPACE {
 from fastjet import FastJetError
 
 __version__ = '\{version\}'
+
+# function for storing events in a pairwise_emd object
+def _store_events(pairwise_emd, events, event_weights, gdim, mask):
+
+    if gdim or mask:
+        raise ValueError('`gdim` and `mask` are not supported')
+
+    for event, event_weight in zip(events, event_weights):
+        pairwise_emd._add_event(event, event_weight)
 
 def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
@@ -154,7 +153,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -164,7 +163,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -176,7 +175,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -188,10 +187,10 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not recognized'.format(weight))
+        raise TypeError('weight `{}` not allowed'.format(weight))
 
 def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
@@ -203,7 +202,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -213,7 +212,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -225,7 +224,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -237,8 +236,8 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not recognized'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not recognized'.format(weight))
+        raise TypeError('weight `{}` not allowed'.format(weight))
 %}

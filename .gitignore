@@ -12,3 +12,4 @@
 .eggs/
 build/
 dist/
+.deps/
