@@ -24,6 +24,8 @@
 
 // ensure that "extern" is not included in template instantiation
 #define EVENTGEOMETRY_TEMPLATE_VISIBILITY
+
+// ensure templates are declared
 #define DECLARE_EVENTGEOMETRY_TEMPLATES
 
 #include "EventGeometry.hh"

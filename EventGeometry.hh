@@ -358,7 +358,7 @@ public:
 // FastJet-specific Preprocessors
 ////////////////////////////////////////////////////////////////////////////////
 
-double phi_fix(double phi, double ref_phi) {
+inline double phi_fix(double phi, double ref_phi) {
   double diff(phi - ref_phi);
   if (diff > PI) phi -= TWOPI;
   else if (diff < -PI) phi += TWOPI;

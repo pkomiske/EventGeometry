@@ -22,8 +22,6 @@
 # along with this code. If not, see <http://www.gnu.org/licenses/>.
 #----------------------------------------------------------------------
 
-from __future__ import print_function
-
 import os
 import platform
 import re
@@ -34,146 +32,123 @@ import sys
 
 # Package name, with capitalization
 name = 'EventGeometry'
-
-# Python package name, lower case by convention
 lname = name.lower()
-
-# some extra options that swig needs for this package
-extra_swig_opts = '-keyword -w325,402,509,511 -IWasserstein -DSWIG_NUMPY'
 
 # using PyFJCore or not
 use_pyfjcore = True
 
 ################################################################################
 
-# function to query a config binary and get the result
-fastjet_config = os.environ.get('FASTJET_CONFIG', 'fastjet-config')
-def query_config(query):
-    if not use_pyfjcore:
-        return subprocess.check_output([fastjet_config, query]).decode('utf-8').strip()
-    return ''
+# use main fastjet library
+if not use_pyfjcore:
 
-# get fastjet info
-fj_prefix = query_config('--prefix')
-fj_cxxflags = query_config('--cxxflags')
-fj_ldflags = query_config('--libs')
+    # function to query a config binary and get the result
+    fastjet_config = os.environ.get('FASTJET_CONFIG', 'fastjet-config')
+    def query_config(query):
+        if not use_pyfjcore:
+            return subprocess.check_output([fastjet_config, query]).decode('utf-8').strip()
+        return ''
 
-# get contrib README
-with open('README.md', 'r') as f:
-    readme = f.read()
+    # get fastjet info
+    fj_prefix = query_config('--prefix')
+    fj_cxxflags = query_config('--cxxflags')
+    fj_ldflags = query_config('--libs')
 
-# get contrib version
-with open(os.path.join('eventgeometry', 'eventgeometry.py'), 'r') as f:
-    __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
-
-HELP_MESSAGE = """{name} FastJet Contrib Python Package
-
-Usage: python3 setup.py [COMMAND] [OPTIONS]
-
-Valid options for COMMAND include:
-  help - Show this message
-  swig - Run SWIG to generate new {lname}.py and Py{name}.cc files; OPTIONS are passed to SWIG
-  build_ext - Build the Python extension
-  install - Install the Python extension to a standard location
-  clean - Remove Python build directories
-
-OPTIONS are passed along to setuptools commands such as build_ext, install, and clean.
-
-Relevant environment variables include:
-  FASTJET_CONFIG - Path to fastjet-config binary [defaults to looking for fastjet-config in PATH]
-  CXXFLAGS - Compiler flags passed along when building the Python extension module
-"""
-
-def show_help():
-    print(HELP_MESSAGE.format(name=name, lname=lname))
-
-def run_swig():
-
-    contrib = {'docstring': '{}'.format(readme.replace('"', r'\"')),
-               'version': "{}".format(__version__)}
-
-    interface_file = '{}.i'.format(lname)
-    template_file = '{}.i.template'.format(lname)
-    print('Constructing SWIG interface file {} from {}'.format(interface_file, template_file))
-
-    # read interface template and write interface file
-    with open(template_file, 'r') as f_template, open(interface_file, 'w') as f_interface:
-        temp = f_template.read().replace(r'\{', r'\<<').replace(r'\}', r'\>>')
-        temp = temp.replace('{', '{{').replace('}', '}}').replace(r'\<<', '{').replace(r'\>>', '}')
-        f_interface.write(temp.format(**contrib))
+if sys.argv[1] == 'swig':
 
     # form swig options
-    opts = '-fastproxy {}'.format(fj_cxxflags)
     if use_pyfjcore:
-        opts += ' -DEVENTGEOMETRY_USE_PYFJCORE -IPyFJCore/pyfjcore'
+        opts = '-DEVENTGEOMETRY_USE_PYFJCORE -IPyFJCore'
     else:
-        opts += ' -DFASTJET_PREFIX=' + fj_prefix
+        opts = '-DFASTJET_PREFIX=' + fj_prefix + ' ' + fj_cxxflags
 
-    # handle extra options for swig
-    sys.argv += extra_swig_opts.split()
-    if len(sys.argv) > 2:
-        opts += ' ' + ' '.join(sys.argv[2:])
-
-    command = 'swig -python -c++ {} -o Py{}.cc {}.i'.format(opts, name, lname)
+    command = ('swig -python -c++ -fastproxy -keyword -py3 -w325,402,509,511 -IWasserstein -DSWIG_NUMPY {opts} '
+               '-o {lname}/{lname}.cpp {lname}/swig/{lname}.i').format(opts=opts, lname=lname)
     print(command)
     subprocess.run(command.split())
 
-def run_setup():
+else:
 
-    # get cxxflags from environment, add fastjet cxxflags, and SWIG type table info
-    cxxflags = os.environ.get('CXXFLAGS', '').split() + fj_cxxflags.split() + ['-g0', '-fopenmp']
-    libs, ldflags = [], []
-
-    # handle multithreading with OpenMP
-    if platform.system() == 'Darwin':
-        cxxflags.insert(-1, '-Xpreprocessor')
-        libs.append('omp')
-    else:
-        ldflags.append('-fopenmp')
-
-    # determine library paths and names for Python
-    library_dirs = []
-    for x in fj_ldflags.split():
-        if x.startswith('-L'):
-            library_dirs.append(x[2:])
-        elif x.startswith('-l'):
-            libs.append(x[2:])
-        else:
-            ldflags.append(x)
-
+    import numpy as np
     from setuptools import setup
     from setuptools.extension import Extension
 
-    import numpy as np
+    # get contrib version
+    with open(os.path.join(lname, '__init__.py'), 'r') as f:
+        __version__ = re.search(r'__version__\s*=\s*[\'"]([^\'"]*)[\'"]', f.read()).group(1)
 
-    sources = ['Py{}.cc'.format(name)]
-    include_dirs = [np.get_include(), 'Wasserstein']
-    macros = [('SWIG_TYPE_TABLE', 'fastjet')]
-    if use_pyfjcore:
-        sources.append('PyFJCore/pyfjcore/fjcore.cc')
+    # define containers of extension options
+    sources = [os.path.join(lname, lname + '.cpp')]
+    cxxflags = ['-fopenmp'] + os.environ.get('CXXFLAGS', '').split()
+    macros = []
+    include_dirs = [np.get_include(), 'Wasserstein', '.']
+    ldflags = []
+    library_dirs = []
+    libraries = []
+
+    # using main fastjet library
+    if not use_pyfjcore:
+        cxxflags += fj_cxxflags.split()
+        macros.append(('SWIG_TYPE_TABLE', 'fastjet'))
+        for ldflag in fj_ldflags.split():
+            if ldflag.startswith('-L'):
+                library_dirs.append(ldflag[2:])
+            elif ldflag.startswith('-l'):
+                libraries.append(ldflag[2:])
+            else:
+                ldflags.append(ldflag)
+
+    # using pyfjcore
+    else:
         cxxflags.append('-std=c++14')
-        include_dirs.append('PyFJCore')
         macros.append(('EVENTGEOMETRY_USE_PYFJCORE', None))
+        macros.append(('SWIG_TYPE_TABLE', 'fjcore'))
+        include_dirs.append('PyFJCore')
+
+        # need to compile pyfjcore from scratch for windows
+        if platform.system() == 'Windows':
+            sources.append(os.path.join('PyFJCore', 'pyfjcore', 'fjcore.cc'))
+            cxxflags = ['/openmp', '/std:c++14']
+            ldflags = ['/openmp']
+
+        # on non-windows we can use shared library
+        else:
+            macros.append(('DECLARE_EVENTGEOMETRY_TEMPLATES', None))
+            library_dirs.extend(['.'])
+            libraries.extend([name])
+
+            if platform.system() == 'Darwin':
+                ldflags.append('-Wl,-rpath,@loader_path/..')
+
+            elif platform.system() == 'Linux':
+                ldflags.append('-Wl,-rpath,$ORIGIN/..')
+
+    # if not windows, further modification needed for multithreading
+    if platform.system() != 'Windows':
+
+        # no debugging
+        cxxflags.append('-g0')
+
+        # handle multithreading with OpenMP
+        if platform.system() == 'Darwin':
+            cxxflags.insert(0, '-Xpreprocessor')
+            libraries.append('omp')
+
+        # linux wants this flag
+        else:
+            ldflags.append('-fopenmp')
 
     module = Extension('{0}._{0}'.format(lname),
                        sources=sources,
-                       language='c++',
+                       define_macros=macros,
                        include_dirs=include_dirs,
                        library_dirs=library_dirs,
-                       libraries=libs,
+                       libraries=libraries,
                        extra_compile_args=cxxflags,
-                       extra_link_args=ldflags,
-                       define_macros=macros
+                       extra_link_args=ldflags
                       )
 
     setup(
-        version=__version__,
         ext_modules=[module],
+        version=__version__
     )
-
-def main():
-    commands = {'help': show_help, 'swig': run_swig}
-    commands.get(sys.argv[1], run_setup)()
-
-if __name__ == '__main__':
-    main()

@@ -1,9 +1,11 @@
 # If you are using this Makefile standalone and fastjet-config is not
 # in your path, edit this line to specify the full path
-FASTJETCONFIG=fastjet-config
-PREFIX=$(shell $(FASTJETCONFIG) --prefix)
-CXX=g++
-CXXFLAGS+=-O3 -Wall -g -std=c++14 -IWasserstein -Xpreprocessor -fopenmp
+FASTJETCONFIG = fastjet-config
+PREFIX = $(shell $(FASTJETCONFIG) --prefix)
+CXX = g++
+CXXFLAGS += -O3 -ffast-math -Wall -std=c++14 -fPIC -DPIC -DNDEBUG -DEVENTGEOMETRY_USE_PYFJCORE
+CXXFLAGS += -IWasserstein -IPyFJCore
+LDFLAGS += -LPyFJCore -lPyFJCore
 install_script = $(SHELL) ./scripts/install-sh
 check_script = ./scripts/check.sh
 
@@ -14,17 +16,14 @@ check_script = ./scripts/check.sh
 
 #------------------------------------------------------------------------
 # things that are specific to this contrib
-NAME=EventGeometry
-SRCS=EventGeometry.cc
-EXAMPLES=example
-INSTALLED_HEADERS=EventGeometry.hh
+NAME = EventGeometry
+SRCS = EventGeometry.cc
+EXAMPLES = example
+INSTALLED_HEADERS = EventGeometry.hh
 #------------------------------------------------------------------------
 
-CXXFLAGS+= $(shell $(FASTJETCONFIG) --cxxflags)
-LDFLAGS += $(shell $(FASTJETCONFIG) --libs)
-
-OBJS  := $(SRCS:.cc=.o)
-EXAMPLES_SRCS  = $(EXAMPLES:=.cc)
+OBJS := $(SRCS:.cc=.o)
+EXAMPLES_SRCS = $(EXAMPLES:=.cc)
 
 install_HEADER  = $(install_script) -c -m 644
 install_LIB     = $(install_script) -c -m 644
@@ -34,35 +33,42 @@ install_PROGRAM = $(install_script) -c -s
 install_SCRIPT  = $(install_script) -c
 
 ifeq "$(shell uname)" "Darwin"
-	dynlibopt=-dynamiclib
-    dynlibext=dylib
-    LDFLAGS += -lomp
-else 
-    dynlibopt=-shared
-    dynlibext=so
+	dynlibopt = -dynamiclib
+    dynlibext = dylib
+    CXXFLAGS += -Xpreprocessor -fopenmp
+    LDFLAGS += -lomp -install_name @rpath/lib$(NAME).dylib -Wl,-rpath,@loader_path/PyFJCore
+else
+    dynlibopt = -shared
+    dynlibext = so
+    CXXFLAGS += -fopenmp
+    LDFLAGS += -fopenmp
+    LDFLAGS += -Wl,-rpath,\$$ORIGIN/PyFJCore
 endif
+
+FJ_CXXFLAGS = $(CXXFLAGS) $(shell $(FASTJETCONFIG) --cxxflags)
+FJ_LDFLAGS = $(LDFLAGS) $(shell $(FASTJETCONFIG) --libs)
 
 .PHONY: clean shared distclean examples check install all swig install_shared headers install_wasserstein
 
 # http://make.mad-scientist.net/papers/advanced-auto-dependency-generation/#combine
 DEPDIR = .deps
 DEPFLAGS = -MT $@ -MMD -MP -MF $(DEPDIR)/$*.d
-COMPILE.cc = $(CXX) $(DEPFLAGS) $(CXXFLAGS) -c
+COMPILE.cxx = $(CXX) $(DEPFLAGS) $(CXXFLAGS) -c
 
 %.o : %.cc
 %.o : %.cc $(DEPDIR)/%.d | $(DEPDIR)
-	$(COMPILE.cc) $(OUTPUT_OPTION) $<
+	$(COMPILE.cxx) $(OUTPUT_OPTION) $<
 
 # compilation of the code (default target)
-all: lib$(NAME).a
+all: shared
 
-lib$(NAME).a: $(OBJS) 
+lib$(NAME).a: $(OBJS)
 	ar cru lib$(NAME).a $(OBJS)
 	ranlib lib$(NAME).a
 
-shared: $(SRCS) install_wasserstein
-	$(CXX) $(SRCS) $(dynlibopt) -fPIC -DPIC -DNDEBUG $(CXXFLAGS) $(LDFLAGS) -g0 -o lib$(NAME).$(dynlibext)
-	#if [ "$(shell uname)" = "Darwin" ]; then install_name_tool -id @rpath/lib$(NAME).dylib lib$(NAME).dylib; fi
+shared: lib$(NAME).$(dynlibext)
+lib$(NAME).$(dynlibext): $(OBJS)
+	$(CXX) $(OBJS) $(dynlibopt) $(LDFLAGS) -o lib$(NAME).$(dynlibext)
 
 # building the examples
 examples: $(EXAMPLES)
@@ -82,7 +88,7 @@ check: examples
 # cleaning the directory
 clean:
 	rm -fv *~ *.o *.a *.so
-	rm -rfv __pycache__ build .deps *.dylib*
+	rm -rfv .deps *.dylib*
 
 distclean: clean
 	rm -f lib$(NAME).a $(EXAMPLES)
@@ -107,9 +113,6 @@ install_headers:
 install: all install_shared install_headers
 	$(install_DIR) $(PREFIX)/lib
 	$(install_LIB) lib$(NAME).a $(PREFIX)/lib
-
-depend:
-	makedepend -Y --   -- $(SRCS) $(EXAMPLES_SRCS)
 
 $(DEPDIR): ; @mkdir -p $@
 

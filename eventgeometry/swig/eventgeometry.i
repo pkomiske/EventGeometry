@@ -1,6 +1,7 @@
 // -*- C++ -*-
 %define EVENTGEOMETRY_DOCSTRING
-"\{docstring\}"
+"# EventGeometry FastJet Contrib
+"
 %enddef
 
 %module("docstring"=EVENTGEOMETRY_DOCSTRING, "threads"=1) eventgeometry
@@ -129,8 +130,6 @@ namespace WASSERSTEIN_NAMESPACE {
 
 // add convenience functions for accessing templated EMD, PairwiseEMD, and ApolloniusGroomer classes
 %pythoncode %{
-
-__version__ = '\{version\}'
 
 # function for storing events in a pairwise_emd object
 def _store_events(pairwise_emd, events, event_weights, gdim, mask):
