@@ -9,7 +9,7 @@ env:
   PYPI: 0
   PYPITEST: 1
   CIBW_SKIP: pp*
-  CIBW_BEFORE_ALL_LINUX: cd PyFJCore; make shared; cd ..
+  CIBW_BEFORE_ALL_LINUX: cd PyFJCore; make shared; cd ..; make shared
   TWINE_USERNAME: __token__
   TWINE_PASSWORD_PYPITEST: ${{ secrets.TWINE_PASSWORD_PYPITEST }}
   TWINE_PASSWORD_PYPI: ${{ secrets.TWINE_PASSWORD_PYPI }}
