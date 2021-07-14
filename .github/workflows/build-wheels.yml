@@ -26,8 +26,6 @@ jobs:
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
-      - name: Compile EventGeometry library
-        run: make shared
       - name: Build wheels and upload to PyPI
         run: ./scripts/build-wheels-and-upload.sh sdist
 
