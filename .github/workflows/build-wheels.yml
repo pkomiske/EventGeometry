@@ -8,8 +8,9 @@ on:
 env:
   PYPI: 0
   PYPITEST: 1
-  CIBW_SKIP: pp*
-  CIBW_BEFORE_ALL_LINUX: cd PyFJCore; make shared; cd ..; make shared
+  CIBW_SKIP: pp* cp35*
+  CIBW_BEFORE_ALL_LINUX: cd PyFJCore; make shared; cp libPyFJCore.so /usr/local/lib; cd ..; make shared; cp libEventGeometry.so /usr/local/lib
+  #CIBW_ENVIRONMENT_LINUX: "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)"
   TWINE_USERNAME: __token__
   TWINE_PASSWORD_PYPITEST: ${{ secrets.TWINE_PASSWORD_PYPITEST }}
   TWINE_PASSWORD_PYPI: ${{ secrets.TWINE_PASSWORD_PYPI }}
@@ -46,9 +47,12 @@ jobs:
         run: |
           cd PyFJCore
           make shared
+          cp libPyFJCore.dylib /usr/local/lib
           cd ..
       - name: Compile EventGeometry library
-        run: make shared
+        run: |
+          make shared
+          cp libEventGeometry.dylib /usr/local/lib
       - name: Build wheels and upload to PyPI
         run: ./scripts/build-wheels-and-upload.sh
 

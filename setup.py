@@ -114,8 +114,8 @@ else:
         # on non-windows we can use shared library
         else:
             macros.append(('DECLARE_EVENTGEOMETRY_TEMPLATES', None))
-            library_dirs.extend(['.'])
-            libraries.extend([name])
+            library_dirs.extend(['.', 'PyFJCore'])
+            libraries.extend([name, 'PyFJCore'])
 
             if platform.system() == 'Darwin':
                 ldflags.append('-Wl,-rpath,@loader_path/..')
