@@ -33,7 +33,6 @@ FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
 #define SWIG
 #endif
 
-#define WASSERSTEIN_FASTJET
 #include "EventGeometry.hh"
 %}
 

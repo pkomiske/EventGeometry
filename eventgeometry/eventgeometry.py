@@ -418,12 +418,9 @@ class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        r"""
-        __init__(Histogram1DHandlerLogFloat64 self) -> Histogram1DHandlerLogFloat64
-        __init__(Histogram1DHandlerLogFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerLogFloat64
-        """
-        _eventgeometry.Histogram1DHandlerLogFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerLogFloat64(*args))
+    def __init__(self, nbins: "unsigned int", axis_min: "double", axis_max: "double"):
+        r"""__init__(Histogram1DHandlerLogFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerLogFloat64"""
+        _eventgeometry.Histogram1DHandlerLogFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerLogFloat64(nbins, axis_min, axis_max))
     __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerLogFloat64
     nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_nbins)
     axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_axis_min)
@@ -452,12 +449,9 @@ class Histogram1DHandlerFloat64(ExternalEMDHandlerFloat64):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        r"""
-        __init__(Histogram1DHandlerFloat64 self) -> Histogram1DHandlerFloat64
-        __init__(Histogram1DHandlerFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerFloat64
-        """
-        _eventgeometry.Histogram1DHandlerFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerFloat64(*args))
+    def __init__(self, nbins: "unsigned int", axis_min: "double", axis_max: "double"):
+        r"""__init__(Histogram1DHandlerFloat64 self, unsigned int nbins, double axis_min, double axis_max) -> Histogram1DHandlerFloat64"""
+        _eventgeometry.Histogram1DHandlerFloat64_swiginit(self, _eventgeometry.new_Histogram1DHandlerFloat64(nbins, axis_min, axis_max))
     __swig_destroy__ = _eventgeometry.delete_Histogram1DHandlerFloat64
     nbins = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_nbins)
     axis_min = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_axis_min)
@@ -489,12 +483,9 @@ class CorrelationDimension(Histogram1DHandlerLogFloat64):
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
-    def __init__(self, *args):
-        r"""
-        __init__(CorrelationDimension self) -> CorrelationDimension
-        __init__(CorrelationDimension self, unsigned int nbins, double axis_min, double axis_max) -> CorrelationDimension
-        """
-        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(*args))
+    def __init__(self, nbins: "unsigned int", axis_min: "double", axis_max: "double"):
+        r"""__init__(CorrelationDimension self, unsigned int nbins, double axis_min, double axis_max) -> CorrelationDimension"""
+        _eventgeometry.CorrelationDimension_swiginit(self, _eventgeometry.new_CorrelationDimension(nbins, axis_min, axis_max))
     corrdims_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims_vec)
     corrdim_bins_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins_vec)
     cumulative_vals_vars_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_cumulative_vals_vars_vec)
