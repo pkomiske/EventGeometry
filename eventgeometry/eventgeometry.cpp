@@ -6344,7 +6344,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > const *self){
@@ -6385,7 +6391,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > const *self){
@@ -6426,7 +6438,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > const *self){
@@ -6467,7 +6485,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > const *self){
@@ -6508,7 +6532,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > const *self){
@@ -6549,7 +6579,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > const *self){
@@ -6590,7 +6626,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > const *self){
@@ -6631,7 +6673,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *self){
@@ -6672,7 +6720,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > const *self){
@@ -6713,7 +6767,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > const *self){
@@ -6754,7 +6814,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > const *self){
@@ -6795,7 +6861,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *self){
@@ -6836,7 +6908,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > const *self){
@@ -6877,7 +6955,13 @@ SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return (*self)(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJetContainer const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjs1){
+      return (*self)(pjs0, pjs1);
+    }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return (*self)(pj0, pj1);
     }
 SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg____str__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > const *self){
@@ -24474,6 +24558,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumDeltaR___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -24508,7 +24734,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR___call____SWIG_3(PyObject
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -24569,13 +24795,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR___call__(PyObject *self, 
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumDeltaR___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseMomentumDeltaR___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseMomentumDeltaR___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumDeltaR___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -24603,6 +24863,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -26450,6 +26712,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -26484,7 +26888,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot___call____SWIG_3(PyO
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -26545,13 +26949,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot___call__(PyObject *s
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDot___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseMomentumHadronicDot___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseMomentumHadronicDot___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDot___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -26579,6 +27017,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -28426,6 +28866,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseMomentumHadronicDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -28460,7 +29042,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive___call____SWI
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -28521,13 +29103,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive___call__(PyOb
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseMomentumHadronicDotMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -28555,6 +29171,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -30402,6 +31020,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyDeltaR___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -30436,7 +31196,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR___call____SWIG_3(PyObject *
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -30497,13 +31257,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR___call__(PyObject *self, Py
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyDeltaR___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseEnergyDeltaR___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseEnergyDeltaR___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyDeltaR___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -30531,6 +31325,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -32378,6 +33174,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -32412,7 +33350,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot___call____SWIG_3(PyObj
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -32473,13 +33411,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot___call__(PyObject *sel
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDot___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseEnergyHadronicDot___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseEnergyHadronicDot___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDot___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -32507,6 +33479,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -34354,6 +35328,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDTransverseEnergyHadronicDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -34388,7 +35504,7 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -34449,13 +35565,47 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive___call__(PyObje
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDTransverseEnergyHadronicDotMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -34483,6 +35633,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -36330,6 +37482,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDMomentumEEDot___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -36364,7 +37658,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDot___call____SWIG_3(PyObject *SWIGUNUSE
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -36425,13 +37719,47 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDot___call__(PyObject *self, PyObject *a
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEDot___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDot___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDMomentumEEDot___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEDot___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -36459,6 +37787,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -38306,6 +39636,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38340,7 +39812,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_3(PyObject *SW
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38401,13 +39873,47 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEDotMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEDotMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -38435,6 +39941,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -40282,6 +41790,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLength___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLength___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLength___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEArcLength___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLength___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -40316,7 +41966,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength___call____SWIG_3(PyObject *SWI
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -40377,13 +42027,47 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength___call__(PyObject *self, PyObj
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLength___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEArcLength___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDMomentumEEArcLength___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLength___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -40411,6 +42095,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -42258,6 +43944,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEArcLengthMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -42292,7 +44120,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive___call____SWIG_3(PyObje
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -42353,13 +44181,47 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive___call__(PyObject *self
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLengthMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEArcLengthMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDMomentumEEArcLengthMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDMomentumEEArcLengthMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -42387,6 +44249,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -44234,6 +46098,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDEnergyEEDot___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDot___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDot___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDot___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDot___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -44268,7 +46274,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDot___call____SWIG_3(PyObject *SWIGUNUSEDP
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -44329,13 +46335,47 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDot___call__(PyObject *self, PyObject *arg
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEDot___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDot___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDEnergyEEDot___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEDot___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -44363,6 +46403,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -46210,6 +48252,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46244,7 +48428,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_3(PyObject *SWIG
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46305,13 +48489,47 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEDotMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEDotMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -46339,6 +48557,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -48186,6 +50406,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLength___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLength___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLength___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEArcLength___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLength___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -48220,7 +50582,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength___call____SWIG_3(PyObject *SWIGU
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -48281,13 +50643,47 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength___call__(PyObject *self, PyObjec
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLength___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEArcLength___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDEnergyEEArcLength___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLength___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -48315,6 +50711,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -50162,6 +52560,148 @@ fail:
 SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
+  fastjet::PseudoJetContainer *arg2 = 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  void *argp2 = 0 ;
+  int res2 = 0 ;
+  int res3 = SWIG_OLDOBJ ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
+  res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res2)) {
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp2) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res3 = swig::asptr(swig_obj[2], &ptr);
+    if (!SWIG_IsOK(res3)) {
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg3 = ptr;
+  }
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res3)) delete arg3;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
+  std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
+  fastjet::PseudoJetContainer *arg3 = 0 ;
+  void *argp1 = 0 ;
+  int res1 = 0 ;
+  int res2 = SWIG_OLDOBJ ;
+  void *argp3 = 0 ;
+  int res3 = 0 ;
+  double result;
+  
+  if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!SWIG_IsOK(res1)) {
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+  }
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
+  {
+    std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
+    res2 = swig::asptr(swig_obj[1], &ptr);
+    if (!SWIG_IsOK(res2)) {
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    if (!ptr) {
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+    }
+    arg2 = ptr;
+  }
+  res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
+  if (!SWIG_IsOK(res3)) {
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  if (!argp3) {
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEArcLengthMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+  }
+  arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
+  {
+    try {
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+    }
+    /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
+    catch (std::invalid_argument& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::domain_error& e) {
+      SWIG_exception_fail(SWIG_ValueError, e.what() );
+    } catch (std::overflow_error& e) {
+      SWIG_exception_fail(SWIG_OverflowError, e.what() );
+    } catch (std::out_of_range& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::length_error& e) {
+      SWIG_exception_fail(SWIG_IndexError, e.what() );
+    } catch (std::runtime_error& e) {
+      SWIG_exception_fail(SWIG_RuntimeError, e.what() );
+    } catch (std::exception& e) {
+      SWIG_exception_fail(SWIG_SystemError, e.what() );
+    }
+    /*@SWIG@*/
+    catch (...) {
+      SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
+    }
+  }
+  resultobj = SWIG_From_double(static_cast< double >(result));
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return resultobj;
+fail:
+  if (SWIG_IsNewObj(res2)) delete arg2;
+  return NULL;
+}
+
+
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+  PyObject *resultobj = 0;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -50196,7 +52736,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive___call____SWIG_3(PyObject
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -50257,13 +52797,47 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive___call__(PyObject *self, 
     int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
+      int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLengthMassive___call____SWIG_3(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEArcLengthMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDEnergyEEArcLengthMassive___call____SWIG_5(self, argc, argv);
+        }
+      }
+    }
+  }
+  if (argc == 3) {
+    int _v;
+    void *vptr = 0;
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    _v = SWIG_CheckState(res);
+    if (_v) {
+      int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
+      _v = SWIG_CheckState(res);
+      if (_v) {
+        int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
+        _v = SWIG_CheckState(res);
+        if (_v) {
+          return _wrap_EMDEnergyEEArcLengthMassive___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -50291,6 +52865,8 @@ fail:
     "  Possible C/C++ prototypes are:\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
     "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
@@ -51881,6 +54457,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumDeltaR___call__", _wrap_EMDTransverseMomentumDeltaR___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumDeltaR_swigregister", EMDTransverseMomentumDeltaR_swigregister, METH_O, NULL},
@@ -51919,6 +54497,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDot___call__", _wrap_EMDTransverseMomentumHadronicDot___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumHadronicDot_swigregister", EMDTransverseMomentumHadronicDot_swigregister, METH_O, NULL},
@@ -51957,6 +54537,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive___call__", _wrap_EMDTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumHadronicDotMassive_swigregister", EMDTransverseMomentumHadronicDotMassive_swigregister, METH_O, NULL},
@@ -51995,6 +54577,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyDeltaR___call__", _wrap_EMDTransverseEnergyDeltaR___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyDeltaR_swigregister", EMDTransverseEnergyDeltaR_swigregister, METH_O, NULL},
@@ -52033,6 +54617,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDot___call__", _wrap_EMDTransverseEnergyHadronicDot___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyHadronicDot_swigregister", EMDTransverseEnergyHadronicDot_swigregister, METH_O, NULL},
@@ -52071,6 +54657,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive___call__", _wrap_EMDTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyHadronicDotMassive_swigregister", EMDTransverseEnergyHadronicDotMassive_swigregister, METH_O, NULL},
@@ -52109,6 +54697,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEDot___call__", _wrap_EMDMomentumEEDot___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEDot_swigregister", EMDMomentumEEDot_swigregister, METH_O, NULL},
@@ -52147,6 +54737,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEDotMassive___call__", _wrap_EMDMomentumEEDotMassive___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEDotMassive_swigregister", EMDMomentumEEDotMassive_swigregister, METH_O, NULL},
@@ -52185,6 +54777,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLength___call__", _wrap_EMDMomentumEEArcLength___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEArcLength_swigregister", EMDMomentumEEArcLength_swigregister, METH_O, NULL},
@@ -52223,6 +54817,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLengthMassive___call__", _wrap_EMDMomentumEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEArcLengthMassive_swigregister", EMDMomentumEEArcLengthMassive_swigregister, METH_O, NULL},
@@ -52261,6 +54857,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEDot___call__", _wrap_EMDEnergyEEDot___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEDot_swigregister", EMDEnergyEEDot_swigregister, METH_O, NULL},
@@ -52299,6 +54897,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEDotMassive___call__", _wrap_EMDEnergyEEDotMassive___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEDotMassive_swigregister", EMDEnergyEEDotMassive_swigregister, METH_O, NULL},
@@ -52337,6 +54937,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLength___call__", _wrap_EMDEnergyEEArcLength___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEArcLength_swigregister", EMDEnergyEEArcLength_swigregister, METH_O, NULL},
@@ -52375,6 +54977,8 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLengthMassive___call__", _wrap_EMDEnergyEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEArcLengthMassive_swigregister", EMDEnergyEEArcLengthMassive_swigregister, METH_O, NULL},
@@ -52815,6 +55419,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumDeltaR___call__", _wrap_EMDTransverseMomentumDeltaR___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumDeltaR self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumDeltaR_swigregister", EMDTransverseMomentumDeltaR_swigregister, METH_O, NULL},
@@ -52853,6 +55459,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDot___call__", _wrap_EMDTransverseMomentumHadronicDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumHadronicDot_swigregister", EMDTransverseMomentumHadronicDot_swigregister, METH_O, NULL},
@@ -52891,6 +55499,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive___call__", _wrap_EMDTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseMomentumHadronicDotMassive_swigregister", EMDTransverseMomentumHadronicDotMassive_swigregister, METH_O, NULL},
@@ -52929,6 +55539,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyDeltaR___call__", _wrap_EMDTransverseEnergyDeltaR___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyDeltaR self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyDeltaR_swigregister", EMDTransverseEnergyDeltaR_swigregister, METH_O, NULL},
@@ -52967,6 +55579,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDot___call__", _wrap_EMDTransverseEnergyHadronicDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyHadronicDot_swigregister", EMDTransverseEnergyHadronicDot_swigregister, METH_O, NULL},
@@ -53005,6 +55619,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive___call__", _wrap_EMDTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDTransverseEnergyHadronicDotMassive_swigregister", EMDTransverseEnergyHadronicDotMassive_swigregister, METH_O, NULL},
@@ -53043,6 +55659,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEDot___call__", _wrap_EMDMomentumEEDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEDot_swigregister", EMDMomentumEEDot_swigregister, METH_O, NULL},
@@ -53081,6 +55699,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEDotMassive___call__", _wrap_EMDMomentumEEDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEDotMassive_swigregister", EMDMomentumEEDotMassive_swigregister, METH_O, NULL},
@@ -53119,6 +55739,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLength___call__", _wrap_EMDMomentumEEArcLength___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEArcLength self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEArcLength self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEArcLength self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEArcLength_swigregister", EMDMomentumEEArcLength_swigregister, METH_O, NULL},
@@ -53157,6 +55779,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLengthMassive___call__", _wrap_EMDMomentumEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDMomentumEEArcLengthMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDMomentumEEArcLengthMassive_swigregister", EMDMomentumEEArcLengthMassive_swigregister, METH_O, NULL},
@@ -53195,6 +55819,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEDot___call__", _wrap_EMDEnergyEEDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEDot self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDot self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEDot self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEDot_swigregister", EMDEnergyEEDot_swigregister, METH_O, NULL},
@@ -53233,6 +55859,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEDotMassive___call__", _wrap_EMDEnergyEEDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEDotMassive_swigregister", EMDEnergyEEDotMassive_swigregister, METH_O, NULL},
@@ -53271,6 +55899,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLength___call__", _wrap_EMDEnergyEEArcLength___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEArcLength self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEArcLength self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEArcLength self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEArcLength_swigregister", EMDEnergyEEArcLength_swigregister, METH_O, NULL},
@@ -53309,6 +55939,8 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLengthMassive___call__", _wrap_EMDEnergyEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjs1) -> double\n"
 		"__call__(EMDEnergyEEArcLengthMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
 	 { "EMDEnergyEEArcLengthMassive_swigregister", EMDEnergyEEArcLengthMassive_swigregister, METH_O, NULL},

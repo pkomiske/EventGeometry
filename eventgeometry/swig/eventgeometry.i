@@ -75,6 +75,12 @@ namespace WASSERSTEIN_NAMESPACE {
     double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const std::vector<fastjet::PseudoJet> & pjs1) {
       return (*$self)(pjs0, pjs1);
     }
+    double operator()(const PseudoJetContainer & pjs0, const std::vector<fastjet::PseudoJet> & pjs1) {
+      return (*$self)(pjs0, pjs1);
+    }
+    double operator()(const std::vector<fastjet::PseudoJet> & pjs0, const PseudoJetContainer & pjs1) {
+      return (*$self)(pjs0, pjs1);
+    }
     double operator()(const fastjet::PseudoJet & pj0, const fastjet::PseudoJet & pj1) {
       return (*$self)(pj0, pj1);
     }
