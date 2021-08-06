@@ -62,7 +62,7 @@ if sys.argv[1] == 'swig':
     else:
         opts = '-DFASTJET_PREFIX=' + fj_prefix + ' ' + fj_cxxflags
 
-    command = ('swig -python -c++ -fastproxy -keyword -py3 -w325,402,509,511 -IWasserstein -DSWIG_NUMPY {opts} '
+    command = ('swig -python -c++ -fastproxy -keyword -py3 -w325,402,509,511 -IWasserstein {opts} '
                '-o {lname}/{lname}.cpp {lname}/swig/{lname}.i').format(opts=opts, lname=lname)
     print(command)
     subprocess.run(command.split())
@@ -111,18 +111,6 @@ else:
             cxxflags = ['/openmp', '/std:c++14']
             ldflags = ['/openmp']
 
-        # on non-windows we can use shared library
-        else:
-            macros.append(('DECLARE_EVENTGEOMETRY_TEMPLATES', None))
-            library_dirs.extend(['.', 'PyFJCore'])
-            libraries.extend([name, 'PyFJCore'])
-
-            if platform.system() == 'Darwin':
-                ldflags.append('-Wl,-rpath,@loader_path/..')
-
-            elif platform.system() == 'Linux':
-                ldflags.append('-Wl,-rpath,$ORIGIN/..')
-
     # if not windows, further modification needed for multithreading
     if platform.system() != 'Windows':
 
@@ -137,6 +125,8 @@ else:
         # linux wants this flag
         else:
             ldflags.append('-fopenmp')
+            #library_dirs.append('PyFJCore')
+            #libraries.append('PyFJCore')
 
     module = Extension('{0}._{0}'.format(lname),
                        sources=sources,

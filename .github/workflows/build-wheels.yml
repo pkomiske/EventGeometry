@@ -8,9 +8,7 @@ on:
 env:
   PYPI: 0
   PYPITEST: 1
-  CIBW_SKIP: pp* cp35*
-  CIBW_BEFORE_ALL_LINUX: cd PyFJCore; make shared; cp -v libPyFJCore.so /usr/local/lib; cd ..; make shared; cp -v libEventGeometry.so /usr/local/lib
-  #CIBW_ENVIRONMENT_LINUX: "LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)"
+  CIBW_SKIP: pp*
   TWINE_USERNAME: __token__
   TWINE_PASSWORD_PYPITEST: ${{ secrets.TWINE_PASSWORD_PYPITEST }}
   TWINE_PASSWORD_PYPI: ${{ secrets.TWINE_PASSWORD_PYPI }}
@@ -43,16 +41,6 @@ jobs:
           python-version: '3.8'
       - name: Install libomp
         run: brew install libomp
-      - name: Compile fjcore library
-        run: |
-          cd PyFJCore
-          make shared
-          cp -v libPyFJCore.dylib /usr/local/lib
-          cd ..
-      - name: Compile EventGeometry library
-        run: |
-          make shared
-          cp -v libEventGeometry.dylib /usr/local/lib
       - name: Build wheels and upload to PyPI
         run: ./scripts/build-wheels-and-upload.sh
 

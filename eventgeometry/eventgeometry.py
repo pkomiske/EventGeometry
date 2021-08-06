@@ -14,6 +14,9 @@ import numpy as np
 import itertools
 
 
+import pyfjcore
+
+
 
 from sys import version_info as _swig_python_version_info
 if _swig_python_version_info < (2, 7, 0):
@@ -105,6 +108,9 @@ class SwigPyIterator(object):
 _eventgeometry.SwigPyIterator_swigregister(SwigPyIterator)
 
 import pyfjcore
+
+from pyfjcore import FastJetError
+
 class vectorDouble(object):
     r"""Proxy of C++ std::vector< double > class."""
 
@@ -356,6 +362,7 @@ class PairwiseEMDBaseFloat64(object):
     emd = _swig_new_instance_method(_eventgeometry.PairwiseEMDBaseFloat64_emd)
 
 
+          # ensure proper destruction of objects held by this instance
     def __del__(self):
         if hasattr(self, '_external_emd_handler'):
             self._external_emd_handler.thisown = 1
@@ -385,7 +392,6 @@ class PairwiseEMDBaseFloat64(object):
                             itertools.chain(event_weightsA, event_weightsB),
                             gdim, mask)
 
-    # run actual computation
         if not self.request_mode():
             self.compute()
 
@@ -430,7 +436,6 @@ class Histogram1DHandlerLogFloat64(ExternalEMDHandlerFloat64):
     bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers_vec)
     bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_edges_vec)
     __iadd__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___iadd__)
-    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64___repr__)
     bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_centers)
     bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerLogFloat64_bin_edges)
@@ -461,7 +466,6 @@ class Histogram1DHandlerFloat64(ExternalEMDHandlerFloat64):
     bin_centers_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers_vec)
     bin_edges_vec = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_edges_vec)
     __iadd__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___iadd__)
-    __str__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64___repr__)
     bin_centers = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_centers)
     bin_edges = _swig_new_instance_method(_eventgeometry.Histogram1DHandlerFloat64_bin_edges)
@@ -489,7 +493,6 @@ class CorrelationDimension(Histogram1DHandlerLogFloat64):
     corrdims_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims_vec)
     corrdim_bins_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins_vec)
     cumulative_vals_vars_vec = _swig_new_instance_method(_eventgeometry.CorrelationDimension_cumulative_vals_vars_vec)
-    __str__ = _swig_new_instance_method(_eventgeometry.CorrelationDimension___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.CorrelationDimension___repr__)
     corrdim_bins = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdim_bins)
     corrdims = _swig_new_instance_method(_eventgeometry.CorrelationDimension_corrdims)
@@ -551,57 +554,57 @@ class vectorPseudoJetContainer(object):
 # Register vectorPseudoJetContainer in _eventgeometry:
 _eventgeometry.vectorPseudoJetContainer_swigregister(vectorPseudoJetContainer)
 
-class vectorVectorPseudoJetr(object):
+class vectorVectorPseudoJet(object):
     r"""Proxy of C++ std::vector< std::vector< fastjet::PseudoJet > > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
     __repr__ = _swig_repr
-    iterator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_iterator)
+    iterator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_iterator)
     def __iter__(self):
         return self.iterator()
-    __nonzero__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___nonzero__)
-    __bool__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___bool__)
-    __len__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___len__)
-    __getslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___getslice__)
-    __setslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___setslice__)
-    __delslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___delslice__)
-    __delitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___delitem__)
-    __getitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___getitem__)
-    __setitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr___setitem__)
-    pop = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_pop)
-    append = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_append)
-    empty = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_empty)
-    size = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_size)
-    swap = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_swap)
-    begin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_begin)
-    end = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_end)
-    rbegin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_rbegin)
-    rend = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_rend)
-    clear = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_clear)
-    get_allocator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_get_allocator)
-    pop_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_pop_back)
-    erase = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_erase)
+    __nonzero__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___nonzero__)
+    __bool__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___bool__)
+    __len__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___len__)
+    __getslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___getslice__)
+    __setslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___setslice__)
+    __delslice__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___delslice__)
+    __delitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___delitem__)
+    __getitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___getitem__)
+    __setitem__ = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet___setitem__)
+    pop = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_pop)
+    append = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_append)
+    empty = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_empty)
+    size = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_size)
+    swap = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_swap)
+    begin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_begin)
+    end = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_end)
+    rbegin = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_rbegin)
+    rend = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_rend)
+    clear = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_clear)
+    get_allocator = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_get_allocator)
+    pop_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_pop_back)
+    erase = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_erase)
 
     def __init__(self, *args):
         r"""
-        __init__(vectorVectorPseudoJetr self) -> vectorVectorPseudoJetr
-        __init__(vectorVectorPseudoJetr self, vectorVectorPseudoJetr other) -> vectorVectorPseudoJetr
-        __init__(vectorVectorPseudoJetr self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size) -> vectorVectorPseudoJetr
-        __init__(vectorVectorPseudoJetr self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size, vectorPseudoJet value) -> vectorVectorPseudoJetr
+        __init__(vectorVectorPseudoJet self) -> vectorVectorPseudoJet
+        __init__(vectorVectorPseudoJet self, vectorVectorPseudoJet other) -> vectorVectorPseudoJet
+        __init__(vectorVectorPseudoJet self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size) -> vectorVectorPseudoJet
+        __init__(vectorVectorPseudoJet self, std::vector< std::vector< fastjet::PseudoJet > >::size_type size, vectorPseudoJet value) -> vectorVectorPseudoJet
         """
-        _eventgeometry.vectorVectorPseudoJetr_swiginit(self, _eventgeometry.new_vectorVectorPseudoJetr(*args))
-    push_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_push_back)
-    front = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_front)
-    back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_back)
-    assign = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_assign)
-    resize = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_resize)
-    insert = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_insert)
-    reserve = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_reserve)
-    capacity = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJetr_capacity)
-    __swig_destroy__ = _eventgeometry.delete_vectorVectorPseudoJetr
+        _eventgeometry.vectorVectorPseudoJet_swiginit(self, _eventgeometry.new_vectorVectorPseudoJet(*args))
+    push_back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_push_back)
+    front = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_front)
+    back = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_back)
+    assign = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_assign)
+    resize = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_resize)
+    insert = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_insert)
+    reserve = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_reserve)
+    capacity = _swig_new_instance_method(_eventgeometry.vectorVectorPseudoJet_capacity)
+    __swig_destroy__ = _eventgeometry.delete_vectorVectorPseudoJet
 
-# Register vectorVectorPseudoJetr in _eventgeometry:
-_eventgeometry.vectorVectorPseudoJetr_swigregister(vectorVectorPseudoJetr)
+# Register vectorVectorPseudoJet in _eventgeometry:
+_eventgeometry.vectorVectorPseudoJet_swigregister(vectorVectorPseudoJet)
 
 phi_fix = _eventgeometry.phi_fix
 class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
@@ -614,7 +617,6 @@ class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
         _eventgeometry.EMDTransverseMomentumDeltaR_swiginit(self, _eventgeometry.new_EMDTransverseMomentumDeltaR(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumDeltaR
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
@@ -638,7 +640,6 @@ class PairwiseEMDTransverseMomentumDeltaR(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
@@ -659,7 +660,6 @@ class EMDTransverseMomentumHadronicDot(EMDBaseFloat64):
         _eventgeometry.EMDTransverseMomentumHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDot
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
@@ -683,7 +683,6 @@ class PairwiseEMDTransverseMomentumHadronicDot(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
@@ -704,7 +703,6 @@ class EMDTransverseMomentumHadronicDotMassive(EMDBaseFloat64):
         _eventgeometry.EMDTransverseMomentumHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseMomentumHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseMomentumHadronicDotMassive
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
@@ -728,7 +726,6 @@ class PairwiseEMDTransverseMomentumHadronicDotMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
@@ -749,7 +746,6 @@ class EMDTransverseEnergyDeltaR(EMDBaseFloat64):
         _eventgeometry.EMDTransverseEnergyDeltaR_swiginit(self, _eventgeometry.new_EMDTransverseEnergyDeltaR(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyDeltaR
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
@@ -773,7 +769,6 @@ class PairwiseEMDTransverseEnergyDeltaR(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
@@ -794,7 +789,6 @@ class EMDTransverseEnergyHadronicDot(EMDBaseFloat64):
         _eventgeometry.EMDTransverseEnergyHadronicDot_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDot
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
@@ -818,7 +812,6 @@ class PairwiseEMDTransverseEnergyHadronicDot(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
@@ -839,7 +832,6 @@ class EMDTransverseEnergyHadronicDotMassive(EMDBaseFloat64):
         _eventgeometry.EMDTransverseEnergyHadronicDotMassive_swiginit(self, _eventgeometry.new_EMDTransverseEnergyHadronicDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDTransverseEnergyHadronicDotMassive
     description = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
@@ -863,7 +855,6 @@ class PairwiseEMDTransverseEnergyHadronicDotMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
@@ -884,7 +875,6 @@ class EMDMomentumEEDot(EMDBaseFloat64):
         _eventgeometry.EMDMomentumEEDot_swiginit(self, _eventgeometry.new_EMDMomentumEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDot
     description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterEScheme)
@@ -908,7 +898,6 @@ class PairwiseEMDMomentumEEDot(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterEScheme)
@@ -929,7 +918,6 @@ class EMDMomentumEEDotMassive(EMDBaseFloat64):
         _eventgeometry.EMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDotMassive
     description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterEScheme)
@@ -953,7 +941,6 @@ class PairwiseEMDMomentumEEDotMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme)
@@ -974,7 +961,6 @@ class EMDMomentumEEArcLength(EMDBaseFloat64):
         _eventgeometry.EMDMomentumEEArcLength_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLength
     description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterEScheme)
@@ -998,7 +984,6 @@ class PairwiseEMDMomentumEEArcLength(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme)
@@ -1019,7 +1004,6 @@ class EMDMomentumEEArcLengthMassive(EMDBaseFloat64):
         _eventgeometry.EMDMomentumEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEArcLengthMassive
     description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
@@ -1043,7 +1027,6 @@ class PairwiseEMDMomentumEEArcLengthMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
@@ -1064,7 +1047,6 @@ class EMDEnergyEEDot(EMDBaseFloat64):
         _eventgeometry.EMDEnergyEEDot_swiginit(self, _eventgeometry.new_EMDEnergyEEDot(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDot
     description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterEScheme)
@@ -1088,7 +1070,6 @@ class PairwiseEMDEnergyEEDot(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterEScheme)
@@ -1109,7 +1090,6 @@ class EMDEnergyEEDotMassive(EMDBaseFloat64):
         _eventgeometry.EMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDotMassive
     description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterEScheme)
@@ -1133,7 +1113,6 @@ class PairwiseEMDEnergyEEDotMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme)
@@ -1154,7 +1133,6 @@ class EMDEnergyEEArcLength(EMDBaseFloat64):
         _eventgeometry.EMDEnergyEEArcLength_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLength(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLength
     description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterEScheme)
@@ -1178,7 +1156,6 @@ class PairwiseEMDEnergyEEArcLength(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme)
@@ -1199,7 +1176,6 @@ class EMDEnergyEEArcLengthMassive(EMDBaseFloat64):
         _eventgeometry.EMDEnergyEEArcLengthMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEArcLengthMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
     __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEArcLengthMassive
     description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_description)
-    __str__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
@@ -1223,7 +1199,6 @@ class PairwiseEMDEnergyEEArcLengthMassive(PairwiseEMDBaseFloat64):
     clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_clear)
     init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_init)
     compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_compute)
-    __str__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___str__)
     __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive___repr__)
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
@@ -1235,8 +1210,6 @@ class PairwiseEMDEnergyEEArcLengthMassive(PairwiseEMDBaseFloat64):
 _eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_swigregister(PairwiseEMDEnergyEEArcLengthMassive)
 
 
-
-# function for storing events in a pairwise_emd object
 def _store_events(pairwise_emd, events, event_weights, gdim, mask):
 
     if gdim or mask:
@@ -1245,8 +1218,8 @@ def _store_events(pairwise_emd, events, event_weights, gdim, mask):
     for event, event_weight in zip(events, event_weights):
         pairwise_emd._add_event(event, event_weight)
 
-def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
+def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
     if weight == 'TransverseMomentum':
         if pairwise_distance == 'DeltaR':
             return EMDTransverseMomentumDeltaR(*args, **kwargs)
@@ -1294,8 +1267,8 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
     else:
         raise TypeError('weight `{}` not allowed'.format(weight))
 
-def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
 
+def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
     if weight == 'TransverseMomentum':
         if pairwise_distance == 'DeltaR':
             return PairwiseEMDTransverseMomentumDeltaR(*args, **kwargs)

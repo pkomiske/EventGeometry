@@ -5,7 +5,7 @@ PREFIX = $(shell $(FASTJETCONFIG) --prefix)
 CXX = g++
 CXXFLAGS += -O3 -ffast-math -Wall -std=c++14 -fPIC -DPIC -DNDEBUG -DEVENTGEOMETRY_USE_PYFJCORE
 CXXFLAGS += -IWasserstein -IPyFJCore
-LDFLAGS += -LPyFJCore -lPyFJCore
+#LDFLAGS += -LPyFJCore -lPyFJCore
 install_script = $(SHELL) ./scripts/install-sh
 check_script = ./scripts/check.sh
 
@@ -33,16 +33,17 @@ install_PROGRAM = $(install_script) -c -s
 install_SCRIPT  = $(install_script) -c
 
 ifeq "$(shell uname)" "Darwin"
-	dynlibopt = -dynamiclib
+	dynlibopt = -dynamiclib -undefined dynamic_lookup
     dynlibext = dylib
     CXXFLAGS += -Xpreprocessor -fopenmp
-    LDFLAGS += -lomp -install_name @rpath/lib$(NAME).dylib -Wl,-rpath,@loader_path/PyFJCore
+    LDFLAGS += -lomp
+    #LDFLAGS += -install_name @rpath/lib$(NAME).dylib -Wl,-rpath,@loader_path/PyFJCore
 else
     dynlibopt = -shared
     dynlibext = so
     CXXFLAGS += -fopenmp
     LDFLAGS += -fopenmp
-    LDFLAGS += -Wl,-rpath,\$$ORIGIN/PyFJCore
+    #LDFLAGS += -Wl,-rpath,\$$ORIGIN/PyFJCore
 endif
 
 FJ_CXXFLAGS = $(CXXFLAGS) $(shell $(FASTJETCONFIG) --cxxflags)
