@@ -125,8 +125,6 @@ else:
         # linux wants this flag
         else:
             ldflags.append('-fopenmp')
-            #library_dirs.append('PyFJCore')
-            #libraries.append('PyFJCore')
 
     module = Extension('{0}._{0}'.format(lname),
                        sources=sources,
