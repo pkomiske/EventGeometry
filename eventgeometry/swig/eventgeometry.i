@@ -132,11 +132,11 @@ namespace WASSERSTEIN_NAMESPACE {
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseEnergy, HadronicDot)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(TransverseEnergy, HadronicDotMassive)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEDot)
-  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEDotMassless)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEArcLength)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Momentum, EEArcLengthMassive)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEDot)
-  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEDotMassive)
+  EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEDotMassless)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEArcLength)
   EVENTGEOMETRY_EMD_SWIG_TEMPLATE(Energy, EEArcLengthMassive)
 }
@@ -179,8 +179,8 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return Class##EnergyEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return Class##EnergyEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return Class##EnergyEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return Class##EnergyEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':
@@ -191,8 +191,8 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return Class##MomentumEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return Class##MomentumEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return Class##MomentumEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return Class##MomentumEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':
