@@ -16,11 +16,11 @@ The EMD requires a notion of "weight" to use for each particle. EventGeometry is
 
 For use primarily with hadronic/pp events:
 
-<img src="images/HadronicWeights.jpeg" alt="Hadronic particle weights" width="400"/>
+<img src="images/HadronicWeights.jpeg" alt="Hadronic particle weights" width="600"/>
 
 For use primarily with e+e- events:
 
-<img src="images/EEWeights.jpeg" alt="EE particle weights" width="300"/>
+<img src="images/EEWeights.jpeg" alt="EE particle weights" width="600"/>
 
 For more details, see the [source code](https://github.com/pkomiske/EventGeometry/blob/main/EventGeometry.hh#L186-L237).
 
@@ -30,9 +30,9 @@ The EMD also requires a notion of distance between particles. EventGeometry supp
 
 For use primarily with hadronic/pp events:
 
-<img src="images/HadronicMeasures.jpeg" alt="Hadronic pairwise distance measures" width="200"/>
+<img src="images/HadronicMeasures.jpeg" alt="Hadronic pairwise distance measures" width="600"/>
 
 For use primarily with e+e- events:
 
-<img src="images/EEMeasures.jpeg" alt="EE pairwise distance measures" width="250"/>
+<img src="images/EEMeasures.jpeg" alt="EE pairwise distance measures" width="600"/>
 
