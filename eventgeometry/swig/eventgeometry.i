@@ -164,7 +164,7 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'HadronicDotMassive':
             return Class##TransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -174,7 +174,7 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'HadronicDotMassive':
             return Class##TransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -186,7 +186,7 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'EEArcLengthMassive':
             return Class##EnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -198,7 +198,7 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'EEArcLengthMassive':
             return Class##MomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
         raise TypeError('weight `{}` not allowed'.format(weight))

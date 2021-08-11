@@ -1228,7 +1228,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -1238,7 +1238,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -1250,7 +1250,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -1262,7 +1262,7 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
         raise TypeError('weight `{}` not allowed'.format(weight))
@@ -1277,7 +1277,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
 
     elif weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
@@ -1287,7 +1287,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
@@ -1299,7 +1299,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
@@ -1311,7 +1311,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDMomentumEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
         raise TypeError('weight `{}` not allowed'.format(weight))
