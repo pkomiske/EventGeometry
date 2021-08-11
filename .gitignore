@@ -13,3 +13,5 @@
 build/
 dist/
 .deps/
+emd_example
+pairwise_emds_example
