@@ -199,6 +199,15 @@ private:
 // FastJetParticleWeight - extracts weight from a PseudoJet
 ////////////////////////////////////////////////////////////////////////////////
 
+// in case any programs want a standardized way of selecting a ParticleWeight
+enum class ParticleWeight : int {
+  Default=-1,
+  TransverseMomentum=0,
+  Energy=1,
+  TransverseEnergy=2,
+  Momentum=3
+};
+
 // base class to use for checking types later
 struct FastJetParticleWeight {};
 
@@ -252,6 +261,18 @@ struct Energy : FastJetParticleWeight {
 ////////////////////////////////////////////////////////////////////////////////
 // FastJet-specific pairwise distances
 ////////////////////////////////////////////////////////////////////////////////
+
+// in case any programs want a standardized enum to select a PairwiseDistance
+enum class PairwiseDistance : int {
+  Default=-1,
+  DeltaR=0,
+  HadronicDot=1,
+  EEDot=2,
+  HadronicDotMassive=3,
+  EEDotMassless=4,
+  EEArcLength=5,
+  EEArcLengthMassive=6
+}; 
 
 // Hadronic Delta_R measure with proper checking for phi
 template<typename Value>
