@@ -80,6 +80,10 @@
   EVENTGEOMETRY_TEMPLATE_CLASS(PD) \
   EVENTGEOMETRY_TEMPLATE_CLASS(PairwiseDistanceBase<PD, std::vector<PseudoJet>, double>)
 
+#define EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(PD) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(PD) \
+  EVENTGEOMETRY_TEMPLATE_CLASS(PairwiseDistanceBaseNonReduced<PD, std::vector<PseudoJet>, double>)  
+
 // declare all EMD templates
 #define EVENTGEOMETRY_TEMPLATES \
   WASSERSTEIN_TEMPLATES \
@@ -93,8 +97,8 @@
   EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(HadronicDotMassive<double>) \
   EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEDot<double>) \
   EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEDotMassless<double>) \
-  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEArcLength<double>) \
-  EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEArcLengthMassive<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(EEArcLength<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(EEArcLengthMassive<double>) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, DeltaR) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDot) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDotMassive) \
@@ -199,15 +203,6 @@ private:
 // FastJetParticleWeight - extracts weight from a PseudoJet
 ////////////////////////////////////////////////////////////////////////////////
 
-// in case any programs want a standardized way of selecting a ParticleWeight
-enum class ParticleWeight : int {
-  Default=-1,
-  TransverseMomentum=0,
-  Energy=1,
-  TransverseEnergy=2,
-  Momentum=3
-};
-
 // base class to use for checking types later
 struct FastJetParticleWeight {};
 
@@ -262,17 +257,32 @@ struct Energy : FastJetParticleWeight {
 // FastJet-specific pairwise distances
 ////////////////////////////////////////////////////////////////////////////////
 
-// in case any programs want a standardized enum to select a PairwiseDistance
-enum class PairwiseDistance : int {
-  Default=-1,
-  DeltaR=0,
-  HadronicDot=1,
-  EEDot=2,
-  HadronicDotMassive=3,
-  EEDotMassless=4,
-  EEArcLength=5,
-  EEArcLengthMassive=6
-}; 
+// for those distances which don't naturally need a square root operation (i.e. the arc length ones)
+template <class PairwiseDistance, class ParticleCollection, typename Value>
+class PairwiseDistanceBaseNonReduced : public PairwiseDistanceBase<PairwiseDistance, ParticleCollection, Value> {
+public:
+
+  typedef typename ParticleCollection::const_iterator ParticleIterator;
+  using PairwiseDistanceBase<PairwiseDistance, ParticleCollection, Value>::PairwiseDistanceBase;
+
+  // returns the distance divided by R, all to beta power
+  Value distance(const ParticleIterator & p0, const ParticleIterator & p1) const {
+    Value pd(PairwiseDistance::plain_distance_(p0, p1));
+    
+    if (this->beta() == 1.0)
+      return pd/this->R();
+
+    if (this->beta() == 2.0)
+      return pd*pd/(this->R()*this->R());
+
+    return std::pow(pd/this->R(), this->beta());
+  }
+
+protected:
+
+  ~PairwiseDistanceBaseNonReduced() = default;
+
+}; // PairwiseDistanceBaseNonReduced
 
 // Hadronic Delta_R measure with proper checking for phi
 template<typename Value>
@@ -357,36 +367,36 @@ public:
 
 // Arc length between momentum vectors
 template<typename Value>
-class EEArcLength : public PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, Value> {
+class EEArcLength : public PairwiseDistanceBaseNonReduced<EEArcLength<Value>, std::vector<PseudoJet>, Value> {
 public:
   typedef PseudoJet Particle;
   typedef std::vector<PseudoJet>::const_iterator ParticleIterator;
 
   EEArcLength(Value R, Value beta) :
-    PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, double>(R, 2*beta)
+    PairwiseDistanceBaseNonReduced<EEArcLength<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEArcLength"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
     double d(fastjet::theta(p0, p1));
-    return d*d;
+    return d;
   }
 }; // EEArcLength
 
 // Arc length between momentum vectors, normalized by the energy
 template<typename Value>
-class EEArcLengthMassive : public PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, Value> {
+class EEArcLengthMassive : public PairwiseDistanceBaseNonReduced<EEArcLengthMassive<Value>, std::vector<PseudoJet>, Value> {
 public:
   typedef PseudoJet Particle;
   typedef std::vector<PseudoJet>::const_iterator ParticleIterator;
 
   EEArcLengthMassive(Value R, Value beta) :
-    PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, double>(R, 2*beta)
+    PairwiseDistanceBaseNonReduced<EEArcLengthMassive<Value>, std::vector<PseudoJet>, double>(R, beta)
   {}
   static std::string name() { return "EEArcLengthMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
     double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E())),
            d(dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
-    return d*d;
+    return d;
   }
 }; // EEArcLengthMassive
 

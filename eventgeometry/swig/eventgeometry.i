@@ -155,8 +155,8 @@ def _store_events(pairwise_emd, events, event_weights, gdim, mask):
 // macro to avoid duplicating code for EMD and PairwiseEMD
 %define EVENTGEOMETRY_PYTHON_EMD_FACTORY(Class)
 %pythoncode %{
-def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
-    if weight == 'TransverseMomentum':
+def Class(*args, particle_weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
+    if particle_weight == 'TransverseMomentum':
         if pairwise_distance == 'DeltaR':
             return Class##TransverseMomentumDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -164,9 +164,9 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'HadronicDotMassive':
             return Class##TransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseMomentum`'.format(pairwise_distance))
 
-    elif weight == 'TransverseEnergy':
+    elif particle_weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
             return Class##TransverseEnergyDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -174,9 +174,9 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'HadronicDotMassive':
             return Class##TransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseEnergy`'.format(pairwise_distance))
 
-    elif weight == 'Energy':
+    elif particle_weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return Class##EnergyEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -186,9 +186,9 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
         elif pairwise_distance == 'EEArcLengthMassive':
             return Class##EnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `Energy`'.format(pairwise_distance))
 
-    elif weight == 'Momentum':
+    elif particle_weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return Class##MomentumEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -201,7 +201,7 @@ def Class(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwar
             raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not allowed'.format(weight))
+        raise TypeError('particle weight `{}` not allowed'.format(particle_weight))
 %}
 %enddef
 

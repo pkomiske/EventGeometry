@@ -50,4 +50,4 @@ from .eventgeometry import *
 __author__  = 'Patrick T. Komiske III'
 __email__   = 'pkomiske@mit.edu'
 __license__ = 'GPLv2'
-__version__ = '1.0.0'
+__version__ = '1.0.1'

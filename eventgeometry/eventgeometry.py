@@ -1219,8 +1219,8 @@ def _store_events(pairwise_emd, events, event_weights, gdim, mask):
         pairwise_emd._add_event(event, event_weight)
 
 
-def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
-    if weight == 'TransverseMomentum':
+def EMD(*args, particle_weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
+    if particle_weight == 'TransverseMomentum':
         if pairwise_distance == 'DeltaR':
             return EMDTransverseMomentumDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -1228,9 +1228,9 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseMomentum`'.format(pairwise_distance))
 
-    elif weight == 'TransverseEnergy':
+    elif particle_weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
             return EMDTransverseEnergyDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -1238,9 +1238,9 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'HadronicDotMassive':
             return EMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseEnergy`'.format(pairwise_distance))
 
-    elif weight == 'Energy':
+    elif particle_weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return EMDEnergyEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -1250,9 +1250,9 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
         elif pairwise_distance == 'EEArcLengthMassive':
             return EMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `Energy`'.format(pairwise_distance))
 
-    elif weight == 'Momentum':
+    elif particle_weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return EMDMomentumEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -1265,11 +1265,11 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
             raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not allowed'.format(weight))
+        raise TypeError('particle weight `{}` not allowed'.format(particle_weight))
 
 
-def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
-    if weight == 'TransverseMomentum':
+def PairwiseEMD(*args, particle_weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs):
+    if particle_weight == 'TransverseMomentum':
         if pairwise_distance == 'DeltaR':
             return PairwiseEMDTransverseMomentumDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -1277,9 +1277,9 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseMomentumHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseMomentum`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseMomentum`'.format(pairwise_distance))
 
-    elif weight == 'TransverseEnergy':
+    elif particle_weight == 'TransverseEnergy':
         if pairwise_distance == 'DeltaR':
             return PairwiseEMDTransverseEnergyDeltaR(*args, **kwargs)
         elif pairwise_distance == 'HadronicDot':
@@ -1287,9 +1287,9 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'HadronicDotMassive':
             return PairwiseEMDTransverseEnergyHadronicDotMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `TransverseEnergy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `TransverseEnergy`'.format(pairwise_distance))
 
-    elif weight == 'Energy':
+    elif particle_weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return PairwiseEMDEnergyEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -1299,9 +1299,9 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
         elif pairwise_distance == 'EEArcLengthMassive':
             return PairwiseEMDEnergyEEArcLengthMassive(*args, **kwargs)
         else:
-            raise TypeError('pairwise distance `{}` not allowed with weight `Energy`'.format(pairwise_distance))
+            raise TypeError('pairwise distance `{}` not allowed with particle weight `Energy`'.format(pairwise_distance))
 
-    elif weight == 'Momentum':
+    elif particle_weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return PairwiseEMDMomentumEEDot(*args, **kwargs)
         elif pairwise_distance == 'EEDotMassless':
@@ -1314,7 +1314,7 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
             raise TypeError('pairwise distance `{}` not allowed with weight `Momentum`'.format(pairwise_distance))
 
     else:
-        raise TypeError('weight `{}` not allowed'.format(weight))
+        raise TypeError('particle weight `{}` not allowed'.format(particle_weight))
 
 
 

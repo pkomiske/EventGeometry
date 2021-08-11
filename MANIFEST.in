@@ -1,0 +1,2 @@
+include EventGeometry.hh
+include eventgeometry/swig/*.i
