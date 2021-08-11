@@ -312,8 +312,7 @@ public:
   {}
   static std::string name() { return "HadronicDot"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double d(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.pt2()*p1.pt2()));
-    return (d > 0 ? d : 0);
+    return std::max(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.pt2()*p1.pt2()), 0.0);
   }  
 }; // HadronicDot
 
@@ -328,8 +327,7 @@ public:
   {}
   static std::string name() { return "EEDot"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double d(2*fastjet::dot_product(p0, p1) / (p0.E()*p1.E()));
-    return (d > 0 ? d : 0);
+    return std::max(2*fastjet::dot_product(p0, p1) / (p0.E()*p1.E()), 0.0);
   }
 }; // EEDot
 
@@ -344,8 +342,7 @@ public:
   {}
   static std::string name() { return "HadronicDotMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double d(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.Et2()*p1.Et2()));
-    return (d > 0 ? d : 0);
+    return std::max(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.Et2()*p1.Et2()), 0.0);
   }
 }; // HadronicDotMassive
 
@@ -360,8 +357,7 @@ public:
   {}
   static std::string name() { return "EEDotMassless"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double d(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.modp2()*p1.modp2()));
-    return (d > 0 ? d : 0);
+    return std::max(2*fastjet::dot_product(p0, p1) / std::sqrt(p0.modp2()*p1.modp2()), 0.0);
   }
 }; // EEDotMassless
 
@@ -377,8 +373,7 @@ public:
   {}
   static std::string name() { return "EEArcLength"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double d(fastjet::theta(p0, p1));
-    return d;
+    return fastjet::theta(p0, p1);
   }
 }; // EEArcLength
 
@@ -394,9 +389,7 @@ public:
   {}
   static std::string name() { return "EEArcLengthMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E())),
-           d(dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
-    return d;
+    return std::acos(std::min(1.0, std::max(-1.0, (p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E()))));
   }
 }; // EEArcLengthMassive
 
