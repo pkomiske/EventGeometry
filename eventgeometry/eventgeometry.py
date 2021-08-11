@@ -621,7 +621,7 @@ class EMDTransverseMomentumDeltaR(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumDeltaR___call__)
 
 # Register EMDTransverseMomentumDeltaR in _eventgeometry:
@@ -644,7 +644,7 @@ class PairwiseEMDTransverseMomentumDeltaR(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumDeltaR__add_event)
 
 # Register PairwiseEMDTransverseMomentumDeltaR in _eventgeometry:
@@ -664,7 +664,7 @@ class EMDTransverseMomentumHadronicDot(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDot___call__)
 
 # Register EMDTransverseMomentumHadronicDot in _eventgeometry:
@@ -687,7 +687,7 @@ class PairwiseEMDTransverseMomentumHadronicDot(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDot__add_event)
 
 # Register PairwiseEMDTransverseMomentumHadronicDot in _eventgeometry:
@@ -707,7 +707,7 @@ class EMDTransverseMomentumHadronicDotMassive(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseMomentumHadronicDotMassive___call__)
 
 # Register EMDTransverseMomentumHadronicDotMassive in _eventgeometry:
@@ -730,7 +730,7 @@ class PairwiseEMDTransverseMomentumHadronicDotMassive(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseMomentumHadronicDotMassive__add_event)
 
 # Register PairwiseEMDTransverseMomentumHadronicDotMassive in _eventgeometry:
@@ -750,7 +750,7 @@ class EMDTransverseEnergyDeltaR(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyDeltaR___call__)
 
 # Register EMDTransverseEnergyDeltaR in _eventgeometry:
@@ -773,7 +773,7 @@ class PairwiseEMDTransverseEnergyDeltaR(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyDeltaR__add_event)
 
 # Register PairwiseEMDTransverseEnergyDeltaR in _eventgeometry:
@@ -793,7 +793,7 @@ class EMDTransverseEnergyHadronicDot(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDot___call__)
 
 # Register EMDTransverseEnergyHadronicDot in _eventgeometry:
@@ -816,7 +816,7 @@ class PairwiseEMDTransverseEnergyHadronicDot(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDot__add_event)
 
 # Register PairwiseEMDTransverseEnergyHadronicDot in _eventgeometry:
@@ -836,7 +836,7 @@ class EMDTransverseEnergyHadronicDotMassive(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDTransverseEnergyHadronicDotMassive___call__)
 
 # Register EMDTransverseEnergyHadronicDotMassive in _eventgeometry:
@@ -859,7 +859,7 @@ class PairwiseEMDTransverseEnergyHadronicDotMassive(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDTransverseEnergyHadronicDotMassive__add_event)
 
 # Register PairwiseEMDTransverseEnergyHadronicDotMassive in _eventgeometry:
@@ -879,7 +879,7 @@ class EMDMomentumEEDot(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDot___call__)
 
 # Register EMDMomentumEEDot in _eventgeometry:
@@ -902,54 +902,54 @@ class PairwiseEMDMomentumEEDot(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDot__add_event)
 
 # Register PairwiseEMDMomentumEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDMomentumEEDot_swigregister(PairwiseEMDMomentumEEDot)
 
-class EMDMomentumEEDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > class."""
+class EMDMomentumEEDotMassless(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, R: "double"=1, beta: "double"=1, norm: "bool"=False, do_timing: "bool"=False, external_dists: "bool"=False, n_iter_max: "std::size_t"=100000, epsilon_large_factor: "double"=1000, epsilon_small_factor: "double"=1):
-        r"""__init__(EMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassive"""
-        _eventgeometry.EMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_EMDMomentumEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDotMassive
-    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_description)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___repr__)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassive___call__)
+        r"""__init__(EMDMomentumEEDotMassless self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassless"""
+        _eventgeometry.EMDMomentumEEDotMassless_swiginit(self, _eventgeometry.new_EMDMomentumEEDotMassless(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDMomentumEEDotMassless
+    description = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless_description)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless_preprocess_CenterPtCentroid)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless_preprocess_MaskCircle)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEDotMassless___call__)
 
-# Register EMDMomentumEEDotMassive in _eventgeometry:
-_eventgeometry.EMDMomentumEEDotMassive_swigregister(EMDMomentumEEDotMassive)
+# Register EMDMomentumEEDotMassless in _eventgeometry:
+_eventgeometry.EMDMomentumEEDotMassless_swigregister(EMDMomentumEEDotMassless)
 
-class PairwiseEMDMomentumEEDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > class."""
+class PairwiseEMDMomentumEEDotMassless(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDMomentumEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"""
-        _eventgeometry.PairwiseEMDMomentumEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDotMassive(*args, **kwargs))
-    __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDotMassive
-    description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_clear)
-    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_init)
-    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_compute)
-    __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive___repr__)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi)
-    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassive__add_event)
+        r"""__init__(PairwiseEMDMomentumEEDotMassless self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassless"""
+        _eventgeometry.PairwiseEMDMomentumEEDotMassless_swiginit(self, _eventgeometry.new_PairwiseEMDMomentumEEDotMassless(*args, **kwargs))
+    __swig_destroy__ = _eventgeometry.delete_PairwiseEMDMomentumEEDotMassless
+    description = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_description)
+    clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_compute)
+    __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEDotMassless__add_event)
 
-# Register PairwiseEMDMomentumEEDotMassive in _eventgeometry:
-_eventgeometry.PairwiseEMDMomentumEEDotMassive_swigregister(PairwiseEMDMomentumEEDotMassive)
+# Register PairwiseEMDMomentumEEDotMassless in _eventgeometry:
+_eventgeometry.PairwiseEMDMomentumEEDotMassless_swigregister(PairwiseEMDMomentumEEDotMassless)
 
 class EMDMomentumEEArcLength(EMDBaseFloat64):
     r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > class."""
@@ -965,7 +965,7 @@ class EMDMomentumEEArcLength(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLength___call__)
 
 # Register EMDMomentumEEArcLength in _eventgeometry:
@@ -988,7 +988,7 @@ class PairwiseEMDMomentumEEArcLength(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLength__add_event)
 
 # Register PairwiseEMDMomentumEEArcLength in _eventgeometry:
@@ -1008,7 +1008,7 @@ class EMDMomentumEEArcLengthMassive(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDMomentumEEArcLengthMassive___call__)
 
 # Register EMDMomentumEEArcLengthMassive in _eventgeometry:
@@ -1031,7 +1031,7 @@ class PairwiseEMDMomentumEEArcLengthMassive(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDMomentumEEArcLengthMassive__add_event)
 
 # Register PairwiseEMDMomentumEEArcLengthMassive in _eventgeometry:
@@ -1051,7 +1051,7 @@ class EMDEnergyEEDot(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDot___call__)
 
 # Register EMDEnergyEEDot in _eventgeometry:
@@ -1074,54 +1074,54 @@ class PairwiseEMDEnergyEEDot(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDot__add_event)
 
 # Register PairwiseEMDEnergyEEDot in _eventgeometry:
 _eventgeometry.PairwiseEMDEnergyEEDot_swigregister(PairwiseEMDEnergyEEDot)
 
-class EMDEnergyEEDotMassive(EMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > class."""
+class EMDEnergyEEDotMassless(EMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, R: "double"=1, beta: "double"=1, norm: "bool"=False, do_timing: "bool"=False, external_dists: "bool"=False, n_iter_max: "std::size_t"=100000, epsilon_large_factor: "double"=1000, epsilon_small_factor: "double"=1):
-        r"""__init__(EMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassive"""
-        _eventgeometry.EMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_EMDEnergyEEDotMassive(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
-    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDotMassive
-    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_description)
-    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___repr__)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
-    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassive___call__)
+        r"""__init__(EMDEnergyEEDotMassless self, double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassless"""
+        _eventgeometry.EMDEnergyEEDotMassless_swiginit(self, _eventgeometry.new_EMDEnergyEEDotMassless(R, beta, norm, do_timing, external_dists, n_iter_max, epsilon_large_factor, epsilon_small_factor))
+    __swig_destroy__ = _eventgeometry.delete_EMDEnergyEEDotMassless
+    description = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless_description)
+    __repr__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless_preprocess_CenterPtCentroid)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless_preprocess_MaskCircle)
+    __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEDotMassless___call__)
 
-# Register EMDEnergyEEDotMassive in _eventgeometry:
-_eventgeometry.EMDEnergyEEDotMassive_swigregister(EMDEnergyEEDotMassive)
+# Register EMDEnergyEEDotMassless in _eventgeometry:
+_eventgeometry.EMDEnergyEEDotMassless_swigregister(EMDEnergyEEDotMassless)
 
-class PairwiseEMDEnergyEEDotMassive(PairwiseEMDBaseFloat64):
-    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > class."""
+class PairwiseEMDEnergyEEDotMassless(PairwiseEMDBaseFloat64):
+    r"""Proxy of C++ fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > class."""
 
     thisown = property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc="The membership flag")
 
     def __init__(self, *args, **kwargs):
-        r"""__init__(PairwiseEMDEnergyEEDotMassive self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"""
-        _eventgeometry.PairwiseEMDEnergyEEDotMassive_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDotMassive(*args, **kwargs))
-    __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDotMassive
-    description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_description)
-    clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_clear)
-    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_init)
-    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_compute)
-    __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive___repr__)
-    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid)
-    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme)
-    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi)
-    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassive__add_event)
+        r"""__init__(PairwiseEMDEnergyEEDotMassless self, double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassless"""
+        _eventgeometry.PairwiseEMDEnergyEEDotMassless_swiginit(self, _eventgeometry.new_PairwiseEMDEnergyEEDotMassless(*args, **kwargs))
+    __swig_destroy__ = _eventgeometry.delete_PairwiseEMDEnergyEEDotMassless
+    description = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_description)
+    clear = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_clear)
+    init = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_init)
+    compute = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_compute)
+    __repr__ = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless___repr__)
+    preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid)
+    preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme)
+    preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle)
+    _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEDotMassless__add_event)
 
-# Register PairwiseEMDEnergyEEDotMassive in _eventgeometry:
-_eventgeometry.PairwiseEMDEnergyEEDotMassive_swigregister(PairwiseEMDEnergyEEDotMassive)
+# Register PairwiseEMDEnergyEEDotMassless in _eventgeometry:
+_eventgeometry.PairwiseEMDEnergyEEDotMassless_swigregister(PairwiseEMDEnergyEEDotMassless)
 
 class EMDEnergyEEArcLength(EMDBaseFloat64):
     r"""Proxy of C++ fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > class."""
@@ -1137,7 +1137,7 @@ class EMDEnergyEEArcLength(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLength___call__)
 
 # Register EMDEnergyEEArcLength in _eventgeometry:
@@ -1160,7 +1160,7 @@ class PairwiseEMDEnergyEEArcLength(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLength__add_event)
 
 # Register PairwiseEMDEnergyEEArcLength in _eventgeometry:
@@ -1180,7 +1180,7 @@ class EMDEnergyEEArcLengthMassive(EMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive_preprocess_MaskCircle)
     __call__ = _swig_new_instance_method(_eventgeometry.EMDEnergyEEArcLengthMassive___call__)
 
 # Register EMDEnergyEEArcLengthMassive in _eventgeometry:
@@ -1203,7 +1203,7 @@ class PairwiseEMDEnergyEEArcLengthMassive(PairwiseEMDBaseFloat64):
     preprocess_CenterWeightedCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid)
     preprocess_CenterEScheme = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme)
     preprocess_CenterPtCentroid = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid)
-    preprocess_MaskCircleRapPhi = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi)
+    preprocess_MaskCircle = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle)
     _add_event = _swig_new_instance_method(_eventgeometry.PairwiseEMDEnergyEEArcLengthMassive__add_event)
 
 # Register PairwiseEMDEnergyEEArcLengthMassive in _eventgeometry:
@@ -1243,8 +1243,8 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return EMDEnergyEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return EMDEnergyEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return EMDEnergyEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return EMDEnergyEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':
@@ -1255,8 +1255,8 @@ def EMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', **kwargs
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return EMDMomentumEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return EMDMomentumEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return EMDMomentumEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return EMDMomentumEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':
@@ -1292,8 +1292,8 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
     elif weight == 'Energy':
         if pairwise_distance == 'EEDot':
             return PairwiseEMDEnergyEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return PairwiseEMDEnergyEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return PairwiseEMDEnergyEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return PairwiseEMDEnergyEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':
@@ -1304,8 +1304,8 @@ def PairwiseEMD(*args, weight='TransverseMomentum', pairwise_distance='DeltaR', 
     elif weight == 'Momentum':
         if pairwise_distance == 'EEDot':
             return PairwiseEMDMomentumEEDot(*args, **kwargs)
-        elif pairwise_distance == 'EEDotMassive':
-            return PairwiseEMDMomentumEEDotMassive(*args, **kwargs)
+        elif pairwise_distance == 'EEDotMassless':
+            return PairwiseEMDMomentumEEDotMassless(*args, **kwargs)
         elif pairwise_distance == 'EEArcLength':
             return PairwiseEMDMomentumEEArcLength(*args, **kwargs)
         elif pairwise_distance == 'EEArcLengthMassive':

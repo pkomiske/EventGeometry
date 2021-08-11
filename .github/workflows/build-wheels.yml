@@ -7,7 +7,7 @@ on:
 
 env:
   PYPI: 0
-  PYPITEST: 0
+  PYPITEST: 1
   CIBW_SKIP: pp*
   TWINE_USERNAME: __token__
   TWINE_PASSWORD_PYPITEST: ${{ secrets.TWINE_PASSWORD_PYPITEST }}

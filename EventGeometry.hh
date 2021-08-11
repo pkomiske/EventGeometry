@@ -58,7 +58,7 @@
   EVENTGEOMETRY_TEMPLATE_CLASS(CenterEScheme<__VA_ARGS__>) \
   EVENTGEOMETRY_TEMPLATE_CLASS(CenterPtCentroid<__VA_ARGS__>) \
   EVENTGEOMETRY_TEMPLATE_CLASS(CenterWeightedCentroid<__VA_ARGS__>) \
-  EVENTGEOMETRY_TEMPLATE_CLASS(MaskCircleRapPhi<__VA_ARGS__>)
+  EVENTGEOMETRY_TEMPLATE_CLASS(MaskCircle<__VA_ARGS__>)
 
 // macro for declaring specific EMD template
 #define EVENTGEOMETRY_EMD_TEMPLATE(PW, PD) \
@@ -139,11 +139,14 @@ struct FastJetEvent : public EventBase<std::vector<typename _ParticleWeight::val
 
   // constructor from PseudoJet, possibly with constituents
   FastJetEvent(const PseudoJet & pj, value_type event_weight = 1) :
-    EventBase<WeightCollection, ParticleCollection>(pj.has_constituents() ? 
-        static_cast<const std::vector<PseudoJet> &>(pj.constituents()) : ParticleCollection{pj},
-      event_weight),
-    axis_(pj)
-  {}
+    EventBase<WeightCollection, ParticleCollection>(
+        pj.has_constituents() ?
+        static_cast<const std::vector<PseudoJet> &>(pj.constituents()) :
+        ParticleCollection{pj},
+      event_weight)
+  {
+    axis().reset_momentum(pj);
+  }
 
   // constructor from vector of PseudoJets
   FastJetEvent(const ParticleCollection & pjs, value_type event_weight = 1) :
@@ -151,7 +154,16 @@ struct FastJetEvent : public EventBase<std::vector<typename _ParticleWeight::val
   {}
 
   FastJetEvent() = default;
-  ~FastJetEvent() = default;
+  virtual ~FastJetEvent() = default;
+
+  // this ensures that the PseudoJets stored in the events can be accessed in a thread-safe manner
+  virtual ParticleCollection preprocess_particles(const ParticleCollection & pjs) const {
+    std::vector<PseudoJet> pjs_out(pjs.size());
+    for (std::size_t i = 0; i < pjs.size(); i++)
+      pjs_out[i].reset_momentum(pjs[i]);
+
+    return pjs_out;
+  }
 
   // name of event
   static std::string name() {
@@ -327,17 +339,15 @@ template<typename Value>
 class EEArcLength : public PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, Value> {
 public:
   typedef PseudoJet Particle;
+  typedef std::vector<PseudoJet>::const_iterator ParticleIterator;
 
-  // ArcLength needs no square root (in PairwiseDistanceBase), so we must correct for this
   EEArcLength(Value R, Value beta) :
     PairwiseDistanceBase<EEArcLength<Value>, std::vector<PseudoJet>, double>(R, 2*beta)
-  {
-    this->R_ = std::sqrt(R);
-    this->R2_ = R;
-  }
+  {}
   static std::string name() { return "EEArcLength"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    return fastjet::theta(p0, p1);
+    double d(fastjet::theta(p0, p1));
+    return d*d;
   }
 }; // EEArcLength
 
@@ -346,18 +356,16 @@ template<typename Value>
 class EEArcLengthMassive : public PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, Value> {
 public:
   typedef PseudoJet Particle;
+  typedef std::vector<PseudoJet>::const_iterator ParticleIterator;
 
-  // ArcLength needs no square root (in PairwiseDistanceBase), so we must correct for this
   EEArcLengthMassive(Value R, Value beta) :
     PairwiseDistanceBase<EEArcLengthMassive<Value>, std::vector<PseudoJet>, double>(R, 2*beta)
-  {
-    this->R_ = std::sqrt(R);
-    this->R2_ = R;
-  }
+  {}
   static std::string name() { return "EEArcLengthMassive"; }
   static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
-    double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E()));
-    return (dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
+    double dot((p0.px()*p1.px() + p0.py()*p1.py() + p0.pz()*p1.pz())/(p0.E()*p1.E())),
+           d(dot > 1 ? 0 : (dot < -1 ? PI : std::acos(dot)));
+    return d*d;
   }
 }; // EEArcLengthMassive
 
@@ -401,15 +409,10 @@ public:
   std::string description() const { return "Center according to E-scheme axis"; }
   Event & operator()(Event & event) const {
 
-    // set pj to Escheme axis if it isn't already
-  #ifdef __FASTJET_JETDEFINITION_HH__
-    if (!event.axis().has_valid_cs() || event.axis().validated_cs()->jet_def().recombination_scheme() != E_scheme)
-  #endif
-    {
-      event.axis().reset_momentum_PtYPhiM(0, 0, 0, 0);
-      for (const PseudoJet & pj : event.particles())
-        event.axis() += pj;
-    }
+    // calculate E scheme axis
+    event.axis().reset_momentum_PtYPhiM(0, 0, 0, 0);
+    for (const PseudoJet & pj : event.particles())
+      event.axis() += pj;
 
     // center the particles
     center_event(event, event.axis().rap(), event.axis().phi());
@@ -493,16 +496,16 @@ CenterWeightedCentroid<EMD>::center(FastJetEvent<typename EMD::ParticleWeight> &
 
 
 ////////////////////////////////////////////////////////////////////////////////
-// MaskCircleRapPhi - mask out particles farther than a certain distance from the pseudojet of the event
+// MaskCircle - mask out particles farther than a certain distance from the axis of the event
 ////////////////////////////////////////////////////////////////////////////////
 
 template<class EMD>
-class MaskCircleRapPhi : public Preprocessor<typename EMD::Self> {
+class MaskCircle : public Preprocessor<typename EMD::Self> {
 public:
   typedef typename EMD::Event Event;
   typedef typename EMD::value_type value_type;
 
-  MaskCircleRapPhi(double R) : R_(R), R2_(R*R) {}
+  MaskCircle(double R) : R_(R), R2_(R*R) {}
   std::string description() const {
     std::ostringstream oss;
     oss << "Mask particles farther than " << R_ << " from axis";
@@ -531,6 +534,8 @@ public:
           event.total_weight() -= event.weights()[i];
           event.weights().erase(event.weights().begin() + i);
         }
+        if (event.total_weight() < 0)
+          event.total_weight() = 0;
       }
     }
 
@@ -541,7 +546,7 @@ private:
 
   value_type R_, R2_;
 
-}; // MaskCircleRapPhi
+}; // MaskCircle
 
 // declares templates, by default extern (so that library must be linked)
 #ifdef DECLARE_EVENTGEOMETRY_TEMPLATES

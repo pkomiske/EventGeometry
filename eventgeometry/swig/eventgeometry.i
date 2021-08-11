@@ -67,7 +67,7 @@ FASTJET_ERRORS_AS_PYTHON_EXCEPTIONS(eventgeometry)
 %define EVENTGEOMETRY_ADD_EXPLICIT_PREPROCESSORS
 void preprocess_CenterEScheme() { $self->preprocess<EVENTGEOMETRY_NAMESPACE::CenterEScheme>(); }
 void preprocess_CenterPtCentroid() { $self->preprocess<EVENTGEOMETRY_NAMESPACE::CenterPtCentroid>(); }
-void preprocess_MaskCircleRapPhi(double R) { $self->preprocess<EVENTGEOMETRY_NAMESPACE::MaskCircleRapPhi>(R); }
+void preprocess_MaskCircle(double R) { $self->preprocess<EVENTGEOMETRY_NAMESPACE::MaskCircle>(R); }
 %enddef
 
 %ignore EVENTGEOMETRY_NAMESPACE::FastJetEventBase;

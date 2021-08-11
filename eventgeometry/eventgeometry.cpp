@@ -2715,11 +2715,11 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t swig_types[19]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[20]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[21]
-#define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[22]
+#define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[22]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[23]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[24]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[25]
-#define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[26]
+#define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[26]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[27]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[28]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t swig_types[29]
@@ -2733,11 +2733,11 @@ SWIGINTERN PyObject *SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyO
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t swig_types[37]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[38]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[39]
-#define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[40]
+#define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[40]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[41]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[42]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[43]
-#define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[44]
+#define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[44]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[45]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[46]
 #define SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t swig_types[47]
@@ -6327,7 +6327,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6349,7 +6349,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6368,7 +6368,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6390,7 +6390,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6409,7 +6409,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6431,7 +6431,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6450,7 +6450,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6472,7 +6472,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6491,7 +6491,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6513,7 +6513,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6532,7 +6532,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6554,7 +6554,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6573,7 +6573,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6595,7 +6595,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6608,44 +6608,44 @@ SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eve
       self->events().emplace_back(pj, event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg____repr__(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > const *self){
+SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg____repr__(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > const *self){
     return self->description();
   }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return self->operator()(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJetContainer const &pjc0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return self->operator()(pjc0.as_vector(), pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjc1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjs0, pjc1.as_vector());
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return self->operator()(pj0, pj1);
     }
-SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____repr__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *self){
+SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg____repr__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *self){
     return self->description();
   }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_1(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_1(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,double event_weight=1){
       self->events().emplace_back(pjs, event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_2(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,fastjet::PseudoJet const &pj,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_2(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,fastjet::PseudoJet const &pj,double event_weight=1){
       self->events().emplace_back(pj, event_weight);
       self->preprocess_back_event();
     }
@@ -6655,7 +6655,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6677,7 +6677,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6696,7 +6696,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6718,7 +6718,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6737,7 +6737,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6759,7 +6759,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6772,44 +6772,44 @@ SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eve
       self->events().emplace_back(pj, event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg____repr__(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > const *self){
+SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg____repr__(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > const *self){
     return self->description();
   }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_2(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return self->operator()(pjs0, pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJetContainer const &pjc0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_3(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJetContainer const &pjc0,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs1){
       return self->operator()(pjc0.as_vector(), pjs1);
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjc1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_4(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjs0, pjc1.as_vector());
     }
-SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
+SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_5(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *self,fastjet::PseudoJet const &pj0,fastjet::PseudoJet const &pj1){
       return self->operator()(pj0, pj1);
     }
-SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____repr__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *self){
+SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg____repr__(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *self){
     return self->description();
   }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_1(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_1(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &pjs,double event_weight=1){
       self->events().emplace_back(pjs, event_weight);
       self->preprocess_back_event();
     }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_2(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *self,fastjet::PseudoJet const &pj,double event_weight=1){
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_2(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *self,fastjet::PseudoJet const &pj,double event_weight=1){
       self->events().emplace_back(pj, event_weight);
       self->preprocess_back_event();
     }
@@ -6819,7 +6819,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6841,7 +6841,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -6860,7 +6860,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_co
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN double fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__operator_Sp__SP___SWIG_1(fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *self,fastjet::PseudoJetContainer const &pjc0,fastjet::PseudoJetContainer const &pjc1){
       return self->operator()(pjc0.as_vector(), pjc1.as_vector());
     }
@@ -6882,7 +6882,7 @@ SWIGINTERN std::string fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_cont
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterWeightedCentroid>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterEScheme>(); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self){ self->preprocess<fastjet::contrib::eventgeometry::CenterPtCentroid>(); }
-SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircleRapPhi>(R); }
+SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,double R){ self->preprocess<fastjet::contrib::eventgeometry::MaskCircle>(R); }
 SWIGINTERN void fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg___add_event__SWIG_0(fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *self,fastjet::PseudoJetContainer const &pjc,double event_weight=1){
       self->events().emplace_back(pjc.as_vector(), event_weight);
       self->preprocess_back_event();
@@ -24077,7 +24077,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
   double arg2 ;
@@ -24091,20 +24091,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapP
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumDeltaR_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumDeltaR_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumDeltaR_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -25353,7 +25353,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *) 0 ;
   double arg2 ;
@@ -25367,20 +25367,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCi
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::DeltaR >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -26124,7 +26124,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
   double arg2 ;
@@ -26138,20 +26138,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircl
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumHadronicDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -27400,7 +27400,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *) 0 ;
   double arg2 ;
@@ -27414,20 +27414,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_M
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDot >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -28171,7 +28171,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
   double arg2 ;
@@ -28185,20 +28185,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_Ma
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -29447,7 +29447,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *) 0 ;
   double arg2 ;
@@ -29461,20 +29461,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_prepr
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseMomentum,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseMomentum_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -30218,7 +30218,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *) 0 ;
   double arg2 ;
@@ -30232,20 +30232,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyDeltaR_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyDeltaR_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyDeltaR_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -31494,7 +31494,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *) 0 ;
   double arg2 ;
@@ -31508,20 +31508,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCirc
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_DeltaR_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -32265,7 +32265,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *) 0 ;
   double arg2 ;
@@ -32279,20 +32279,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircleR
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyHadronicDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -33541,7 +33541,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *) 0 ;
   double arg2 ;
@@ -33555,20 +33555,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_Mas
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDot >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDot_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -34312,7 +34312,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *) 0 ;
   double arg2 ;
@@ -34326,20 +34326,20 @@ SWIGINTERN PyObject *_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_Mask
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -35588,7 +35588,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *) 0 ;
   double arg2 ;
@@ -35602,20 +35602,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preproc
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_TransverseEnergy_Sc_fastjet_contrib_eventgeometry_HadronicDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -36359,7 +36359,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
   double arg2 ;
@@ -36373,20 +36373,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDot_preprocess_MaskCircleRapPhi(PyObject
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -37635,7 +37635,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *) 0 ;
   double arg2 ;
@@ -37649,20 +37649,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi(
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -37987,7 +37987,7 @@ SWIGINTERN PyObject *PairwiseEMDMomentumEEDot_swiginit(PyObject *SWIGUNUSEDPARM(
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_EMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_new_EMDMomentumEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   double arg1 = (double) 1 ;
   double arg2 = (double) 1 ;
@@ -38024,68 +38024,68 @@ SWIGINTERN PyObject *_wrap_new_EMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(
   char * kwnames[] = {
     (char *)"R",  (char *)"beta",  (char *)"norm",  (char *)"do_timing",  (char *)"external_dists",  (char *)"n_iter_max",  (char *)"epsilon_large_factor",  (char *)"epsilon_small_factor",  NULL 
   };
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *result = 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOO:new_EMDMomentumEEDotMassive", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOO:new_EMDMomentumEEDotMassless", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7)) SWIG_fail;
   if (obj0) {
     ecode1 = SWIG_AsVal_double(obj0, &val1);
     if (!SWIG_IsOK(ecode1)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "1"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "1"" of type '" "double""'");
     } 
     arg1 = static_cast< double >(val1);
   }
   if (obj1) {
     ecode2 = SWIG_AsVal_double(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "2"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "2"" of type '" "double""'");
     } 
     arg2 = static_cast< double >(val2);
   }
   if (obj2) {
     ecode3 = SWIG_AsVal_bool(obj2, &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "3"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "3"" of type '" "bool""'");
     } 
     arg3 = static_cast< bool >(val3);
   }
   if (obj3) {
     ecode4 = SWIG_AsVal_bool(obj3, &val4);
     if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "4"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "4"" of type '" "bool""'");
     } 
     arg4 = static_cast< bool >(val4);
   }
   if (obj4) {
     ecode5 = SWIG_AsVal_bool(obj4, &val5);
     if (!SWIG_IsOK(ecode5)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "5"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "5"" of type '" "bool""'");
     } 
     arg5 = static_cast< bool >(val5);
   }
   if (obj5) {
     ecode6 = SWIG_AsVal_size_t(obj5, &val6);
     if (!SWIG_IsOK(ecode6)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "6"" of type '" "std::size_t""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "6"" of type '" "std::size_t""'");
     } 
     arg6 = static_cast< std::size_t >(val6);
   }
   if (obj6) {
     ecode7 = SWIG_AsVal_double(obj6, &val7);
     if (!SWIG_IsOK(ecode7)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "7"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "7"" of type '" "double""'");
     } 
     arg7 = static_cast< double >(val7);
   }
   if (obj7) {
     ecode8 = SWIG_AsVal_double(obj7, &val8);
     if (!SWIG_IsOK(ecode8)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_EMDMomentumEEDotMassive" "', argument " "8"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_EMDMomentumEEDotMassless" "', argument " "8"" of type '" "double""'");
     } 
     arg8 = static_cast< double >(val8);
   }
   {
     try {
-      result = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *)new fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8); 
+      result = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *)new fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38108,27 +38108,27 @@ SWIGINTERN PyObject *_wrap_new_EMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(
       SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
     }
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_EMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_EMDMomentumEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_EMDMomentumEEDotMassive" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_EMDMomentumEEDotMassless" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
       delete arg1; 
@@ -38161,9 +38161,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   bool arg2 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -38176,22 +38176,22 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_description(PyObject *SWIGUNU
   };
   std::string result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:EMDMomentumEEDotMassive_description", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:EMDMomentumEEDotMassless_description", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   if (obj1) {
     ecode2 = SWIG_AsVal_bool(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassive_description" "', argument " "2"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassless_description" "', argument " "2"" of type '" "bool""'");
     } 
     arg2 = static_cast< bool >(val2);
   }
   {
     try {
-      result = ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > const *)arg1)->description(arg2); 
+      result = ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > const *)arg1)->description(arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38221,9 +38221,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -38231,14 +38231,14 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___repr__(PyObject *SWIGUNUSED
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      result = fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg____repr__((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > const *)arg1); 
+      result = fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg____repr__((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > const *)arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38268,23 +38268,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterWeightedCentroid(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterWeightedCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38314,23 +38314,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterEScheme(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterEScheme(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38360,23 +38360,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterPtCentroid(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterPtCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38406,9 +38406,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -38420,20 +38420,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi(P
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEDotMassless_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEDotMassless_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38463,9 +38463,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   fastjet::PseudoJetContainer *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38477,30 +38477,30 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_1(PyObject *SW
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_1(arg1,(fastjet::PseudoJetContainer const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_1(arg1,(fastjet::PseudoJetContainer const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38530,9 +38530,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38542,19 +38542,19 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_2(PyObject *SW
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
@@ -38562,16 +38562,16 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_2(PyObject *SW
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res3 = swig::asptr(swig_obj[2], &ptr);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg3 = ptr;
   }
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_2(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38605,9 +38605,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38618,33 +38618,33 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_3(PyObject *SW
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res3 = swig::asptr(swig_obj[2], &ptr);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg3 = ptr;
   }
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38676,9 +38676,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   fastjet::PseudoJetContainer *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38689,33 +38689,33 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_4(PyObject *SW
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38747,9 +38747,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -38761,30 +38761,30 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call____SWIG_5(PyObject *SW
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDMomentumEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -38814,18 +38814,18 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassless___call__(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEDotMassive___call__", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDMomentumEEDotMassless___call__", 0, 3, argv))) SWIG_fail;
   --argc;
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
@@ -38834,7 +38834,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_1(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassless___call____SWIG_1(self, argc, argv);
         }
       }
     }
@@ -38842,7 +38842,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
@@ -38851,7 +38851,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
         int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassless___call____SWIG_3(self, argc, argv);
         }
       }
     }
@@ -38859,7 +38859,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
@@ -38868,7 +38868,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_5(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassless___call____SWIG_5(self, argc, argv);
         }
       }
     }
@@ -38876,7 +38876,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
@@ -38885,7 +38885,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_4(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassless___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -38893,7 +38893,7 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
@@ -38902,36 +38902,36 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEDotMassive___call__(PyObject *self, PyOb
         int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDMomentumEEDotMassive___call____SWIG_2(self, argc, argv);
+          return _wrap_EMDMomentumEEDotMassless___call____SWIG_2(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEDotMassive___call__'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDMomentumEEDotMassless___call__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *EMDMomentumEEDotMassive_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *EMDMomentumEEDotMassless_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *EMDMomentumEEDotMassive_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *EMDMomentumEEDotMassless_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_PairwiseEMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_new_PairwiseEMDMomentumEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   double arg1 = (double) 1 ;
   double arg2 = (double) 1 ;
@@ -38993,113 +38993,113 @@ SWIGINTERN PyObject *_wrap_new_PairwiseEMDMomentumEEDotMassive(PyObject *SWIGUNU
   char * kwnames[] = {
     (char *)"R",  (char *)"beta",  (char *)"norm",  (char *)"num_threads",  (char *)"print_every",  (char *)"verbose",  (char *)"request_mode",  (char *)"store_sym_emds_raw",  (char *)"throw_on_error",  (char *)"omp_dynamic_chunksize",  (char *)"n_iter_max",  (char *)"epsilon_large_factor",  (char *)"epsilon_small_factor",  (char *)"os",  NULL 
   };
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *result = 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOOOOOOOO:new_PairwiseEMDMomentumEEDotMassive", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7, &obj8, &obj9, &obj10, &obj11, &obj12, &obj13)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOOOOOOOO:new_PairwiseEMDMomentumEEDotMassless", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7, &obj8, &obj9, &obj10, &obj11, &obj12, &obj13)) SWIG_fail;
   if (obj0) {
     ecode1 = SWIG_AsVal_double(obj0, &val1);
     if (!SWIG_IsOK(ecode1)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "1"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "1"" of type '" "double""'");
     } 
     arg1 = static_cast< double >(val1);
   }
   if (obj1) {
     ecode2 = SWIG_AsVal_double(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "2"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "2"" of type '" "double""'");
     } 
     arg2 = static_cast< double >(val2);
   }
   if (obj2) {
     ecode3 = SWIG_AsVal_bool(obj2, &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "3"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "3"" of type '" "bool""'");
     } 
     arg3 = static_cast< bool >(val3);
   }
   if (obj3) {
     ecode4 = SWIG_AsVal_int(obj3, &val4);
     if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "4"" of type '" "int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "4"" of type '" "int""'");
     } 
     arg4 = static_cast< int >(val4);
   }
   if (obj4) {
     ecode5 = SWIG_AsVal_ptrdiff_t(obj4, &val5);
     if (!SWIG_IsOK(ecode5)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "5"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "5"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
     } 
     arg5 = static_cast< fastjet::contrib::eventgeometry::index_type >(val5);
   }
   if (obj5) {
     ecode6 = SWIG_AsVal_unsigned_SS_int(obj5, &val6);
     if (!SWIG_IsOK(ecode6)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "6"" of type '" "unsigned int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "6"" of type '" "unsigned int""'");
     } 
     arg6 = static_cast< unsigned int >(val6);
   }
   if (obj6) {
     ecode7 = SWIG_AsVal_bool(obj6, &val7);
     if (!SWIG_IsOK(ecode7)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "7"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "7"" of type '" "bool""'");
     } 
     arg7 = static_cast< bool >(val7);
   }
   if (obj7) {
     ecode8 = SWIG_AsVal_bool(obj7, &val8);
     if (!SWIG_IsOK(ecode8)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "8"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "8"" of type '" "bool""'");
     } 
     arg8 = static_cast< bool >(val8);
   }
   if (obj8) {
     ecode9 = SWIG_AsVal_bool(obj8, &val9);
     if (!SWIG_IsOK(ecode9)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "9"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "9"" of type '" "bool""'");
     } 
     arg9 = static_cast< bool >(val9);
   }
   if (obj9) {
     ecode10 = SWIG_AsVal_unsigned_SS_int(obj9, &val10);
     if (!SWIG_IsOK(ecode10)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "10"" of type '" "unsigned int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "10"" of type '" "unsigned int""'");
     } 
     arg10 = static_cast< unsigned int >(val10);
   }
   if (obj10) {
     ecode11 = SWIG_AsVal_size_t(obj10, &val11);
     if (!SWIG_IsOK(ecode11)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "11"" of type '" "std::size_t""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "11"" of type '" "std::size_t""'");
     } 
     arg11 = static_cast< std::size_t >(val11);
   }
   if (obj11) {
     ecode12 = SWIG_AsVal_double(obj11, &val12);
     if (!SWIG_IsOK(ecode12)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "12"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "12"" of type '" "double""'");
     } 
     arg12 = static_cast< double >(val12);
   }
   if (obj12) {
     ecode13 = SWIG_AsVal_double(obj12, &val13);
     if (!SWIG_IsOK(ecode13)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "13"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "13"" of type '" "double""'");
     } 
     arg13 = static_cast< double >(val13);
   }
   if (obj13) {
     res14 = SWIG_ConvertPtr(obj13, &argp14, SWIGTYPE_p_std__ostream,  0 );
     if (!SWIG_IsOK(res14)) {
-      SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "14"" of type '" "std::ostream &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "14"" of type '" "std::ostream &""'"); 
     }
     if (!argp14) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PairwiseEMDMomentumEEDotMassive" "', argument " "14"" of type '" "std::ostream &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PairwiseEMDMomentumEEDotMassless" "', argument " "14"" of type '" "std::ostream &""'"); 
     }
     arg14 = reinterpret_cast< std::ostream * >(argp14);
   }
   {
     try {
-      result = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *)new fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,*arg14); 
+      result = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *)new fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,*arg14); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39122,27 +39122,27 @@ SWIGINTERN PyObject *_wrap_new_PairwiseEMDMomentumEEDotMassive(PyObject *SWIGUNU
       SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
     }
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_PairwiseEMDMomentumEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_PairwiseEMDMomentumEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PairwiseEMDMomentumEEDotMassive" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PairwiseEMDMomentumEEDotMassless" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
       delete arg1; 
@@ -39175,9 +39175,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -39185,14 +39185,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_description(PyObject 
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      result = ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *)arg1)->description(); 
+      result = ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *)arg1)->description(); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39222,9 +39222,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   bool arg2 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -39236,16 +39236,16 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_clear(PyObject *SWIGU
     (char *)"self",  (char *)"free_memory",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:PairwiseEMDMomentumEEDotMassive_clear", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:PairwiseEMDMomentumEEDotMassless_clear", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_clear" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_clear" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   if (obj1) {
     ecode2 = SWIG_AsVal_bool(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassive_clear" "', argument " "2"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassless_clear" "', argument " "2"" of type '" "bool""'");
     } 
     arg2 = static_cast< bool >(val2);
   }
@@ -39281,9 +39281,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_init__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::contrib::eventgeometry::index_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -39291,14 +39291,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_0(PyObject
   int ecode2 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassive_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassless_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg2 = static_cast< fastjet::contrib::eventgeometry::index_type >(val2);
   {
@@ -39333,9 +39333,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_init__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::contrib::eventgeometry::index_type arg2 ;
   fastjet::contrib::eventgeometry::index_type arg3 ;
   void *argp1 = 0 ;
@@ -39346,19 +39346,19 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_1(PyObject
   int ecode3 = 0 ;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassive_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassless_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg2 = static_cast< fastjet::contrib::eventgeometry::index_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassive_init" "', argument " "3"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassless_init" "', argument " "3"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg3 = static_cast< fastjet::contrib::eventgeometry::index_type >(val3);
   {
@@ -39393,18 +39393,18 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_init(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDMomentumEEDotMassive_init", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDMomentumEEDotMassless_init", 0, 3, argv))) SWIG_fail;
   --argc;
   if (argc == 2) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -39412,14 +39412,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init(PyObject *self, 
         _v = SWIG_CheckState(res);
       }
       if (_v) {
-        return _wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_0(self, argc, argv);
+        return _wrap_PairwiseEMDMomentumEEDotMassless_init__SWIG_0(self, argc, argv);
       }
     }
   }
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -39432,35 +39432,35 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_init(PyObject *self, 
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive_init__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless_init__SWIG_1(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDMomentumEEDotMassive_init'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDMomentumEEDotMassless_init'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >::init(fastjet::contrib::eventgeometry::index_type)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >::init(fastjet::contrib::eventgeometry::index_type,fastjet::contrib::eventgeometry::index_type)\n");
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >::init(fastjet::contrib::eventgeometry::index_type)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >::init(fastjet::contrib::eventgeometry::index_type,fastjet::contrib::eventgeometry::index_type)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_compute(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_compute(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_compute" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_compute" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
       {
@@ -39497,9 +39497,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -39507,14 +39507,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive___repr__(PyObject *SW
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      result = fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____repr__((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *)arg1); 
+      result = fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg____repr__((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *)arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39544,23 +39544,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39590,23 +39590,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterEScheme(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39636,23 +39636,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39682,9 +39682,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -39696,20 +39696,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircle
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39739,9 +39739,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -39752,29 +39752,29 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_0(Py
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(arg1,(fastjet::PseudoJetContainer const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_0(arg1,(fastjet::PseudoJetContainer const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39804,9 +39804,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -39816,32 +39816,32 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_1(Py
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39873,9 +39873,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -39886,29 +39886,29 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_2(Py
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDMomentumEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_2(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_2(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -39938,32 +39938,32 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassless__add_event(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDMomentumEEDotMassive__add_event", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDMomentumEEDotMassless__add_event", 0, 3, argv))) SWIG_fail;
   --argc;
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_0(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_0(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_0(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_0(self, argc, argv);
         }
       }
     }
@@ -39971,21 +39971,21 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event(PyObject *
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_2(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_2(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_2(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_2(self, argc, argv);
         }
       }
     }
@@ -39993,44 +39993,44 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEDotMassive__add_event(PyObject *
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_1(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDMomentumEEDotMassive__add_event__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDMomentumEEDotMassless__add_event__SWIG_1(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDMomentumEEDotMassive__add_event'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDMomentumEEDotMassless__add_event'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(fastjet::PseudoJetContainer const &,double)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,double)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(fastjet::PseudoJet const &,double)\n");
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(fastjet::PseudoJetContainer const &,double)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,double)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(fastjet::PseudoJet const &,double)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *PairwiseEMDMomentumEEDotMassive_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *PairwiseEMDMomentumEEDotMassless_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *PairwiseEMDMomentumEEDotMassive_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *PairwiseEMDMomentumEEDotMassless_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
@@ -40453,7 +40453,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
   double arg2 ;
@@ -40467,20 +40467,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi(Py
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEArcLength_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLength_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLength_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -41729,7 +41729,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *) 0 ;
   double arg2 ;
@@ -41743,20 +41743,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleR
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -42500,7 +42500,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
   double arg2 ;
@@ -42514,20 +42514,20 @@ SWIGINTERN PyObject *_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRa
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDMomentumEEArcLengthMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDMomentumEEArcLengthMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDMomentumEEArcLengthMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -43776,7 +43776,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *) 0 ;
   double arg2 ;
@@ -43790,20 +43790,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_Mask
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Momentum_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -44547,7 +44547,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *) 0 ;
   double arg2 ;
@@ -44561,20 +44561,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDot_preprocess_MaskCircleRapPhi(PyObject *
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -45823,7 +45823,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *) 0 ;
   double arg2 ;
@@ -45837,20 +45837,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi(Py
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEDot_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDot_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDot_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDot_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46175,7 +46175,7 @@ SWIGINTERN PyObject *PairwiseEMDEnergyEEDot_swiginit(PyObject *SWIGUNUSEDPARM(se
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_EMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_new_EMDEnergyEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   double arg1 = (double) 1 ;
   double arg2 = (double) 1 ;
@@ -46212,68 +46212,68 @@ SWIGINTERN PyObject *_wrap_new_EMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(se
   char * kwnames[] = {
     (char *)"R",  (char *)"beta",  (char *)"norm",  (char *)"do_timing",  (char *)"external_dists",  (char *)"n_iter_max",  (char *)"epsilon_large_factor",  (char *)"epsilon_small_factor",  NULL 
   };
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *result = 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOO:new_EMDEnergyEEDotMassive", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOO:new_EMDEnergyEEDotMassless", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7)) SWIG_fail;
   if (obj0) {
     ecode1 = SWIG_AsVal_double(obj0, &val1);
     if (!SWIG_IsOK(ecode1)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "1"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "1"" of type '" "double""'");
     } 
     arg1 = static_cast< double >(val1);
   }
   if (obj1) {
     ecode2 = SWIG_AsVal_double(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "2"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "2"" of type '" "double""'");
     } 
     arg2 = static_cast< double >(val2);
   }
   if (obj2) {
     ecode3 = SWIG_AsVal_bool(obj2, &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "3"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "3"" of type '" "bool""'");
     } 
     arg3 = static_cast< bool >(val3);
   }
   if (obj3) {
     ecode4 = SWIG_AsVal_bool(obj3, &val4);
     if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "4"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "4"" of type '" "bool""'");
     } 
     arg4 = static_cast< bool >(val4);
   }
   if (obj4) {
     ecode5 = SWIG_AsVal_bool(obj4, &val5);
     if (!SWIG_IsOK(ecode5)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "5"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "5"" of type '" "bool""'");
     } 
     arg5 = static_cast< bool >(val5);
   }
   if (obj5) {
     ecode6 = SWIG_AsVal_size_t(obj5, &val6);
     if (!SWIG_IsOK(ecode6)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "6"" of type '" "std::size_t""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "6"" of type '" "std::size_t""'");
     } 
     arg6 = static_cast< std::size_t >(val6);
   }
   if (obj6) {
     ecode7 = SWIG_AsVal_double(obj6, &val7);
     if (!SWIG_IsOK(ecode7)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "7"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "7"" of type '" "double""'");
     } 
     arg7 = static_cast< double >(val7);
   }
   if (obj7) {
     ecode8 = SWIG_AsVal_double(obj7, &val8);
     if (!SWIG_IsOK(ecode8)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_EMDEnergyEEDotMassive" "', argument " "8"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_EMDEnergyEEDotMassless" "', argument " "8"" of type '" "double""'");
     } 
     arg8 = static_cast< double >(val8);
   }
   {
     try {
-      result = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *)new fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8); 
+      result = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *)new fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46296,27 +46296,27 @@ SWIGINTERN PyObject *_wrap_new_EMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(se
       SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
     }
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_EMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_EMDEnergyEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_EMDEnergyEEDotMassive" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_EMDEnergyEEDotMassless" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
       delete arg1; 
@@ -46349,9 +46349,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   bool arg2 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -46364,22 +46364,22 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_description(PyObject *SWIGUNUSE
   };
   std::string result;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:EMDEnergyEEDotMassive_description", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:EMDEnergyEEDotMassless_description", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   if (obj1) {
     ecode2 = SWIG_AsVal_bool(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassive_description" "', argument " "2"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassless_description" "', argument " "2"" of type '" "bool""'");
     } 
     arg2 = static_cast< bool >(val2);
   }
   {
     try {
-      result = ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > const *)arg1)->description(arg2); 
+      result = ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > const *)arg1)->description(arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46409,9 +46409,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -46419,14 +46419,14 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___repr__(PyObject *SWIGUNUSEDPA
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      result = fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg____repr__((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > const *)arg1); 
+      result = fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg____repr__((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > const *)arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46456,23 +46456,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterWeightedCentroid(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterWeightedCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46502,23 +46502,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterEScheme(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterEScheme(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46548,23 +46548,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_CenterPtCentroid(arg1); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_CenterPtCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46594,9 +46594,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -46608,20 +46608,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi(PyO
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEDotMassless_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEDotMassless_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46651,9 +46651,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call____SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   fastjet::PseudoJetContainer *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46665,30 +46665,30 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_1(PyObject *SWIG
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_1(arg1,(fastjet::PseudoJetContainer const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_1(arg1,(fastjet::PseudoJetContainer const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46718,9 +46718,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call____SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46730,19 +46730,19 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_2(PyObject *SWIG
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
@@ -46750,16 +46750,16 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_2(PyObject *SWIG
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res3 = swig::asptr(swig_obj[2], &ptr);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg3 = ptr;
   }
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_2(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_2(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46793,9 +46793,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call____SWIG_3(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46806,33 +46806,33 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_3(PyObject *SWIG
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res3 = swig::asptr(swig_obj[2], &ptr);
     if (!SWIG_IsOK(res3)) {
-      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg3 = ptr;
   }
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_3(arg1,(fastjet::PseudoJetContainer const &)*arg2,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46864,9 +46864,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call____SWIG_4(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   fastjet::PseudoJetContainer *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46877,33 +46877,33 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_4(PyObject *SWIG
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_4(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,(fastjet::PseudoJetContainer const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -46935,9 +46935,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call____SWIG_5(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *) 0 ;
+  fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   fastjet::PseudoJet *arg3 = 0 ;
   void *argp1 = 0 ;
@@ -46949,30 +46949,30 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call____SWIG_5(PyObject *SWIG
   double result;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
   res3 = SWIG_ConvertPtr(swig_obj[2], &argp3, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res3)) {
-    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res3), "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp3) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassive___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "EMDEnergyEEDotMassless___call__" "', argument " "3"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg3 = reinterpret_cast< fastjet::PseudoJet * >(argp3);
   {
     try {
-      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
+      result = (double)fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__operator_Sp__SP___SWIG_5(arg1,(fastjet::PseudoJet const &)*arg2,(fastjet::PseudoJet const &)*arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47002,18 +47002,18 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassless___call__(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEDotMassive___call__", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "EMDEnergyEEDotMassless___call__", 0, 3, argv))) SWIG_fail;
   --argc;
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
@@ -47022,7 +47022,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_1(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassless___call____SWIG_1(self, argc, argv);
         }
       }
     }
@@ -47030,7 +47030,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
@@ -47039,7 +47039,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
         int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_3(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassless___call____SWIG_3(self, argc, argv);
         }
       }
     }
@@ -47047,7 +47047,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
@@ -47056,7 +47056,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_5(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassless___call____SWIG_5(self, argc, argv);
         }
       }
     }
@@ -47064,7 +47064,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
@@ -47073,7 +47073,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
         int res = SWIG_ConvertPtr(argv[2], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_4(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassless___call____SWIG_4(self, argc, argv);
         }
       }
     }
@@ -47081,7 +47081,7 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
@@ -47090,36 +47090,36 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEDotMassive___call__(PyObject *self, PyObje
         int res = swig::asptr(argv[2], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
         _v = SWIG_CheckState(res);
         if (_v) {
-          return _wrap_EMDEnergyEEDotMassive___call____SWIG_2(self, argc, argv);
+          return _wrap_EMDEnergyEEDotMassless___call____SWIG_2(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEDotMassive___call__'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'EMDEnergyEEDotMassless___call__'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
-    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJetContainer const &,fastjet::PseudoJetContainer const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJetContainer const &,std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,fastjet::PseudoJetContainer const &)\n"
+    "    fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >::operator ()(fastjet::PseudoJet const &,fastjet::PseudoJet const &)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *EMDEnergyEEDotMassive_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *EMDEnergyEEDotMassless_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *EMDEnergyEEDotMassive_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *EMDEnergyEEDotMassless_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
-SWIGINTERN PyObject *_wrap_new_PairwiseEMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_new_PairwiseEMDEnergyEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   double arg1 = (double) 1 ;
   double arg2 = (double) 1 ;
@@ -47181,113 +47181,113 @@ SWIGINTERN PyObject *_wrap_new_PairwiseEMDEnergyEEDotMassive(PyObject *SWIGUNUSE
   char * kwnames[] = {
     (char *)"R",  (char *)"beta",  (char *)"norm",  (char *)"num_threads",  (char *)"print_every",  (char *)"verbose",  (char *)"request_mode",  (char *)"store_sym_emds_raw",  (char *)"throw_on_error",  (char *)"omp_dynamic_chunksize",  (char *)"n_iter_max",  (char *)"epsilon_large_factor",  (char *)"epsilon_small_factor",  (char *)"os",  NULL 
   };
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *result = 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *result = 0 ;
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOOOOOOOO:new_PairwiseEMDEnergyEEDotMassive", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7, &obj8, &obj9, &obj10, &obj11, &obj12, &obj13)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "|OOOOOOOOOOOOOO:new_PairwiseEMDEnergyEEDotMassless", kwnames, &obj0, &obj1, &obj2, &obj3, &obj4, &obj5, &obj6, &obj7, &obj8, &obj9, &obj10, &obj11, &obj12, &obj13)) SWIG_fail;
   if (obj0) {
     ecode1 = SWIG_AsVal_double(obj0, &val1);
     if (!SWIG_IsOK(ecode1)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "1"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode1), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "1"" of type '" "double""'");
     } 
     arg1 = static_cast< double >(val1);
   }
   if (obj1) {
     ecode2 = SWIG_AsVal_double(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "2"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "2"" of type '" "double""'");
     } 
     arg2 = static_cast< double >(val2);
   }
   if (obj2) {
     ecode3 = SWIG_AsVal_bool(obj2, &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "3"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "3"" of type '" "bool""'");
     } 
     arg3 = static_cast< bool >(val3);
   }
   if (obj3) {
     ecode4 = SWIG_AsVal_int(obj3, &val4);
     if (!SWIG_IsOK(ecode4)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "4"" of type '" "int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode4), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "4"" of type '" "int""'");
     } 
     arg4 = static_cast< int >(val4);
   }
   if (obj4) {
     ecode5 = SWIG_AsVal_ptrdiff_t(obj4, &val5);
     if (!SWIG_IsOK(ecode5)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "5"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode5), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "5"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
     } 
     arg5 = static_cast< fastjet::contrib::eventgeometry::index_type >(val5);
   }
   if (obj5) {
     ecode6 = SWIG_AsVal_unsigned_SS_int(obj5, &val6);
     if (!SWIG_IsOK(ecode6)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "6"" of type '" "unsigned int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode6), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "6"" of type '" "unsigned int""'");
     } 
     arg6 = static_cast< unsigned int >(val6);
   }
   if (obj6) {
     ecode7 = SWIG_AsVal_bool(obj6, &val7);
     if (!SWIG_IsOK(ecode7)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "7"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode7), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "7"" of type '" "bool""'");
     } 
     arg7 = static_cast< bool >(val7);
   }
   if (obj7) {
     ecode8 = SWIG_AsVal_bool(obj7, &val8);
     if (!SWIG_IsOK(ecode8)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "8"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode8), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "8"" of type '" "bool""'");
     } 
     arg8 = static_cast< bool >(val8);
   }
   if (obj8) {
     ecode9 = SWIG_AsVal_bool(obj8, &val9);
     if (!SWIG_IsOK(ecode9)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "9"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode9), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "9"" of type '" "bool""'");
     } 
     arg9 = static_cast< bool >(val9);
   }
   if (obj9) {
     ecode10 = SWIG_AsVal_unsigned_SS_int(obj9, &val10);
     if (!SWIG_IsOK(ecode10)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "10"" of type '" "unsigned int""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode10), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "10"" of type '" "unsigned int""'");
     } 
     arg10 = static_cast< unsigned int >(val10);
   }
   if (obj10) {
     ecode11 = SWIG_AsVal_size_t(obj10, &val11);
     if (!SWIG_IsOK(ecode11)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "11"" of type '" "std::size_t""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode11), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "11"" of type '" "std::size_t""'");
     } 
     arg11 = static_cast< std::size_t >(val11);
   }
   if (obj11) {
     ecode12 = SWIG_AsVal_double(obj11, &val12);
     if (!SWIG_IsOK(ecode12)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "12"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode12), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "12"" of type '" "double""'");
     } 
     arg12 = static_cast< double >(val12);
   }
   if (obj12) {
     ecode13 = SWIG_AsVal_double(obj12, &val13);
     if (!SWIG_IsOK(ecode13)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "13"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode13), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "13"" of type '" "double""'");
     } 
     arg13 = static_cast< double >(val13);
   }
   if (obj13) {
     res14 = SWIG_ConvertPtr(obj13, &argp14, SWIGTYPE_p_std__ostream,  0 );
     if (!SWIG_IsOK(res14)) {
-      SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "14"" of type '" "std::ostream &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res14), "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "14"" of type '" "std::ostream &""'"); 
     }
     if (!argp14) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PairwiseEMDEnergyEEDotMassive" "', argument " "14"" of type '" "std::ostream &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "new_PairwiseEMDEnergyEEDotMassless" "', argument " "14"" of type '" "std::ostream &""'"); 
     }
     arg14 = reinterpret_cast< std::ostream * >(argp14);
   }
   {
     try {
-      result = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *)new fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,*arg14); 
+      result = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *)new fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >(arg1,arg2,arg3,arg4,arg5,arg6,arg7,arg8,arg9,arg10,arg11,arg12,arg13,*arg14); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47310,27 +47310,27 @@ SWIGINTERN PyObject *_wrap_new_PairwiseEMDEnergyEEDotMassive(PyObject *SWIGUNUSE
       SWIG_exception_fail(SWIG_UnknownError, "unknown exception");
     }
   }
-  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_NEW |  0 );
+  resultobj = SWIG_NewPointerObj(SWIG_as_voidptr(result), SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_NEW |  0 );
   return resultobj;
 fail:
   return NULL;
 }
 
 
-SWIGINTERN PyObject *_wrap_delete_PairwiseEMDEnergyEEDotMassive(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_delete_PairwiseEMDEnergyEEDotMassless(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_DISOWN |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_POINTER_DISOWN |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PairwiseEMDEnergyEEDotMassive" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "delete_PairwiseEMDEnergyEEDotMassless" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
       delete arg1; 
@@ -47363,9 +47363,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_description(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -47373,14 +47373,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_description(PyObject *S
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_description" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      result = ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *)arg1)->description(); 
+      result = ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *)arg1)->description(); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47410,9 +47410,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_clear(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   bool arg2 = (bool) true ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -47424,16 +47424,16 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_clear(PyObject *SWIGUNU
     (char *)"self",  (char *)"free_memory",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:PairwiseEMDEnergyEEDotMassive_clear", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "O|O:PairwiseEMDEnergyEEDotMassless_clear", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_clear" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_clear" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   if (obj1) {
     ecode2 = SWIG_AsVal_bool(obj1, &val2);
     if (!SWIG_IsOK(ecode2)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassive_clear" "', argument " "2"" of type '" "bool""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassless_clear" "', argument " "2"" of type '" "bool""'");
     } 
     arg2 = static_cast< bool >(val2);
   }
@@ -47469,9 +47469,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_init__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::contrib::eventgeometry::index_type arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -47479,14 +47479,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_0(PyObject *
   int ecode2 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 2)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassive_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassless_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg2 = static_cast< fastjet::contrib::eventgeometry::index_type >(val2);
   {
@@ -47521,9 +47521,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_init__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::contrib::eventgeometry::index_type arg2 ;
   fastjet::contrib::eventgeometry::index_type arg3 ;
   void *argp1 = 0 ;
@@ -47534,19 +47534,19 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_1(PyObject *
   int ecode3 = 0 ;
   
   if ((nobjs < 3) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_init" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_ptrdiff_t(swig_obj[1], &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassive_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassless_init" "', argument " "2"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg2 = static_cast< fastjet::contrib::eventgeometry::index_type >(val2);
   ecode3 = SWIG_AsVal_ptrdiff_t(swig_obj[2], &val3);
   if (!SWIG_IsOK(ecode3)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassive_init" "', argument " "3"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassless_init" "', argument " "3"" of type '" "fastjet::contrib::eventgeometry::index_type""'");
   } 
   arg3 = static_cast< fastjet::contrib::eventgeometry::index_type >(val3);
   {
@@ -47581,18 +47581,18 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_init(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDEnergyEEDotMassive_init", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDEnergyEEDotMassless_init", 0, 3, argv))) SWIG_fail;
   --argc;
   if (argc == 2) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -47600,14 +47600,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init(PyObject *self, Py
         _v = SWIG_CheckState(res);
       }
       if (_v) {
-        return _wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_0(self, argc, argv);
+        return _wrap_PairwiseEMDEnergyEEDotMassless_init__SWIG_0(self, argc, argv);
       }
     }
   }
   if (argc == 3) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       {
@@ -47620,35 +47620,35 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_init(PyObject *self, Py
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive_init__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless_init__SWIG_1(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDEnergyEEDotMassive_init'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDEnergyEEDotMassless_init'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >::init(fastjet::contrib::eventgeometry::index_type)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >::init(fastjet::contrib::eventgeometry::index_type,fastjet::contrib::eventgeometry::index_type)\n");
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >::init(fastjet::contrib::eventgeometry::index_type)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >::init(fastjet::contrib::eventgeometry::index_type,fastjet::contrib::eventgeometry::index_type)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_compute(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_compute(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_compute" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_compute" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
       {
@@ -47685,9 +47685,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless___repr__(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
@@ -47695,14 +47695,14 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive___repr__(PyObject *SWIG
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless___repr__" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      result = fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg____repr__((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > const *)arg1); 
+      result = fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg____repr__((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > const *)arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47732,23 +47732,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterWeightedCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47778,23 +47778,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterEScheme(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterEScheme(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47824,23 +47824,23 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
   PyObject *swig_obj[1] ;
   
   if (!args) SWIG_fail;
   swig_obj[0] = args;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(arg1); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_CenterPtCentroid(arg1); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47870,9 +47870,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   double arg2 ;
   void *argp1 = 0 ;
   int res1 = 0 ;
@@ -47884,20 +47884,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRa
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
+  res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47927,9 +47927,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_0(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::PseudoJetContainer *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -47940,29 +47940,29 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_0(PyOb
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJetContainer,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJetContainer const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJetContainer * >(argp2);
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_0(arg1,(fastjet::PseudoJetContainer const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_0(arg1,(fastjet::PseudoJetContainer const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -47992,9 +47992,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_1(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -48004,32 +48004,32 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_1(PyOb
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   {
     std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *ptr = (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > *)0;
     res2 = swig::asptr(swig_obj[1], &ptr);
     if (!SWIG_IsOK(res2)) {
-      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     if (!ptr) {
-      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
+      SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &""'"); 
     }
     arg2 = ptr;
   }
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_1(arg1,(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -48061,9 +48061,9 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_2(PyObject *SWIGUNUSEDPARM(self), Py_ssize_t nobjs, PyObject **swig_obj) {
   PyObject *resultobj = 0;
-  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *) 0 ;
+  fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *) 0 ;
   fastjet::PseudoJet *arg2 = 0 ;
   double arg3 = (double) 1 ;
   void *argp1 = 0 ;
@@ -48074,29 +48074,29 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_2(PyOb
   int ecode3 = 0 ;
   
   if ((nobjs < 2) || (nobjs > 3)) SWIG_fail;
-  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
+  res1 = SWIG_ConvertPtr(swig_obj[0], &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *""'"); 
   }
-  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > * >(argp1);
+  arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > * >(argp1);
   res2 = SWIG_ConvertPtr(swig_obj[1], &argp2, SWIGTYPE_p_fastjet__PseudoJet,  0  | 0);
   if (!SWIG_IsOK(res2)) {
-    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res2), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   if (!argp2) {
-    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
+    SWIG_exception_fail(SWIG_ValueError, "invalid null reference " "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "2"" of type '" "fastjet::PseudoJet const &""'"); 
   }
   arg2 = reinterpret_cast< fastjet::PseudoJet * >(argp2);
   if (swig_obj[2]) {
     ecode3 = SWIG_AsVal_double(swig_obj[2], &val3);
     if (!SWIG_IsOK(ecode3)) {
-      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassive__add_event" "', argument " "3"" of type '" "double""'");
+      SWIG_exception_fail(SWIG_ArgError(ecode3), "in method '" "PairwiseEMDEnergyEEDotMassless__add_event" "', argument " "3"" of type '" "double""'");
     } 
     arg3 = static_cast< double >(val3);
   }
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassive_Sg__Sc_double_Sg___add_event__SWIG_2(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEDotMassless_Sg__Sc_double_Sg___add_event__SWIG_2(arg1,(fastjet::PseudoJet const &)*arg2,arg3); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -48126,32 +48126,32 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event(PyObject *self, PyObject *args) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassless__add_event(PyObject *self, PyObject *args) {
   Py_ssize_t argc;
   PyObject *argv[4] = {
     0
   };
   
-  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDEnergyEEDotMassive__add_event", 0, 3, argv))) SWIG_fail;
+  if (!(argc = SWIG_Python_UnpackTuple(args, "PairwiseEMDEnergyEEDotMassless__add_event", 0, 3, argv))) SWIG_fail;
   --argc;
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJetContainer, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_0(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_0(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_0(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_0(self, argc, argv);
         }
       }
     }
@@ -48159,21 +48159,21 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event(PyObject *se
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = SWIG_ConvertPtr(argv[1], 0, SWIGTYPE_p_fastjet__PseudoJet, SWIG_POINTER_NO_NULL | 0);
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_2(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_2(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_2(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_2(self, argc, argv);
         }
       }
     }
@@ -48181,44 +48181,44 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEDotMassive__add_event(PyObject *se
   if ((argc >= 2) && (argc <= 3)) {
     int _v;
     void *vptr = 0;
-    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
+    int res = SWIG_ConvertPtr(argv[0], &vptr, SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0);
     _v = SWIG_CheckState(res);
     if (_v) {
       int res = swig::asptr(argv[1], (std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > >**)(0));
       _v = SWIG_CheckState(res);
       if (_v) {
         if (argc <= 2) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_1(self, argc, argv);
         }
         {
           int res = SWIG_AsVal_double(argv[2], NULL);
           _v = SWIG_CheckState(res);
         }
         if (_v) {
-          return _wrap_PairwiseEMDEnergyEEDotMassive__add_event__SWIG_1(self, argc, argv);
+          return _wrap_PairwiseEMDEnergyEEDotMassless__add_event__SWIG_1(self, argc, argv);
         }
       }
     }
   }
   
 fail:
-  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDEnergyEEDotMassive__add_event'.\n"
+  SWIG_Python_RaiseOrModifyTypeError("Wrong number or type of arguments for overloaded function 'PairwiseEMDEnergyEEDotMassless__add_event'.\n"
     "  Possible C/C++ prototypes are:\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(fastjet::PseudoJetContainer const &,double)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,double)\n"
-    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double >::_add_event(fastjet::PseudoJet const &,double)\n");
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(fastjet::PseudoJetContainer const &,double)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(std::vector< fastjet::PseudoJet,std::allocator< fastjet::PseudoJet > > const &,double)\n"
+    "    fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double >::_add_event(fastjet::PseudoJet const &,double)\n");
   return 0;
 }
 
 
-SWIGINTERN PyObject *PairwiseEMDEnergyEEDotMassive_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *PairwiseEMDEnergyEEDotMassless_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   PyObject *obj;
   if (!SWIG_Python_UnpackTuple(args, "swigregister", 1, 1, &obj)) return NULL;
-  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_NewClientData(obj));
+  SWIG_TypeNewClientData(SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, SWIG_NewClientData(obj));
   return SWIG_Py_Void();
 }
 
-SWIGINTERN PyObject *PairwiseEMDEnergyEEDotMassive_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
+SWIGINTERN PyObject *PairwiseEMDEnergyEEDotMassless_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args) {
   return SWIG_Python_InitShadowInstance(args);
 }
 
@@ -48641,7 +48641,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *) 0 ;
   double arg2 ;
@@ -48655,20 +48655,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi(PyOb
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEArcLength_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLength_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLength_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -49917,7 +49917,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *) 0 ;
   double arg2 ;
@@ -49931,20 +49931,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRap
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLength_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -50688,7 +50688,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *arg1 = (fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *) 0 ;
   double arg2 ;
@@ -50702,20 +50702,20 @@ SWIGINTERN PyObject *_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapP
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:EMDEnergyEEArcLengthMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "EMDEnergyEEArcLengthMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "EMDEnergyEEArcLengthMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -51964,7 +51964,7 @@ fail:
 }
 
 
-SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
+SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs) {
   PyObject *resultobj = 0;
   fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *arg1 = (fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *) 0 ;
   double arg2 ;
@@ -51978,20 +51978,20 @@ SWIGINTERN PyObject *_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCi
     (char *)"self",  (char *)"R",  NULL 
   };
   
-  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", kwnames, &obj0, &obj1)) SWIG_fail;
+  if (!PyArg_ParseTupleAndKeywords(args, kwargs, "OO:PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle", kwnames, &obj0, &obj1)) SWIG_fail;
   res1 = SWIG_ConvertPtr(obj0, &argp1,SWIGTYPE_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0 |  0 );
   if (!SWIG_IsOK(res1)) {
-    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *""'"); 
+    SWIG_exception_fail(SWIG_ArgError(res1), "in method '" "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle" "', argument " "1"" of type '" "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *""'"); 
   }
   arg1 = reinterpret_cast< fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > * >(argp1);
   ecode2 = SWIG_AsVal_double(obj1, &val2);
   if (!SWIG_IsOK(ecode2)) {
-    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi" "', argument " "2"" of type '" "double""'");
+    SWIG_exception_fail(SWIG_ArgError(ecode2), "in method '" "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle" "', argument " "2"" of type '" "double""'");
   } 
   arg2 = static_cast< double >(val2);
   {
     try {
-      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircleRapPhi(arg1,arg2); 
+      fastjet_contrib_eventgeometry_PairwiseEMD_Sl_fastjet_contrib_eventgeometry_EMD_Sl_double_Sc_fastjet_contrib_eventgeometry_Energy_Sc_fastjet_contrib_eventgeometry_EEArcLengthMassive_Sg__Sc_double_Sg__preprocess_MaskCircle(arg1,arg2); 
     }
     /*@SWIG:/usr/local/Cellar/swig/4.0.2/share/swig/4.0.2/typemaps/exception.swg,58,SWIG_CATCH_STDEXCEPT@*/  /* catching std::exception  */
     catch (std::invalid_argument& e) {
@@ -52719,7 +52719,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid(EMDTransverseMomentumDeltaR self)"},
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterEScheme, METH_O, "EMDTransverseMomentumDeltaR_preprocess_CenterEScheme(EMDTransverseMomentumDeltaR self)"},
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid, METH_O, "EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid(EMDTransverseMomentumDeltaR self)"},
-	 { "EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi(EMDTransverseMomentumDeltaR self, double R)"},
+	 { "EMDTransverseMomentumDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumDeltaR_preprocess_MaskCircle(EMDTransverseMomentumDeltaR self, double R)"},
 	 { "EMDTransverseMomentumDeltaR___call__", _wrap_EMDTransverseMomentumDeltaR___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseMomentumDeltaR___call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52742,7 +52742,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumDeltaR self)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme(PairwiseEMDTransverseMomentumDeltaR self)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumDeltaR self)"},
-	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumDeltaR self, double R)"},
+	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle(PairwiseEMDTransverseMomentumDeltaR self, double R)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR__add_event", _wrap_PairwiseEMDTransverseMomentumDeltaR__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseMomentumDeltaR__add_event(PairwiseEMDTransverseMomentumDeltaR self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseMomentumDeltaR__add_event(PairwiseEMDTransverseMomentumDeltaR self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52757,7 +52757,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid(EMDTransverseMomentumHadronicDot self)"},
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme, METH_O, "EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme(EMDTransverseMomentumHadronicDot self)"},
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid, METH_O, "EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid(EMDTransverseMomentumHadronicDot self)"},
-	 { "EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi(EMDTransverseMomentumHadronicDot self, double R)"},
+	 { "EMDTransverseMomentumHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumHadronicDot_preprocess_MaskCircle(EMDTransverseMomentumHadronicDot self, double R)"},
 	 { "EMDTransverseMomentumHadronicDot___call__", _wrap_EMDTransverseMomentumHadronicDot___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseMomentumHadronicDot___call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52780,7 +52780,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumHadronicDot self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme(PairwiseEMDTransverseMomentumHadronicDot self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumHadronicDot self)"},
-	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumHadronicDot self, double R)"},
+	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle(PairwiseEMDTransverseMomentumHadronicDot self, double R)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot__add_event", _wrap_PairwiseEMDTransverseMomentumHadronicDot__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseMomentumHadronicDot__add_event(PairwiseEMDTransverseMomentumHadronicDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseMomentumHadronicDot__add_event(PairwiseEMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52795,7 +52795,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid(EMDTransverseMomentumHadronicDotMassive self)"},
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme, METH_O, "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme(EMDTransverseMomentumHadronicDotMassive self)"},
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid(EMDTransverseMomentumHadronicDotMassive self)"},
-	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi(EMDTransverseMomentumHadronicDotMassive self, double R)"},
+	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle(EMDTransverseMomentumHadronicDotMassive self, double R)"},
 	 { "EMDTransverseMomentumHadronicDotMassive___call__", _wrap_EMDTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseMomentumHadronicDotMassive___call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52818,7 +52818,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
-	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R)"},
+	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive__add_event", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseMomentumHadronicDotMassive__add_event(PairwiseEMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseMomentumHadronicDotMassive__add_event(PairwiseEMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52833,7 +52833,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid(EMDTransverseEnergyDeltaR self)"},
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterEScheme, METH_O, "EMDTransverseEnergyDeltaR_preprocess_CenterEScheme(EMDTransverseEnergyDeltaR self)"},
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid, METH_O, "EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid(EMDTransverseEnergyDeltaR self)"},
-	 { "EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi(EMDTransverseEnergyDeltaR self, double R)"},
+	 { "EMDTransverseEnergyDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyDeltaR_preprocess_MaskCircle(EMDTransverseEnergyDeltaR self, double R)"},
 	 { "EMDTransverseEnergyDeltaR___call__", _wrap_EMDTransverseEnergyDeltaR___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseEnergyDeltaR___call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52856,7 +52856,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyDeltaR self)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme(PairwiseEMDTransverseEnergyDeltaR self)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyDeltaR self)"},
-	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyDeltaR self, double R)"},
+	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle(PairwiseEMDTransverseEnergyDeltaR self, double R)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR__add_event", _wrap_PairwiseEMDTransverseEnergyDeltaR__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseEnergyDeltaR__add_event(PairwiseEMDTransverseEnergyDeltaR self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseEnergyDeltaR__add_event(PairwiseEMDTransverseEnergyDeltaR self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52871,7 +52871,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid(EMDTransverseEnergyHadronicDot self)"},
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme, METH_O, "EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme(EMDTransverseEnergyHadronicDot self)"},
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid, METH_O, "EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid(EMDTransverseEnergyHadronicDot self)"},
-	 { "EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi(EMDTransverseEnergyHadronicDot self, double R)"},
+	 { "EMDTransverseEnergyHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyHadronicDot_preprocess_MaskCircle(EMDTransverseEnergyHadronicDot self, double R)"},
 	 { "EMDTransverseEnergyHadronicDot___call__", _wrap_EMDTransverseEnergyHadronicDot___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseEnergyHadronicDot___call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52894,7 +52894,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyHadronicDot self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme(PairwiseEMDTransverseEnergyHadronicDot self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyHadronicDot self)"},
-	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyHadronicDot self, double R)"},
+	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle(PairwiseEMDTransverseEnergyHadronicDot self, double R)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot__add_event", _wrap_PairwiseEMDTransverseEnergyHadronicDot__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseEnergyHadronicDot__add_event(PairwiseEMDTransverseEnergyHadronicDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseEnergyHadronicDot__add_event(PairwiseEMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52909,7 +52909,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid(EMDTransverseEnergyHadronicDotMassive self)"},
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme, METH_O, "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme(EMDTransverseEnergyHadronicDotMassive self)"},
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid(EMDTransverseEnergyHadronicDotMassive self)"},
-	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi(EMDTransverseEnergyHadronicDotMassive self, double R)"},
+	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle(EMDTransverseEnergyHadronicDotMassive self, double R)"},
 	 { "EMDTransverseEnergyHadronicDotMassive___call__", _wrap_EMDTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDTransverseEnergyHadronicDotMassive___call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52932,7 +52932,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
-	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R)"},
+	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive__add_event", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDTransverseEnergyHadronicDotMassive__add_event(PairwiseEMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDTransverseEnergyHadronicDotMassive__add_event(PairwiseEMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52947,7 +52947,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEDot_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDot_preprocess_CenterWeightedCentroid, METH_O, "EMDMomentumEEDot_preprocess_CenterWeightedCentroid(EMDMomentumEEDot self)"},
 	 { "EMDMomentumEEDot_preprocess_CenterEScheme", _wrap_EMDMomentumEEDot_preprocess_CenterEScheme, METH_O, "EMDMomentumEEDot_preprocess_CenterEScheme(EMDMomentumEEDot self)"},
 	 { "EMDMomentumEEDot_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDot_preprocess_CenterPtCentroid, METH_O, "EMDMomentumEEDot_preprocess_CenterPtCentroid(EMDMomentumEEDot self)"},
-	 { "EMDMomentumEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDot_preprocess_MaskCircleRapPhi(EMDMomentumEEDot self, double R)"},
+	 { "EMDMomentumEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDot_preprocess_MaskCircle(EMDMomentumEEDot self, double R)"},
 	 { "EMDMomentumEEDot___call__", _wrap_EMDMomentumEEDot___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDMomentumEEDot___call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -52970,7 +52970,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDot self)"},
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterEScheme, METH_O, "PairwiseEMDMomentumEEDot_preprocess_CenterEScheme(PairwiseEMDMomentumEEDot self)"},
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDot self)"},
-	 { "PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEDot self, double R)"},
+	 { "PairwiseEMDMomentumEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDot_preprocess_MaskCircle(PairwiseEMDMomentumEEDot self, double R)"},
 	 { "PairwiseEMDMomentumEEDot__add_event", _wrap_PairwiseEMDMomentumEEDot__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDMomentumEEDot__add_event(PairwiseEMDMomentumEEDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDMomentumEEDot__add_event(PairwiseEMDMomentumEEDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -52978,44 +52978,44 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { "PairwiseEMDMomentumEEDot_swigregister", PairwiseEMDMomentumEEDot_swigregister, METH_O, NULL},
 	 { "PairwiseEMDMomentumEEDot_swiginit", PairwiseEMDMomentumEEDot_swiginit, METH_VARARGS, NULL},
-	 { "new_EMDMomentumEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEDotMassive(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassive"},
-	 { "delete_EMDMomentumEEDotMassive", _wrap_delete_EMDMomentumEEDotMassive, METH_O, "delete_EMDMomentumEEDotMassive(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_description, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDotMassive_description(EMDMomentumEEDotMassive self, bool write_preprocessors=True) -> std::string"},
-	 { "EMDMomentumEEDotMassive___repr__", _wrap_EMDMomentumEEDotMassive___repr__, METH_O, "EMDMomentumEEDotMassive___repr__(EMDMomentumEEDotMassive self) -> std::string"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterEScheme", _wrap_EMDMomentumEEDotMassive_preprocess_CenterEScheme, METH_O, "EMDMomentumEEDotMassive_preprocess_CenterEScheme(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDotMassive_preprocess_CenterPtCentroid, METH_O, "EMDMomentumEEDotMassive_preprocess_CenterPtCentroid(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi(EMDMomentumEEDotMassive self, double R)"},
-	 { "EMDMomentumEEDotMassive___call__", _wrap_EMDMomentumEEDotMassive___call__, METH_VARARGS, "\n"
-		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
-		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
-		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
-		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
-		"EMDMomentumEEDotMassive___call__(EMDMomentumEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
+	 { "new_EMDMomentumEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEDotMassless(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassless"},
+	 { "delete_EMDMomentumEEDotMassless", _wrap_delete_EMDMomentumEEDotMassless, METH_O, "delete_EMDMomentumEEDotMassless(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassless_description, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDotMassless_description(EMDMomentumEEDotMassless self, bool write_preprocessors=True) -> std::string"},
+	 { "EMDMomentumEEDotMassless___repr__", _wrap_EMDMomentumEEDotMassless___repr__, METH_O, "EMDMomentumEEDotMassless___repr__(EMDMomentumEEDotMassless self) -> std::string"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterEScheme", _wrap_EMDMomentumEEDotMassless_preprocess_CenterEScheme, METH_O, "EMDMomentumEEDotMassless_preprocess_CenterEScheme(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDotMassless_preprocess_CenterPtCentroid, METH_O, "EMDMomentumEEDotMassless_preprocess_CenterPtCentroid(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEDotMassless_preprocess_MaskCircle(EMDMomentumEEDotMassless self, double R)"},
+	 { "EMDMomentumEEDotMassless___call__", _wrap_EMDMomentumEEDotMassless___call__, METH_VARARGS, "\n"
+		"EMDMomentumEEDotMassless___call__(EMDMomentumEEDotMassless self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
+		"EMDMomentumEEDotMassless___call__(EMDMomentumEEDotMassless self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDotMassless___call__(EMDMomentumEEDotMassless self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
+		"EMDMomentumEEDotMassless___call__(EMDMomentumEEDotMassless self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
+		"EMDMomentumEEDotMassless___call__(EMDMomentumEEDotMassless self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
-	 { "EMDMomentumEEDotMassive_swigregister", EMDMomentumEEDotMassive_swigregister, METH_O, NULL},
-	 { "EMDMomentumEEDotMassive_swiginit", EMDMomentumEEDotMassive_swiginit, METH_VARARGS, NULL},
-	 { "new_PairwiseEMDMomentumEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDMomentumEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDMomentumEEDotMassive(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"},
-	 { "delete_PairwiseEMDMomentumEEDotMassive", _wrap_delete_PairwiseEMDMomentumEEDotMassive, METH_O, "delete_PairwiseEMDMomentumEEDotMassive(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_description", _wrap_PairwiseEMDMomentumEEDotMassive_description, METH_O, "PairwiseEMDMomentumEEDotMassive_description(PairwiseEMDMomentumEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDMomentumEEDotMassive_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassive_clear, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDotMassive_clear(PairwiseEMDMomentumEEDotMassive self, bool free_memory=True)"},
-	 { "PairwiseEMDMomentumEEDotMassive_init", _wrap_PairwiseEMDMomentumEEDotMassive_init, METH_VARARGS, "\n"
-		"PairwiseEMDMomentumEEDotMassive_init(PairwiseEMDMomentumEEDotMassive self, fastjet::contrib::eventgeometry::index_type nev)\n"
-		"PairwiseEMDMomentumEEDotMassive_init(PairwiseEMDMomentumEEDotMassive self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
+	 { "EMDMomentumEEDotMassless_swigregister", EMDMomentumEEDotMassless_swigregister, METH_O, NULL},
+	 { "EMDMomentumEEDotMassless_swiginit", EMDMomentumEEDotMassless_swiginit, METH_VARARGS, NULL},
+	 { "new_PairwiseEMDMomentumEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDMomentumEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDMomentumEEDotMassless(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassless"},
+	 { "delete_PairwiseEMDMomentumEEDotMassless", _wrap_delete_PairwiseEMDMomentumEEDotMassless, METH_O, "delete_PairwiseEMDMomentumEEDotMassless(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_description", _wrap_PairwiseEMDMomentumEEDotMassless_description, METH_O, "PairwiseEMDMomentumEEDotMassless_description(PairwiseEMDMomentumEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDMomentumEEDotMassless_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassless_clear, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDotMassless_clear(PairwiseEMDMomentumEEDotMassless self, bool free_memory=True)"},
+	 { "PairwiseEMDMomentumEEDotMassless_init", _wrap_PairwiseEMDMomentumEEDotMassless_init, METH_VARARGS, "\n"
+		"PairwiseEMDMomentumEEDotMassless_init(PairwiseEMDMomentumEEDotMassless self, fastjet::contrib::eventgeometry::index_type nev)\n"
+		"PairwiseEMDMomentumEEDotMassless_init(PairwiseEMDMomentumEEDotMassless self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
 		""},
-	 { "PairwiseEMDMomentumEEDotMassive_compute", _wrap_PairwiseEMDMomentumEEDotMassive_compute, METH_O, "PairwiseEMDMomentumEEDotMassive_compute(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive___repr__", _wrap_PairwiseEMDMomentumEEDotMassive___repr__, METH_O, "PairwiseEMDMomentumEEDotMassive___repr__(PairwiseEMDMomentumEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEDotMassive self, double R)"},
-	 { "PairwiseEMDMomentumEEDotMassive__add_event", _wrap_PairwiseEMDMomentumEEDotMassive__add_event, METH_VARARGS, "\n"
-		"PairwiseEMDMomentumEEDotMassive__add_event(PairwiseEMDMomentumEEDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
-		"PairwiseEMDMomentumEEDotMassive__add_event(PairwiseEMDMomentumEEDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
-		"PairwiseEMDMomentumEEDotMassive__add_event(PairwiseEMDMomentumEEDotMassive self, PseudoJet pj, double event_weight=1)\n"
+	 { "PairwiseEMDMomentumEEDotMassless_compute", _wrap_PairwiseEMDMomentumEEDotMassless_compute, METH_O, "PairwiseEMDMomentumEEDotMassless_compute(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless___repr__", _wrap_PairwiseEMDMomentumEEDotMassless___repr__, METH_O, "PairwiseEMDMomentumEEDotMassless___repr__(PairwiseEMDMomentumEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme, METH_O, "PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle(PairwiseEMDMomentumEEDotMassless self, double R)"},
+	 { "PairwiseEMDMomentumEEDotMassless__add_event", _wrap_PairwiseEMDMomentumEEDotMassless__add_event, METH_VARARGS, "\n"
+		"PairwiseEMDMomentumEEDotMassless__add_event(PairwiseEMDMomentumEEDotMassless self, PseudoJetContainer pjc, double event_weight=1)\n"
+		"PairwiseEMDMomentumEEDotMassless__add_event(PairwiseEMDMomentumEEDotMassless self, vectorPseudoJet pjs, double event_weight=1)\n"
+		"PairwiseEMDMomentumEEDotMassless__add_event(PairwiseEMDMomentumEEDotMassless self, PseudoJet pj, double event_weight=1)\n"
 		""},
-	 { "PairwiseEMDMomentumEEDotMassive_swigregister", PairwiseEMDMomentumEEDotMassive_swigregister, METH_O, NULL},
-	 { "PairwiseEMDMomentumEEDotMassive_swiginit", PairwiseEMDMomentumEEDotMassive_swiginit, METH_VARARGS, NULL},
+	 { "PairwiseEMDMomentumEEDotMassless_swigregister", PairwiseEMDMomentumEEDotMassless_swigregister, METH_O, NULL},
+	 { "PairwiseEMDMomentumEEDotMassless_swiginit", PairwiseEMDMomentumEEDotMassless_swiginit, METH_VARARGS, NULL},
 	 { "new_EMDMomentumEEArcLength", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEArcLength, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEArcLength(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEArcLength"},
 	 { "delete_EMDMomentumEEArcLength", _wrap_delete_EMDMomentumEEArcLength, METH_O, "delete_EMDMomentumEEArcLength(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_description, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEArcLength_description(EMDMomentumEEArcLength self, bool write_preprocessors=True) -> std::string"},
@@ -53023,7 +53023,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_preprocess_CenterEScheme", _wrap_EMDMomentumEEArcLength_preprocess_CenterEScheme, METH_O, "EMDMomentumEEArcLength_preprocess_CenterEScheme(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEArcLength_preprocess_CenterPtCentroid, METH_O, "EMDMomentumEEArcLength_preprocess_CenterPtCentroid(EMDMomentumEEArcLength self)"},
-	 { "EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi(EMDMomentumEEArcLength self, double R)"},
+	 { "EMDMomentumEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEArcLength_preprocess_MaskCircle(EMDMomentumEEArcLength self, double R)"},
 	 { "EMDMomentumEEArcLength___call__", _wrap_EMDMomentumEEArcLength___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDMomentumEEArcLength___call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53046,7 +53046,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEArcLength self)"},
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme, METH_O, "PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme(PairwiseEMDMomentumEEArcLength self)"},
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid(PairwiseEMDMomentumEEArcLength self)"},
-	 { "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEArcLength self, double R)"},
+	 { "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle(PairwiseEMDMomentumEEArcLength self, double R)"},
 	 { "PairwiseEMDMomentumEEArcLength__add_event", _wrap_PairwiseEMDMomentumEEArcLength__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDMomentumEEArcLength__add_event(PairwiseEMDMomentumEEArcLength self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDMomentumEEArcLength__add_event(PairwiseEMDMomentumEEArcLength self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53061,7 +53061,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid(EMDMomentumEEArcLengthMassive self)"},
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme(EMDMomentumEEArcLengthMassive self)"},
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid(EMDMomentumEEArcLengthMassive self)"},
-	 { "EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi(EMDMomentumEEArcLengthMassive self, double R)"},
+	 { "EMDMomentumEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDMomentumEEArcLengthMassive_preprocess_MaskCircle(EMDMomentumEEArcLengthMassive self, double R)"},
 	 { "EMDMomentumEEArcLengthMassive___call__", _wrap_EMDMomentumEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDMomentumEEArcLengthMassive___call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53084,7 +53084,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEArcLengthMassive self)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme(PairwiseEMDMomentumEEArcLengthMassive self)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid(PairwiseEMDMomentumEEArcLengthMassive self)"},
-	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEArcLengthMassive self, double R)"},
+	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle(PairwiseEMDMomentumEEArcLengthMassive self, double R)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive__add_event", _wrap_PairwiseEMDMomentumEEArcLengthMassive__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDMomentumEEArcLengthMassive__add_event(PairwiseEMDMomentumEEArcLengthMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDMomentumEEArcLengthMassive__add_event(PairwiseEMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53099,7 +53099,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEDot_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDot_preprocess_CenterWeightedCentroid, METH_O, "EMDEnergyEEDot_preprocess_CenterWeightedCentroid(EMDEnergyEEDot self)"},
 	 { "EMDEnergyEEDot_preprocess_CenterEScheme", _wrap_EMDEnergyEEDot_preprocess_CenterEScheme, METH_O, "EMDEnergyEEDot_preprocess_CenterEScheme(EMDEnergyEEDot self)"},
 	 { "EMDEnergyEEDot_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDot_preprocess_CenterPtCentroid, METH_O, "EMDEnergyEEDot_preprocess_CenterPtCentroid(EMDEnergyEEDot self)"},
-	 { "EMDEnergyEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDot_preprocess_MaskCircleRapPhi(EMDEnergyEEDot self, double R)"},
+	 { "EMDEnergyEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDot_preprocess_MaskCircle(EMDEnergyEEDot self, double R)"},
 	 { "EMDEnergyEEDot___call__", _wrap_EMDEnergyEEDot___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDEnergyEEDot___call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53122,7 +53122,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDot self)"},
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterEScheme, METH_O, "PairwiseEMDEnergyEEDot_preprocess_CenterEScheme(PairwiseEMDEnergyEEDot self)"},
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDot self)"},
-	 { "PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEDot self, double R)"},
+	 { "PairwiseEMDEnergyEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDot_preprocess_MaskCircle(PairwiseEMDEnergyEEDot self, double R)"},
 	 { "PairwiseEMDEnergyEEDot__add_event", _wrap_PairwiseEMDEnergyEEDot__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDEnergyEEDot__add_event(PairwiseEMDEnergyEEDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDEnergyEEDot__add_event(PairwiseEMDEnergyEEDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53130,44 +53130,44 @@ static PyMethodDef SwigMethods[] = {
 		""},
 	 { "PairwiseEMDEnergyEEDot_swigregister", PairwiseEMDEnergyEEDot_swigregister, METH_O, NULL},
 	 { "PairwiseEMDEnergyEEDot_swiginit", PairwiseEMDEnergyEEDot_swiginit, METH_VARARGS, NULL},
-	 { "new_EMDEnergyEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEDotMassive(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassive"},
-	 { "delete_EMDEnergyEEDotMassive", _wrap_delete_EMDEnergyEEDotMassive, METH_O, "delete_EMDEnergyEEDotMassive(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_description, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDotMassive_description(EMDEnergyEEDotMassive self, bool write_preprocessors=True) -> std::string"},
-	 { "EMDEnergyEEDotMassive___repr__", _wrap_EMDEnergyEEDotMassive___repr__, METH_O, "EMDEnergyEEDotMassive___repr__(EMDEnergyEEDotMassive self) -> std::string"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterEScheme", _wrap_EMDEnergyEEDotMassive_preprocess_CenterEScheme, METH_O, "EMDEnergyEEDotMassive_preprocess_CenterEScheme(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDotMassive_preprocess_CenterPtCentroid, METH_O, "EMDEnergyEEDotMassive_preprocess_CenterPtCentroid(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi(EMDEnergyEEDotMassive self, double R)"},
-	 { "EMDEnergyEEDotMassive___call__", _wrap_EMDEnergyEEDotMassive___call__, METH_VARARGS, "\n"
-		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
-		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
-		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
-		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
-		"EMDEnergyEEDotMassive___call__(EMDEnergyEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
+	 { "new_EMDEnergyEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEDotMassless(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassless"},
+	 { "delete_EMDEnergyEEDotMassless", _wrap_delete_EMDEnergyEEDotMassless, METH_O, "delete_EMDEnergyEEDotMassless(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassless_description, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDotMassless_description(EMDEnergyEEDotMassless self, bool write_preprocessors=True) -> std::string"},
+	 { "EMDEnergyEEDotMassless___repr__", _wrap_EMDEnergyEEDotMassless___repr__, METH_O, "EMDEnergyEEDotMassless___repr__(EMDEnergyEEDotMassless self) -> std::string"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterEScheme", _wrap_EMDEnergyEEDotMassless_preprocess_CenterEScheme, METH_O, "EMDEnergyEEDotMassless_preprocess_CenterEScheme(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDotMassless_preprocess_CenterPtCentroid, METH_O, "EMDEnergyEEDotMassless_preprocess_CenterPtCentroid(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEDotMassless_preprocess_MaskCircle(EMDEnergyEEDotMassless self, double R)"},
+	 { "EMDEnergyEEDotMassless___call__", _wrap_EMDEnergyEEDotMassless___call__, METH_VARARGS, "\n"
+		"EMDEnergyEEDotMassless___call__(EMDEnergyEEDotMassless self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
+		"EMDEnergyEEDotMassless___call__(EMDEnergyEEDotMassless self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDotMassless___call__(EMDEnergyEEDotMassless self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
+		"EMDEnergyEEDotMassless___call__(EMDEnergyEEDotMassless self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
+		"EMDEnergyEEDotMassless___call__(EMDEnergyEEDotMassless self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
-	 { "EMDEnergyEEDotMassive_swigregister", EMDEnergyEEDotMassive_swigregister, METH_O, NULL},
-	 { "EMDEnergyEEDotMassive_swiginit", EMDEnergyEEDotMassive_swiginit, METH_VARARGS, NULL},
-	 { "new_PairwiseEMDEnergyEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDEnergyEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDEnergyEEDotMassive(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"},
-	 { "delete_PairwiseEMDEnergyEEDotMassive", _wrap_delete_PairwiseEMDEnergyEEDotMassive, METH_O, "delete_PairwiseEMDEnergyEEDotMassive(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_description", _wrap_PairwiseEMDEnergyEEDotMassive_description, METH_O, "PairwiseEMDEnergyEEDotMassive_description(PairwiseEMDEnergyEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDEnergyEEDotMassive_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassive_clear, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDotMassive_clear(PairwiseEMDEnergyEEDotMassive self, bool free_memory=True)"},
-	 { "PairwiseEMDEnergyEEDotMassive_init", _wrap_PairwiseEMDEnergyEEDotMassive_init, METH_VARARGS, "\n"
-		"PairwiseEMDEnergyEEDotMassive_init(PairwiseEMDEnergyEEDotMassive self, fastjet::contrib::eventgeometry::index_type nev)\n"
-		"PairwiseEMDEnergyEEDotMassive_init(PairwiseEMDEnergyEEDotMassive self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
+	 { "EMDEnergyEEDotMassless_swigregister", EMDEnergyEEDotMassless_swigregister, METH_O, NULL},
+	 { "EMDEnergyEEDotMassless_swiginit", EMDEnergyEEDotMassless_swiginit, METH_VARARGS, NULL},
+	 { "new_PairwiseEMDEnergyEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDEnergyEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDEnergyEEDotMassless(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassless"},
+	 { "delete_PairwiseEMDEnergyEEDotMassless", _wrap_delete_PairwiseEMDEnergyEEDotMassless, METH_O, "delete_PairwiseEMDEnergyEEDotMassless(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_description", _wrap_PairwiseEMDEnergyEEDotMassless_description, METH_O, "PairwiseEMDEnergyEEDotMassless_description(PairwiseEMDEnergyEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDEnergyEEDotMassless_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassless_clear, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDotMassless_clear(PairwiseEMDEnergyEEDotMassless self, bool free_memory=True)"},
+	 { "PairwiseEMDEnergyEEDotMassless_init", _wrap_PairwiseEMDEnergyEEDotMassless_init, METH_VARARGS, "\n"
+		"PairwiseEMDEnergyEEDotMassless_init(PairwiseEMDEnergyEEDotMassless self, fastjet::contrib::eventgeometry::index_type nev)\n"
+		"PairwiseEMDEnergyEEDotMassless_init(PairwiseEMDEnergyEEDotMassless self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
 		""},
-	 { "PairwiseEMDEnergyEEDotMassive_compute", _wrap_PairwiseEMDEnergyEEDotMassive_compute, METH_O, "PairwiseEMDEnergyEEDotMassive_compute(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive___repr__", _wrap_PairwiseEMDEnergyEEDotMassive___repr__, METH_O, "PairwiseEMDEnergyEEDotMassive___repr__(PairwiseEMDEnergyEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEDotMassive self, double R)"},
-	 { "PairwiseEMDEnergyEEDotMassive__add_event", _wrap_PairwiseEMDEnergyEEDotMassive__add_event, METH_VARARGS, "\n"
-		"PairwiseEMDEnergyEEDotMassive__add_event(PairwiseEMDEnergyEEDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
-		"PairwiseEMDEnergyEEDotMassive__add_event(PairwiseEMDEnergyEEDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
-		"PairwiseEMDEnergyEEDotMassive__add_event(PairwiseEMDEnergyEEDotMassive self, PseudoJet pj, double event_weight=1)\n"
+	 { "PairwiseEMDEnergyEEDotMassless_compute", _wrap_PairwiseEMDEnergyEEDotMassless_compute, METH_O, "PairwiseEMDEnergyEEDotMassless_compute(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless___repr__", _wrap_PairwiseEMDEnergyEEDotMassless___repr__, METH_O, "PairwiseEMDEnergyEEDotMassless___repr__(PairwiseEMDEnergyEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme, METH_O, "PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle(PairwiseEMDEnergyEEDotMassless self, double R)"},
+	 { "PairwiseEMDEnergyEEDotMassless__add_event", _wrap_PairwiseEMDEnergyEEDotMassless__add_event, METH_VARARGS, "\n"
+		"PairwiseEMDEnergyEEDotMassless__add_event(PairwiseEMDEnergyEEDotMassless self, PseudoJetContainer pjc, double event_weight=1)\n"
+		"PairwiseEMDEnergyEEDotMassless__add_event(PairwiseEMDEnergyEEDotMassless self, vectorPseudoJet pjs, double event_weight=1)\n"
+		"PairwiseEMDEnergyEEDotMassless__add_event(PairwiseEMDEnergyEEDotMassless self, PseudoJet pj, double event_weight=1)\n"
 		""},
-	 { "PairwiseEMDEnergyEEDotMassive_swigregister", PairwiseEMDEnergyEEDotMassive_swigregister, METH_O, NULL},
-	 { "PairwiseEMDEnergyEEDotMassive_swiginit", PairwiseEMDEnergyEEDotMassive_swiginit, METH_VARARGS, NULL},
+	 { "PairwiseEMDEnergyEEDotMassless_swigregister", PairwiseEMDEnergyEEDotMassless_swigregister, METH_O, NULL},
+	 { "PairwiseEMDEnergyEEDotMassless_swiginit", PairwiseEMDEnergyEEDotMassless_swiginit, METH_VARARGS, NULL},
 	 { "new_EMDEnergyEEArcLength", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEArcLength, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEArcLength(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEArcLength"},
 	 { "delete_EMDEnergyEEArcLength", _wrap_delete_EMDEnergyEEArcLength, METH_O, "delete_EMDEnergyEEArcLength(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_description, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEArcLength_description(EMDEnergyEEArcLength self, bool write_preprocessors=True) -> std::string"},
@@ -53175,7 +53175,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_preprocess_CenterEScheme", _wrap_EMDEnergyEEArcLength_preprocess_CenterEScheme, METH_O, "EMDEnergyEEArcLength_preprocess_CenterEScheme(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEArcLength_preprocess_CenterPtCentroid, METH_O, "EMDEnergyEEArcLength_preprocess_CenterPtCentroid(EMDEnergyEEArcLength self)"},
-	 { "EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi(EMDEnergyEEArcLength self, double R)"},
+	 { "EMDEnergyEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEArcLength_preprocess_MaskCircle(EMDEnergyEEArcLength self, double R)"},
 	 { "EMDEnergyEEArcLength___call__", _wrap_EMDEnergyEEArcLength___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDEnergyEEArcLength___call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53198,7 +53198,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEArcLength self)"},
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme, METH_O, "PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme(PairwiseEMDEnergyEEArcLength self)"},
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid(PairwiseEMDEnergyEEArcLength self)"},
-	 { "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEArcLength self, double R)"},
+	 { "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle(PairwiseEMDEnergyEEArcLength self, double R)"},
 	 { "PairwiseEMDEnergyEEArcLength__add_event", _wrap_PairwiseEMDEnergyEEArcLength__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDEnergyEEArcLength__add_event(PairwiseEMDEnergyEEArcLength self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDEnergyEEArcLength__add_event(PairwiseEMDEnergyEEArcLength self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53213,7 +53213,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid(EMDEnergyEEArcLengthMassive self)"},
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme(EMDEnergyEEArcLengthMassive self)"},
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid(EMDEnergyEEArcLengthMassive self)"},
-	 { "EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi(EMDEnergyEEArcLengthMassive self, double R)"},
+	 { "EMDEnergyEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "EMDEnergyEEArcLengthMassive_preprocess_MaskCircle(EMDEnergyEEArcLengthMassive self, double R)"},
 	 { "EMDEnergyEEArcLengthMassive___call__", _wrap_EMDEnergyEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"EMDEnergyEEArcLengthMassive___call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53236,7 +53236,7 @@ static PyMethodDef SwigMethods[] = {
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEArcLengthMassive self)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme(PairwiseEMDEnergyEEArcLengthMassive self)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid(PairwiseEMDEnergyEEArcLengthMassive self)"},
-	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEArcLengthMassive self, double R)"},
+	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle(PairwiseEMDEnergyEEArcLengthMassive self, double R)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive__add_event", _wrap_PairwiseEMDEnergyEEArcLengthMassive__add_event, METH_VARARGS, "\n"
 		"PairwiseEMDEnergyEEArcLengthMassive__add_event(PairwiseEMDEnergyEEArcLengthMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"PairwiseEMDEnergyEEArcLengthMassive__add_event(PairwiseEMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53650,7 +53650,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseMomentumDeltaR self)"},
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseMomentumDeltaR self)"},
 	 { "EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseMomentumDeltaR self)"},
-	 { "EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseMomentumDeltaR self, double R)"},
+	 { "EMDTransverseMomentumDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseMomentumDeltaR self, double R)"},
 	 { "EMDTransverseMomentumDeltaR___call__", _wrap_EMDTransverseMomentumDeltaR___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumDeltaR self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseMomentumDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53673,7 +53673,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumDeltaR self)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseMomentumDeltaR self)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumDeltaR self)"},
-	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumDeltaR self, double R)"},
+	 { "PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseMomentumDeltaR self, double R)"},
 	 { "PairwiseEMDTransverseMomentumDeltaR__add_event", _wrap_PairwiseEMDTransverseMomentumDeltaR__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseMomentumDeltaR self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseMomentumDeltaR self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53688,7 +53688,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseMomentumHadronicDot self)"},
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseMomentumHadronicDot self)"},
 	 { "EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseMomentumHadronicDot self)"},
-	 { "EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseMomentumHadronicDot self, double R)"},
+	 { "EMDTransverseMomentumHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseMomentumHadronicDot self, double R)"},
 	 { "EMDTransverseMomentumHadronicDot___call__", _wrap_EMDTransverseMomentumHadronicDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumHadronicDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53711,7 +53711,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumHadronicDot self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseMomentumHadronicDot self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumHadronicDot self)"},
-	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumHadronicDot self, double R)"},
+	 { "PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseMomentumHadronicDot self, double R)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDot__add_event", _wrap_PairwiseEMDTransverseMomentumHadronicDot__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseMomentumHadronicDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseMomentumHadronicDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53726,7 +53726,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseMomentumHadronicDotMassive self)"},
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseMomentumHadronicDotMassive self)"},
 	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseMomentumHadronicDotMassive self)"},
-	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseMomentumHadronicDotMassive self, double R)"},
+	 { "EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseMomentumHadronicDotMassive self, double R)"},
 	 { "EMDTransverseMomentumHadronicDotMassive___call__", _wrap_EMDTransverseMomentumHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53749,7 +53749,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseMomentumHadronicDotMassive self)"},
-	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R)"},
+	 { "PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseMomentumHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseMomentumHadronicDotMassive self, double R)"},
 	 { "PairwiseEMDTransverseMomentumHadronicDotMassive__add_event", _wrap_PairwiseEMDTransverseMomentumHadronicDotMassive__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseMomentumHadronicDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseMomentumHadronicDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53764,7 +53764,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseEnergyDeltaR self)"},
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseEnergyDeltaR self)"},
 	 { "EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseEnergyDeltaR self)"},
-	 { "EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseEnergyDeltaR self, double R)"},
+	 { "EMDTransverseEnergyDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseEnergyDeltaR self, double R)"},
 	 { "EMDTransverseEnergyDeltaR___call__", _wrap_EMDTransverseEnergyDeltaR___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyDeltaR self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseEnergyDeltaR self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53787,7 +53787,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyDeltaR self)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseEnergyDeltaR self)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyDeltaR self)"},
-	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyDeltaR self, double R)"},
+	 { "PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyDeltaR_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseEnergyDeltaR self, double R)"},
 	 { "PairwiseEMDTransverseEnergyDeltaR__add_event", _wrap_PairwiseEMDTransverseEnergyDeltaR__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseEnergyDeltaR self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseEnergyDeltaR self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53802,7 +53802,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseEnergyHadronicDot self)"},
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseEnergyHadronicDot self)"},
 	 { "EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseEnergyHadronicDot self)"},
-	 { "EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseEnergyHadronicDot self, double R)"},
+	 { "EMDTransverseEnergyHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseEnergyHadronicDot self, double R)"},
 	 { "EMDTransverseEnergyHadronicDot___call__", _wrap_EMDTransverseEnergyHadronicDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyHadronicDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53825,7 +53825,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyHadronicDot self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseEnergyHadronicDot self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyHadronicDot self)"},
-	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyHadronicDot self, double R)"},
+	 { "PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseEnergyHadronicDot self, double R)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDot__add_event", _wrap_PairwiseEMDTransverseEnergyHadronicDot__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseEnergyHadronicDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseEnergyHadronicDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53840,7 +53840,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDTransverseEnergyHadronicDotMassive self)"},
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDTransverseEnergyHadronicDotMassive self)"},
 	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDTransverseEnergyHadronicDotMassive self)"},
-	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDTransverseEnergyHadronicDotMassive self, double R)"},
+	 { "EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDTransverseEnergyHadronicDotMassive self, double R)"},
 	 { "EMDTransverseEnergyHadronicDotMassive___call__", _wrap_EMDTransverseEnergyHadronicDotMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53863,7 +53863,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDTransverseEnergyHadronicDotMassive self)"},
-	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R)"},
+	 { "PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDTransverseEnergyHadronicDotMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDTransverseEnergyHadronicDotMassive self, double R)"},
 	 { "PairwiseEMDTransverseEnergyHadronicDotMassive__add_event", _wrap_PairwiseEMDTransverseEnergyHadronicDotMassive__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDTransverseEnergyHadronicDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDTransverseEnergyHadronicDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53878,7 +53878,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEDot_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDMomentumEEDot self)"},
 	 { "EMDMomentumEEDot_preprocess_CenterEScheme", _wrap_EMDMomentumEEDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDMomentumEEDot self)"},
 	 { "EMDMomentumEEDot_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDMomentumEEDot self)"},
-	 { "EMDMomentumEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDMomentumEEDot self, double R)"},
+	 { "EMDMomentumEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDMomentumEEDot self, double R)"},
 	 { "EMDMomentumEEDot___call__", _wrap_EMDMomentumEEDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDMomentumEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53901,7 +53901,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDot self)"},
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDMomentumEEDot self)"},
 	 { "PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDot self)"},
-	 { "PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEDot self, double R)"},
+	 { "PairwiseEMDMomentumEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDMomentumEEDot self, double R)"},
 	 { "PairwiseEMDMomentumEEDot__add_event", _wrap_PairwiseEMDMomentumEEDot__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDMomentumEEDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDMomentumEEDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53909,44 +53909,44 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		""},
 	 { "PairwiseEMDMomentumEEDot_swigregister", PairwiseEMDMomentumEEDot_swigregister, METH_O, NULL},
 	 { "PairwiseEMDMomentumEEDot_swiginit", PairwiseEMDMomentumEEDot_swiginit, METH_VARARGS, NULL},
-	 { "new_EMDMomentumEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEDotMassive(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassive"},
-	 { "delete_EMDMomentumEEDotMassive", _wrap_delete_EMDMomentumEEDotMassive, METH_O, "delete_EMDMomentumEEDotMassive(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_description, METH_VARARGS|METH_KEYWORDS, "description(EMDMomentumEEDotMassive self, bool write_preprocessors=True) -> std::string"},
-	 { "EMDMomentumEEDotMassive___repr__", _wrap_EMDMomentumEEDotMassive___repr__, METH_O, "__repr__(EMDMomentumEEDotMassive self) -> std::string"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterEScheme", _wrap_EMDMomentumEEDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDMomentumEEDotMassive self)"},
-	 { "EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDMomentumEEDotMassive self, double R)"},
-	 { "EMDMomentumEEDotMassive___call__", _wrap_EMDMomentumEEDotMassive___call__, METH_VARARGS, "\n"
-		"__call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
-		"__call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
-		"__call__(EMDMomentumEEDotMassive self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
-		"__call__(EMDMomentumEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
-		"__call__(EMDMomentumEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
+	 { "new_EMDMomentumEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEDotMassless(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEDotMassless"},
+	 { "delete_EMDMomentumEEDotMassless", _wrap_delete_EMDMomentumEEDotMassless, METH_O, "delete_EMDMomentumEEDotMassless(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassless_description, METH_VARARGS|METH_KEYWORDS, "description(EMDMomentumEEDotMassless self, bool write_preprocessors=True) -> std::string"},
+	 { "EMDMomentumEEDotMassless___repr__", _wrap_EMDMomentumEEDotMassless___repr__, METH_O, "__repr__(EMDMomentumEEDotMassless self) -> std::string"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterEScheme", _wrap_EMDMomentumEEDotMassless_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEDotMassless_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDMomentumEEDotMassless self)"},
+	 { "EMDMomentumEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDMomentumEEDotMassless self, double R)"},
+	 { "EMDMomentumEEDotMassless___call__", _wrap_EMDMomentumEEDotMassless___call__, METH_VARARGS, "\n"
+		"__call__(EMDMomentumEEDotMassless self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
+		"__call__(EMDMomentumEEDotMassless self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDotMassless self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDMomentumEEDotMassless self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
+		"__call__(EMDMomentumEEDotMassless self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
-	 { "EMDMomentumEEDotMassive_swigregister", EMDMomentumEEDotMassive_swigregister, METH_O, NULL},
-	 { "EMDMomentumEEDotMassive_swiginit", EMDMomentumEEDotMassive_swiginit, METH_VARARGS, NULL},
-	 { "new_PairwiseEMDMomentumEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDMomentumEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDMomentumEEDotMassive(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassive"},
-	 { "delete_PairwiseEMDMomentumEEDotMassive", _wrap_delete_PairwiseEMDMomentumEEDotMassive, METH_O, "delete_PairwiseEMDMomentumEEDotMassive(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_description", _wrap_PairwiseEMDMomentumEEDotMassive_description, METH_O, "description(PairwiseEMDMomentumEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDMomentumEEDotMassive_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassive_clear, METH_VARARGS|METH_KEYWORDS, "clear(PairwiseEMDMomentumEEDotMassive self, bool free_memory=True)"},
-	 { "PairwiseEMDMomentumEEDotMassive_init", _wrap_PairwiseEMDMomentumEEDotMassive_init, METH_VARARGS, "\n"
-		"init(PairwiseEMDMomentumEEDotMassive self, fastjet::contrib::eventgeometry::index_type nev)\n"
-		"init(PairwiseEMDMomentumEEDotMassive self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
+	 { "EMDMomentumEEDotMassless_swigregister", EMDMomentumEEDotMassless_swigregister, METH_O, NULL},
+	 { "EMDMomentumEEDotMassless_swiginit", EMDMomentumEEDotMassless_swiginit, METH_VARARGS, NULL},
+	 { "new_PairwiseEMDMomentumEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDMomentumEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDMomentumEEDotMassless(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDMomentumEEDotMassless"},
+	 { "delete_PairwiseEMDMomentumEEDotMassless", _wrap_delete_PairwiseEMDMomentumEEDotMassless, METH_O, "delete_PairwiseEMDMomentumEEDotMassless(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_description", _wrap_PairwiseEMDMomentumEEDotMassless_description, METH_O, "description(PairwiseEMDMomentumEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDMomentumEEDotMassless_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassless_clear, METH_VARARGS|METH_KEYWORDS, "clear(PairwiseEMDMomentumEEDotMassless self, bool free_memory=True)"},
+	 { "PairwiseEMDMomentumEEDotMassless_init", _wrap_PairwiseEMDMomentumEEDotMassless_init, METH_VARARGS, "\n"
+		"init(PairwiseEMDMomentumEEDotMassless self, fastjet::contrib::eventgeometry::index_type nev)\n"
+		"init(PairwiseEMDMomentumEEDotMassless self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
 		""},
-	 { "PairwiseEMDMomentumEEDotMassive_compute", _wrap_PairwiseEMDMomentumEEDotMassive_compute, METH_O, "compute(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive___repr__", _wrap_PairwiseEMDMomentumEEDotMassive___repr__, METH_O, "__repr__(PairwiseEMDMomentumEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDotMassive self)"},
-	 { "PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEDotMassive self, double R)"},
-	 { "PairwiseEMDMomentumEEDotMassive__add_event", _wrap_PairwiseEMDMomentumEEDotMassive__add_event, METH_VARARGS, "\n"
-		"_add_event(PairwiseEMDMomentumEEDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
-		"_add_event(PairwiseEMDMomentumEEDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
-		"_add_event(PairwiseEMDMomentumEEDotMassive self, PseudoJet pj, double event_weight=1)\n"
+	 { "PairwiseEMDMomentumEEDotMassless_compute", _wrap_PairwiseEMDMomentumEEDotMassless_compute, METH_O, "compute(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless___repr__", _wrap_PairwiseEMDMomentumEEDotMassless___repr__, METH_O, "__repr__(PairwiseEMDMomentumEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEDotMassless_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDMomentumEEDotMassless self)"},
+	 { "PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDMomentumEEDotMassless self, double R)"},
+	 { "PairwiseEMDMomentumEEDotMassless__add_event", _wrap_PairwiseEMDMomentumEEDotMassless__add_event, METH_VARARGS, "\n"
+		"_add_event(PairwiseEMDMomentumEEDotMassless self, PseudoJetContainer pjc, double event_weight=1)\n"
+		"_add_event(PairwiseEMDMomentumEEDotMassless self, vectorPseudoJet pjs, double event_weight=1)\n"
+		"_add_event(PairwiseEMDMomentumEEDotMassless self, PseudoJet pj, double event_weight=1)\n"
 		""},
-	 { "PairwiseEMDMomentumEEDotMassive_swigregister", PairwiseEMDMomentumEEDotMassive_swigregister, METH_O, NULL},
-	 { "PairwiseEMDMomentumEEDotMassive_swiginit", PairwiseEMDMomentumEEDotMassive_swiginit, METH_VARARGS, NULL},
+	 { "PairwiseEMDMomentumEEDotMassless_swigregister", PairwiseEMDMomentumEEDotMassless_swigregister, METH_O, NULL},
+	 { "PairwiseEMDMomentumEEDotMassless_swiginit", PairwiseEMDMomentumEEDotMassless_swiginit, METH_VARARGS, NULL},
 	 { "new_EMDMomentumEEArcLength", (PyCFunction)(void(*)(void))_wrap_new_EMDMomentumEEArcLength, METH_VARARGS|METH_KEYWORDS, "new_EMDMomentumEEArcLength(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDMomentumEEArcLength"},
 	 { "delete_EMDMomentumEEArcLength", _wrap_delete_EMDMomentumEEArcLength, METH_O, "delete_EMDMomentumEEArcLength(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_description", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_description, METH_VARARGS|METH_KEYWORDS, "description(EMDMomentumEEArcLength self, bool write_preprocessors=True) -> std::string"},
@@ -53954,7 +53954,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_preprocess_CenterEScheme", _wrap_EMDMomentumEEArcLength_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDMomentumEEArcLength self)"},
 	 { "EMDMomentumEEArcLength_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEArcLength_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDMomentumEEArcLength self)"},
-	 { "EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDMomentumEEArcLength self, double R)"},
+	 { "EMDMomentumEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDMomentumEEArcLength self, double R)"},
 	 { "EMDMomentumEEArcLength___call__", _wrap_EMDMomentumEEArcLength___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEArcLength self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDMomentumEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -53977,7 +53977,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEArcLength self)"},
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDMomentumEEArcLength self)"},
 	 { "PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEArcLength_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDMomentumEEArcLength self)"},
-	 { "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEArcLength self, double R)"},
+	 { "PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDMomentumEEArcLength self, double R)"},
 	 { "PairwiseEMDMomentumEEArcLength__add_event", _wrap_PairwiseEMDMomentumEEArcLength__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDMomentumEEArcLength self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDMomentumEEArcLength self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -53992,7 +53992,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDMomentumEEArcLengthMassive self)"},
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDMomentumEEArcLengthMassive self)"},
 	 { "EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_EMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDMomentumEEArcLengthMassive self)"},
-	 { "EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDMomentumEEArcLengthMassive self, double R)"},
+	 { "EMDMomentumEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDMomentumEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDMomentumEEArcLengthMassive self, double R)"},
 	 { "EMDMomentumEEArcLengthMassive___call__", _wrap_EMDMomentumEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDMomentumEEArcLengthMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -54015,7 +54015,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDMomentumEEArcLengthMassive self)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDMomentumEEArcLengthMassive self)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDMomentumEEArcLengthMassive self)"},
-	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDMomentumEEArcLengthMassive self, double R)"},
+	 { "PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDMomentumEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDMomentumEEArcLengthMassive self, double R)"},
 	 { "PairwiseEMDMomentumEEArcLengthMassive__add_event", _wrap_PairwiseEMDMomentumEEArcLengthMassive__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDMomentumEEArcLengthMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDMomentumEEArcLengthMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -54030,7 +54030,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEDot_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDEnergyEEDot self)"},
 	 { "EMDEnergyEEDot_preprocess_CenterEScheme", _wrap_EMDEnergyEEDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDEnergyEEDot self)"},
 	 { "EMDEnergyEEDot_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDEnergyEEDot self)"},
-	 { "EMDEnergyEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDEnergyEEDot self, double R)"},
+	 { "EMDEnergyEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDEnergyEEDot self, double R)"},
 	 { "EMDEnergyEEDot___call__", _wrap_EMDEnergyEEDot___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEDot self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDEnergyEEDot self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -54053,7 +54053,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDot self)"},
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDEnergyEEDot self)"},
 	 { "PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDot_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDot self)"},
-	 { "PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEDot self, double R)"},
+	 { "PairwiseEMDEnergyEEDot_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDot_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDEnergyEEDot self, double R)"},
 	 { "PairwiseEMDEnergyEEDot__add_event", _wrap_PairwiseEMDEnergyEEDot__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDEnergyEEDot self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDEnergyEEDot self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -54061,44 +54061,44 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 		""},
 	 { "PairwiseEMDEnergyEEDot_swigregister", PairwiseEMDEnergyEEDot_swigregister, METH_O, NULL},
 	 { "PairwiseEMDEnergyEEDot_swiginit", PairwiseEMDEnergyEEDot_swiginit, METH_VARARGS, NULL},
-	 { "new_EMDEnergyEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEDotMassive(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassive"},
-	 { "delete_EMDEnergyEEDotMassive", _wrap_delete_EMDEnergyEEDotMassive, METH_O, "delete_EMDEnergyEEDotMassive(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_description, METH_VARARGS|METH_KEYWORDS, "description(EMDEnergyEEDotMassive self, bool write_preprocessors=True) -> std::string"},
-	 { "EMDEnergyEEDotMassive___repr__", _wrap_EMDEnergyEEDotMassive___repr__, METH_O, "__repr__(EMDEnergyEEDotMassive self) -> std::string"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterEScheme", _wrap_EMDEnergyEEDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDEnergyEEDotMassive self)"},
-	 { "EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDEnergyEEDotMassive self, double R)"},
-	 { "EMDEnergyEEDotMassive___call__", _wrap_EMDEnergyEEDotMassive___call__, METH_VARARGS, "\n"
-		"__call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
-		"__call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
-		"__call__(EMDEnergyEEDotMassive self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
-		"__call__(EMDEnergyEEDotMassive self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
-		"__call__(EMDEnergyEEDotMassive self, PseudoJet pj0, PseudoJet pj1) -> double\n"
+	 { "new_EMDEnergyEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEDotMassless(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEDotMassless"},
+	 { "delete_EMDEnergyEEDotMassless", _wrap_delete_EMDEnergyEEDotMassless, METH_O, "delete_EMDEnergyEEDotMassless(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassless_description, METH_VARARGS|METH_KEYWORDS, "description(EMDEnergyEEDotMassless self, bool write_preprocessors=True) -> std::string"},
+	 { "EMDEnergyEEDotMassless___repr__", _wrap_EMDEnergyEEDotMassless___repr__, METH_O, "__repr__(EMDEnergyEEDotMassless self) -> std::string"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterEScheme", _wrap_EMDEnergyEEDotMassless_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEDotMassless_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDEnergyEEDotMassless self)"},
+	 { "EMDEnergyEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDEnergyEEDotMassless self, double R)"},
+	 { "EMDEnergyEEDotMassless___call__", _wrap_EMDEnergyEEDotMassless___call__, METH_VARARGS, "\n"
+		"__call__(EMDEnergyEEDotMassless self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
+		"__call__(EMDEnergyEEDotMassless self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDotMassless self, PseudoJetContainer pjc0, vectorPseudoJet pjs1) -> double\n"
+		"__call__(EMDEnergyEEDotMassless self, vectorPseudoJet pjs0, PseudoJetContainer pjc1) -> double\n"
+		"__call__(EMDEnergyEEDotMassless self, PseudoJet pj0, PseudoJet pj1) -> double\n"
 		""},
-	 { "EMDEnergyEEDotMassive_swigregister", EMDEnergyEEDotMassive_swigregister, METH_O, NULL},
-	 { "EMDEnergyEEDotMassive_swiginit", EMDEnergyEEDotMassive_swiginit, METH_VARARGS, NULL},
-	 { "new_PairwiseEMDEnergyEEDotMassive", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDEnergyEEDotMassive, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDEnergyEEDotMassive(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassive"},
-	 { "delete_PairwiseEMDEnergyEEDotMassive", _wrap_delete_PairwiseEMDEnergyEEDotMassive, METH_O, "delete_PairwiseEMDEnergyEEDotMassive(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_description", _wrap_PairwiseEMDEnergyEEDotMassive_description, METH_O, "description(PairwiseEMDEnergyEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDEnergyEEDotMassive_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassive_clear, METH_VARARGS|METH_KEYWORDS, "clear(PairwiseEMDEnergyEEDotMassive self, bool free_memory=True)"},
-	 { "PairwiseEMDEnergyEEDotMassive_init", _wrap_PairwiseEMDEnergyEEDotMassive_init, METH_VARARGS, "\n"
-		"init(PairwiseEMDEnergyEEDotMassive self, fastjet::contrib::eventgeometry::index_type nev)\n"
-		"init(PairwiseEMDEnergyEEDotMassive self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
+	 { "EMDEnergyEEDotMassless_swigregister", EMDEnergyEEDotMassless_swigregister, METH_O, NULL},
+	 { "EMDEnergyEEDotMassless_swiginit", EMDEnergyEEDotMassless_swiginit, METH_VARARGS, NULL},
+	 { "new_PairwiseEMDEnergyEEDotMassless", (PyCFunction)(void(*)(void))_wrap_new_PairwiseEMDEnergyEEDotMassless, METH_VARARGS|METH_KEYWORDS, "new_PairwiseEMDEnergyEEDotMassless(double R=1, double beta=1, bool norm=False, int num_threads=-1, fastjet::contrib::eventgeometry::index_type print_every=-10, unsigned int verbose=1, bool request_mode=False, bool store_sym_emds_raw=True, bool throw_on_error=False, unsigned int omp_dynamic_chunksize=10, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1, std::ostream & os=std::cout) -> PairwiseEMDEnergyEEDotMassless"},
+	 { "delete_PairwiseEMDEnergyEEDotMassless", _wrap_delete_PairwiseEMDEnergyEEDotMassless, METH_O, "delete_PairwiseEMDEnergyEEDotMassless(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_description", _wrap_PairwiseEMDEnergyEEDotMassless_description, METH_O, "description(PairwiseEMDEnergyEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDEnergyEEDotMassless_clear", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassless_clear, METH_VARARGS|METH_KEYWORDS, "clear(PairwiseEMDEnergyEEDotMassless self, bool free_memory=True)"},
+	 { "PairwiseEMDEnergyEEDotMassless_init", _wrap_PairwiseEMDEnergyEEDotMassless_init, METH_VARARGS, "\n"
+		"init(PairwiseEMDEnergyEEDotMassless self, fastjet::contrib::eventgeometry::index_type nev)\n"
+		"init(PairwiseEMDEnergyEEDotMassless self, fastjet::contrib::eventgeometry::index_type nevA, fastjet::contrib::eventgeometry::index_type nevB)\n"
 		""},
-	 { "PairwiseEMDEnergyEEDotMassive_compute", _wrap_PairwiseEMDEnergyEEDotMassive_compute, METH_O, "compute(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive___repr__", _wrap_PairwiseEMDEnergyEEDotMassive___repr__, METH_O, "__repr__(PairwiseEMDEnergyEEDotMassive self) -> std::string"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDotMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDotMassive self)"},
-	 { "PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEDotMassive self, double R)"},
-	 { "PairwiseEMDEnergyEEDotMassive__add_event", _wrap_PairwiseEMDEnergyEEDotMassive__add_event, METH_VARARGS, "\n"
-		"_add_event(PairwiseEMDEnergyEEDotMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
-		"_add_event(PairwiseEMDEnergyEEDotMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
-		"_add_event(PairwiseEMDEnergyEEDotMassive self, PseudoJet pj, double event_weight=1)\n"
+	 { "PairwiseEMDEnergyEEDotMassless_compute", _wrap_PairwiseEMDEnergyEEDotMassless_compute, METH_O, "compute(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless___repr__", _wrap_PairwiseEMDEnergyEEDotMassless___repr__, METH_O, "__repr__(PairwiseEMDEnergyEEDotMassless self) -> std::string"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEDotMassless_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDEnergyEEDotMassless self)"},
+	 { "PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEDotMassless_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDEnergyEEDotMassless self, double R)"},
+	 { "PairwiseEMDEnergyEEDotMassless__add_event", _wrap_PairwiseEMDEnergyEEDotMassless__add_event, METH_VARARGS, "\n"
+		"_add_event(PairwiseEMDEnergyEEDotMassless self, PseudoJetContainer pjc, double event_weight=1)\n"
+		"_add_event(PairwiseEMDEnergyEEDotMassless self, vectorPseudoJet pjs, double event_weight=1)\n"
+		"_add_event(PairwiseEMDEnergyEEDotMassless self, PseudoJet pj, double event_weight=1)\n"
 		""},
-	 { "PairwiseEMDEnergyEEDotMassive_swigregister", PairwiseEMDEnergyEEDotMassive_swigregister, METH_O, NULL},
-	 { "PairwiseEMDEnergyEEDotMassive_swiginit", PairwiseEMDEnergyEEDotMassive_swiginit, METH_VARARGS, NULL},
+	 { "PairwiseEMDEnergyEEDotMassless_swigregister", PairwiseEMDEnergyEEDotMassless_swigregister, METH_O, NULL},
+	 { "PairwiseEMDEnergyEEDotMassless_swiginit", PairwiseEMDEnergyEEDotMassless_swiginit, METH_VARARGS, NULL},
 	 { "new_EMDEnergyEEArcLength", (PyCFunction)(void(*)(void))_wrap_new_EMDEnergyEEArcLength, METH_VARARGS|METH_KEYWORDS, "new_EMDEnergyEEArcLength(double R=1, double beta=1, bool norm=False, bool do_timing=False, bool external_dists=False, std::size_t n_iter_max=100000, double epsilon_large_factor=1000, double epsilon_small_factor=1) -> EMDEnergyEEArcLength"},
 	 { "delete_EMDEnergyEEArcLength", _wrap_delete_EMDEnergyEEArcLength, METH_O, "delete_EMDEnergyEEArcLength(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_description", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_description, METH_VARARGS|METH_KEYWORDS, "description(EMDEnergyEEArcLength self, bool write_preprocessors=True) -> std::string"},
@@ -54106,7 +54106,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_preprocess_CenterEScheme", _wrap_EMDEnergyEEArcLength_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDEnergyEEArcLength self)"},
 	 { "EMDEnergyEEArcLength_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEArcLength_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDEnergyEEArcLength self)"},
-	 { "EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDEnergyEEArcLength self, double R)"},
+	 { "EMDEnergyEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDEnergyEEArcLength self, double R)"},
 	 { "EMDEnergyEEArcLength___call__", _wrap_EMDEnergyEEArcLength___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEArcLength self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDEnergyEEArcLength self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -54129,7 +54129,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEArcLength self)"},
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDEnergyEEArcLength self)"},
 	 { "PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEArcLength_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDEnergyEEArcLength self)"},
-	 { "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEArcLength self, double R)"},
+	 { "PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLength_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDEnergyEEArcLength self, double R)"},
 	 { "PairwiseEMDEnergyEEArcLength__add_event", _wrap_PairwiseEMDEnergyEEArcLength__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDEnergyEEArcLength self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDEnergyEEArcLength self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -54144,7 +54144,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(EMDEnergyEEArcLengthMassive self)"},
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(EMDEnergyEEArcLengthMassive self)"},
 	 { "EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_EMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(EMDEnergyEEArcLengthMassive self)"},
-	 { "EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(EMDEnergyEEArcLengthMassive self, double R)"},
+	 { "EMDEnergyEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_EMDEnergyEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(EMDEnergyEEArcLengthMassive self, double R)"},
 	 { "EMDEnergyEEArcLengthMassive___call__", _wrap_EMDEnergyEEArcLengthMassive___call__, METH_VARARGS, "\n"
 		"__call__(EMDEnergyEEArcLengthMassive self, PseudoJetContainer pjc0, PseudoJetContainer pjc1) -> double\n"
 		"__call__(EMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs0, vectorPseudoJet pjs1) -> double\n"
@@ -54167,7 +54167,7 @@ static PyMethodDef SwigMethods_proxydocs[] = {
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterWeightedCentroid, METH_O, "preprocess_CenterWeightedCentroid(PairwiseEMDEnergyEEArcLengthMassive self)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterEScheme, METH_O, "preprocess_CenterEScheme(PairwiseEMDEnergyEEArcLengthMassive self)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid", _wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_CenterPtCentroid, METH_O, "preprocess_CenterPtCentroid(PairwiseEMDEnergyEEArcLengthMassive self)"},
-	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircleRapPhi, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircleRapPhi(PairwiseEMDEnergyEEArcLengthMassive self, double R)"},
+	 { "PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle", (PyCFunction)(void(*)(void))_wrap_PairwiseEMDEnergyEEArcLengthMassive_preprocess_MaskCircle, METH_VARARGS|METH_KEYWORDS, "preprocess_MaskCircle(PairwiseEMDEnergyEEArcLengthMassive self, double R)"},
 	 { "PairwiseEMDEnergyEEArcLengthMassive__add_event", _wrap_PairwiseEMDEnergyEEArcLengthMassive__add_event, METH_VARARGS, "\n"
 		"_add_event(PairwiseEMDEnergyEEArcLengthMassive self, PseudoJetContainer pjc, double event_weight=1)\n"
 		"_add_event(PairwiseEMDEnergyEEArcLengthMassive self, vectorPseudoJet pjs, double event_weight=1)\n"
@@ -54187,8 +54187,8 @@ static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__e
 static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
 }
-static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
+static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
 }
 static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
@@ -54199,8 +54199,8 @@ static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__e
 static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
 }
-static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
+static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
 }
 static void *_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::EMDBase< double > *)  ((fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *) x));
@@ -54241,8 +54241,8 @@ static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__
 static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
 }
-static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
+static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
 }
 static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
@@ -54253,8 +54253,8 @@ static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__
 static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
 }
-static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
-    return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
+static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
+    return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
 }
 static void *_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t(void *x, int *SWIGUNUSEDPARM(newmemory)) {
     return (void *)((fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *)  ((fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *) x));
@@ -54299,11 +54299,11 @@ static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__CorrelationDime
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t = {"_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t", "fastjet::contrib::eventgeometry::EMDBase< double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t = {"_p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t", "fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive > *|fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex > *", 0, 0, (void*)0, 0};
@@ -54317,11 +54317,11 @@ static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__Histogram1DHand
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t", "fastjet::contrib::eventgeometry::PairwiseEMDBase< double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLengthMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Energy,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLengthMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEArcLength,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
-static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
+static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDotMassless,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::Momentum,fastjet::contrib::eventgeometry::EEDot,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::DeltaR,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
 static swig_type_info _swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t = {"_p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t", "fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive >,double > *|fastjet::contrib::eventgeometry::PairwiseEMD< fastjet::contrib::eventgeometry::EMD< double,fastjet::contrib::eventgeometry::TransverseEnergy,fastjet::contrib::eventgeometry::HadronicDotMassive,fastjet::contrib::eventgeometry::DefaultNetworkSimplex >,double > *", 0, 0, (void*)0, 0};
@@ -54374,11 +54374,11 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
-  &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
+  &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
-  &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
+  &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   &_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
@@ -54392,11 +54392,11 @@ static swig_type_info *swig_type_initial[] = {
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
-  &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
+  &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
-  &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
+  &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   &_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
@@ -54446,14 +54446,14 @@ static swig_cast_info _swigc__p_fastjet__JetAlgorithm[] = {  {&_swigt__p_fastjet
 static swig_cast_info _swigc__p_fastjet__PseudoJet[] = {  {&_swigt__p_fastjet__PseudoJet, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__PseudoJetContainer[] = {  {&_swigt__p_fastjet__PseudoJetContainer, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, _p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_tTo_p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -54464,14 +54464,14 @@ static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fas
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__ExternalEMDHandlerT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__log_double_t, _p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__log_double_tTo_p_fastjet__contrib__eventgeometry__ExternalEMDHandlerT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__id_double_t, _p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__id_double_tTo_p_fastjet__contrib__eventgeometry__ExternalEMDHandlerT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__ExternalEMDHandlerT_double_t, 0, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_t, _p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_tTo_p_fastjet__contrib__eventgeometry__ExternalEMDHandlerT_double_t, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__id_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__id_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__log_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__log_double_t, 0, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_t, _p_fastjet__contrib__eventgeometry__CorrelationDimensionT_double_tTo_p_fastjet__contrib__eventgeometry__Histogram1DHandlerT_boost__histogram__axis__transform__log_double_t, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__HadronicDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, _p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseMomentum_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_tTo_p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0},  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
-static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
+static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
 static swig_cast_info _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t[] = {  {&_swigt__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t, 0, 0, 0},{0, 0, 0, 0}};
@@ -54524,11 +54524,11 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_fastjet__contrib__eventgeometry__EMDBaseT_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
-  _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
+  _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
-  _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
+  _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
   _swigc__p_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t,
@@ -54542,11 +54542,11 @@ static swig_cast_info *swig_cast_initial[] = {
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDBaseT_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
-  _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
+  _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Energy_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLengthMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEArcLength_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
-  _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
+  _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDotMassless_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__Momentum_fastjet__contrib__eventgeometry__EEDot_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__DeltaR_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
   _swigc__p_fastjet__contrib__eventgeometry__PairwiseEMDT_fastjet__contrib__eventgeometry__EMDT_double_fastjet__contrib__eventgeometry__TransverseEnergy_fastjet__contrib__eventgeometry__HadronicDotMassive_fastjet__contrib__eventgeometry__DefaultNetworkSimplex_t_double_t,
