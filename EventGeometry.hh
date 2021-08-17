@@ -331,7 +331,7 @@ public:
   }
 }; // EEDot
 
-// Massive dot product measure normalized with transverse energies
+// Dot product measure normalized with transverse energies
 template<typename Value>
 class HadronicDotMassive : public PairwiseDistanceBase<HadronicDotMassive<Value>, std::vector<PseudoJet>, Value> {
 public:
@@ -346,7 +346,7 @@ public:
   }
 }; // HadronicDotMassive
 
-// Massive dot product measure normalized with energies
+// Dot product measure normalized with momenta
 template<typename Value>
 class EEDotMassless : public PairwiseDistanceBase<EEDotMassless<Value>, std::vector<PseudoJet>, Value> {
 public:
