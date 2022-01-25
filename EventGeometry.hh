@@ -99,6 +99,7 @@
   EVENTGEOMETRY_PAIRWISEDISTANCE_TEMPLATE(EEDotMassless<double>) \
   EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(EEArcLength<double>) \
   EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(EEArcLengthMassive<double>) \
+  EVENTGEOMETRY_PAIRWISEDISTANCE_NONREDUCED_TEMPLATE(CosPhi<double>) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, DeltaR) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDot) \
   EVENTGEOMETRY_EMD_TEMPLATE(TransverseMomentum, HadronicDotMassive) \
@@ -109,10 +110,12 @@
   EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEDotMassless) \
   EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLength) \
   EVENTGEOMETRY_EMD_TEMPLATE(Momentum, EEArcLengthMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Momentum, CosPhi) \
   EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDot) \
   EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEDotMassless) \
   EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLength) \
-  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLengthMassive)
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, EEArcLengthMassive) \
+  EVENTGEOMETRY_EMD_TEMPLATE(Energy, CosPhi)
 
 // Wasserstein options
 #define WASSERSTEIN_FASTJET
@@ -393,6 +396,23 @@ public:
   }
 }; // EEArcLengthMassive
 
+// Cosine of azimuthal angle difference, for e.g. ring-like isotropy (2004.06125)
+template<typename Value>
+class CosPhi : public PairwiseDistanceBaseNonReduced<CosPhi<Value>, std::vector<PseudoJet>, Value> {
+public:
+  typedef PseudoJet Particle;
+  typedef std::vector<PseudoJet>::const_iterator ParticleIterator;
+
+  CosPhi(Value R, Value beta) :
+    PairwiseDistanceBaseNonReduced<CosPhi<Value>, std::vector<PseudoJet>, double>(R, beta)
+  {}
+  static std::string name() { return "CosPhi"; }
+  static Value plain_distance(const PseudoJet & p0, const PseudoJet & p1) {
+    double dphiabs(std::fabs(p0.phi() - p1.phi()));
+    double dphi(dphiabs > PI ? TWOPI - dphiabs : dphiabs);
+    return (1-std::cos(dphi));
+  }
+}; // CosPhi
 
 ////////////////////////////////////////////////////////////////////////////////
 // FastJet-specific Preprocessors
